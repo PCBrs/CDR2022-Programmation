@@ -1,0 +1,22 @@
+{
+	"version": "0.2.0",
+	"configurations":
+	[
+		{
+			"name": "Cortex debug",
+			"type": "cortex-debug",
+			"request": "launch",
+			"servertype": "openocd",
+			"cwd": "${workspaceFolder}",
+			"armToolchainPath": "c:/Users/Pierre-Anthony/.vscode/extensions/buzzyelectronics.stm-helper-1.2.9/ArmGcc/bin",
+			"executable": "build/Rmeasure_board_firmware.elf",
+			"svdFile": "c:/Users/Pierre-Anthony/.vscode/extensions/buzzyelectronics.stm-helper-1.2.9/SvdTools/STM32F3/STM32F30x.svd",
+			"configFiles":
+			[
+				"c:/Users/Pierre-Anthony/.vscode/extensions/buzzyelectronics.stm-helper-1.2.9/OpenOCD/scripts/interface/stlink.cfg",
+				"c:/Users/Pierre-Anthony/.vscode/extensions/buzzyelectronics.stm-helper-1.2.9/OpenOCD/scripts/target/stm32f3x.cfg"
+			],
+			"preLaunchTask": "Build project"
+		}
+	]
+}

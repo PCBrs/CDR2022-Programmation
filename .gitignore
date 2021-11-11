@@ -1,3 +1,8 @@
+
+# Created by https://www.toptal.com/developers/gitignore/api/c,c++,vscode
+# Edit at https://www.toptal.com/developers/gitignore?templates=c,c++,vscode
+
+### C ###
 # Prerequisites
 *.d
 
@@ -50,3 +55,32 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+
+### C++ ###
+# Prerequisites
+
+# Compiled Object files
+*.slo
+
+# Precompiled Headers
+
+# Compiled Dynamic libraries
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+
+# Executables
+
+### vscode ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# End of https://www.toptal.com/developers/gitignore/api/c,c++,vscode

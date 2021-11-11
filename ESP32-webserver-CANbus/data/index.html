@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <title>Intercom PCBrs</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1"charset="UTF-8" />
+    <link rel="stylesheet" type="text/css" href="w3.css">
+    <script type="text/javascript" src="script.js"></script>
+    <style>
+        table {
+            border-collapse: collapse;
+        }
+        td, th {
+        border: 3px solid #000000;
+        text-align: left;
+        padding: 8px;
+      }
+
+    </style>
+    
+      
+</head>
+
+<body class="w3-animate-opacity">
+    <div class="w3-card w3-blue w3-padding-small w3-center">
+        <h1>Intercom WiFi-CAN PCBrs</h1>
+    </div>
+
+    <div>
+        <p>Ce site web est destiné à être géré uniquement par l'ESP32 et permet de voir les trames CAN qui passent dans le robot et d'en envoyer</p>
+    </div>
+    
+    <div class="w3-card w3-padding-small">
+        <h2>Envoie de trame CAN</h2>
+        <h3>Pompes</h3>
+        <select name="NumPump">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+            <option>6</option>
+            <option>7</option>
+            <option>8</option>
+            <option>9</option>
+        </select>
+        <button onclick="SendButtonPompe()" class="w3-button w3-green w3-ripple " style="width:10%;">Envoyer</button>
+
+        <h3>Electrovanne</h3>
+        <select name="NumEV">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+            <option>6</option>
+            <option>7</option>
+            <option>8</option>
+            <option>9</option>
+        </select>
+        <button onclick="SendButtonElectrovanne()" class="w3-button w3-green w3-ripple " style="width:10%;">Envoyer</button>
+
+        <h3>Bras</h3>
+        <select name="Bras">
+            <option>Gauche</option>
+            <option>Droit</option>
+        </select>
+        <form>
+            <label for="Xpos">Position X:</label><br>
+            <input type="number" id="Xpos" name="Xpos"><br>
+            <label for="Ypos">PositionY:</label><br>
+            <input type="number" id="Ypos" name="Ypos">
+          </form> 
+        <button onclick="SendButtonBras()" class="w3-button w3-green w3-ripple " style="width:10%;">Envoyer</button>
+    </div>
+
+
+    <table class="w3-margin w3-center w3-card w3-padding-24">
+        <h3 class="w3-padding">Trames CAN</h3>
+        <tr>
+            <th><p class="w3-large">CAN ID</p></th>
+            <th><p class="w3-large">CAN message</p></th>
+            <th><p class="w3-large">CAN DLC</p></th>
+            <th><p class="w3-large">Horodatage</p></th>
+        </tr>
+        <tr>
+            <td><span id="RXCANid">0</span></td>
+            <td><span id="RXCANmsg">0</span></td>
+            <td><span id="RXCANdlc">0</span></td>
+          </tr>
+        
+    </table>
+
+
+
+</body>
