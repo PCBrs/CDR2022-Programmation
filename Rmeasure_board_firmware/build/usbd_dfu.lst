@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 1
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\cceqZX48.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 1
   28:Middlewares/ST/STM32_USB_Device_Library/Class/DFU/Src/usbd_dfu.c ****   *           These aspects may be enriched or modified for a specific user application.
   29:Middlewares/ST/STM32_USB_Device_Library/Class/DFU/Src/usbd_dfu.c ****   *
   30:Middlewares/ST/STM32_USB_Device_Library/Class/DFU/Src/usbd_dfu.c ****   *           This driver doesn't implement the following aspects of the specification
-ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 2
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\cceqZX48.s 			page 2
 
 
   31:Middlewares/ST/STM32_USB_Device_Library/Class/DFU/Src/usbd_dfu.c ****   *           (but it is possible to manage these features with some modifications on this driver):
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 1
   85:Middlewares/ST/STM32_USB_Device_Library/Class/DFU/Src/usbd_dfu.c **** 
   86:Middlewares/ST/STM32_USB_Device_Library/Class/DFU/Src/usbd_dfu.c **** 
   87:Middlewares/ST/STM32_USB_Device_Library/Class/DFU/Src/usbd_dfu.c **** /** @defgroup USBD_DFU_Private_Macros
-ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 3
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\cceqZX48.s 			page 3
 
 
   88:Middlewares/ST/STM32_USB_Device_Library/Class/DFU/Src/usbd_dfu.c ****   * @{
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 1
  142:Middlewares/ST/STM32_USB_Device_Library/Class/DFU/Src/usbd_dfu.c **** static void DFU_ClearStatus(USBD_HandleTypeDef *pdev);
  143:Middlewares/ST/STM32_USB_Device_Library/Class/DFU/Src/usbd_dfu.c **** 
  144:Middlewares/ST/STM32_USB_Device_Library/Class/DFU/Src/usbd_dfu.c **** static void DFU_GetState(USBD_HandleTypeDef *pdev);
-ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 4
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\cceqZX48.s 			page 4
 
 
  145:Middlewares/ST/STM32_USB_Device_Library/Class/DFU/Src/usbd_dfu.c **** 
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 1
  199:Middlewares/ST/STM32_USB_Device_Library/Class/DFU/Src/usbd_dfu.c ****   /**********  Descriptor of DFU interface 0 Alternate setting 1 **************/
  200:Middlewares/ST/STM32_USB_Device_Library/Class/DFU/Src/usbd_dfu.c ****   USBD_DFU_IF_DESC(1),
  201:Middlewares/ST/STM32_USB_Device_Library/Class/DFU/Src/usbd_dfu.c **** #endif /* (USBD_DFU_MAX_ITF_NUM > 1) */
-ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 5
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\cceqZX48.s 			page 5
 
 
  202:Middlewares/ST/STM32_USB_Device_Library/Class/DFU/Src/usbd_dfu.c **** 
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 1
  256:Middlewares/ST/STM32_USB_Device_Library/Class/DFU/Src/usbd_dfu.c ****   0x00,
  257:Middlewares/ST/STM32_USB_Device_Library/Class/DFU/Src/usbd_dfu.c ****   0x00,
  258:Middlewares/ST/STM32_USB_Device_Library/Class/DFU/Src/usbd_dfu.c ****   0x40,
-ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 6
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\cceqZX48.s 			page 6
 
 
  259:Middlewares/ST/STM32_USB_Device_Library/Class/DFU/Src/usbd_dfu.c ****   0x01,
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 1
  313:Middlewares/ST/STM32_USB_Device_Library/Class/DFU/Src/usbd_dfu.c ****     }
  314:Middlewares/ST/STM32_USB_Device_Library/Class/DFU/Src/usbd_dfu.c ****   }
  315:Middlewares/ST/STM32_USB_Device_Library/Class/DFU/Src/usbd_dfu.c ****   return USBD_OK;
-ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 7
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\cceqZX48.s 			page 7
 
 
  316:Middlewares/ST/STM32_USB_Device_Library/Class/DFU/Src/usbd_dfu.c **** }
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 1
  370:Middlewares/ST/STM32_USB_Device_Library/Class/DFU/Src/usbd_dfu.c ****     case USB_REQ_TYPE_CLASS:
  371:Middlewares/ST/STM32_USB_Device_Library/Class/DFU/Src/usbd_dfu.c ****       switch (req->bRequest)
  372:Middlewares/ST/STM32_USB_Device_Library/Class/DFU/Src/usbd_dfu.c ****       {
-ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 8
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\cceqZX48.s 			page 8
 
 
  373:Middlewares/ST/STM32_USB_Device_Library/Class/DFU/Src/usbd_dfu.c ****         case DFU_DNLOAD:
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 1
  427:Middlewares/ST/STM32_USB_Device_Library/Class/DFU/Src/usbd_dfu.c ****             len = MIN(USB_DFU_DESC_SIZ, req->wLength);
  428:Middlewares/ST/STM32_USB_Device_Library/Class/DFU/Src/usbd_dfu.c ****           }
  429:Middlewares/ST/STM32_USB_Device_Library/Class/DFU/Src/usbd_dfu.c **** 
-ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 9
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\cceqZX48.s 			page 9
 
 
  430:Middlewares/ST/STM32_USB_Device_Library/Class/DFU/Src/usbd_dfu.c ****           USBD_CtlSendData(pdev, pbuf, len);
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 1
  484:Middlewares/ST/STM32_USB_Device_Library/Class/DFU/Src/usbd_dfu.c ****   * @brief  USBD_DFU_GetCfgDesc
  485:Middlewares/ST/STM32_USB_Device_Library/Class/DFU/Src/usbd_dfu.c ****   *         return configuration descriptor
  486:Middlewares/ST/STM32_USB_Device_Library/Class/DFU/Src/usbd_dfu.c ****   * @param  speed : current device speed
-ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 10
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\cceqZX48.s 			page 10
 
 
  487:Middlewares/ST/STM32_USB_Device_Library/Class/DFU/Src/usbd_dfu.c ****   * @param  length : pointer data length
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 1
  506:Middlewares/ST/STM32_USB_Device_Library/Class/DFU/Src/usbd_dfu.c **** 
  507:Middlewares/ST/STM32_USB_Device_Library/Class/DFU/Src/usbd_dfu.c ****   return USBD_OK;
   66              		.loc 1 507 3 view .LVU7
-ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 11
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\cceqZX48.s 			page 11
 
 
  508:Middlewares/ST/STM32_USB_Device_Library/Class/DFU/Src/usbd_dfu.c **** }
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 1
  524:Middlewares/ST/STM32_USB_Device_Library/Class/DFU/Src/usbd_dfu.c ****   * @param  pdev: device instance
  525:Middlewares/ST/STM32_USB_Device_Library/Class/DFU/Src/usbd_dfu.c ****   * @retval status
  526:Middlewares/ST/STM32_USB_Device_Library/Class/DFU/Src/usbd_dfu.c ****   */
-ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 12
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\cceqZX48.s 			page 12
 
 
  527:Middlewares/ST/STM32_USB_Device_Library/Class/DFU/Src/usbd_dfu.c **** static uint8_t  USBD_DFU_EP0_TxReady(USBD_HandleTypeDef *pdev)
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 1
  581:Middlewares/ST/STM32_USB_Device_Library/Class/DFU/Src/usbd_dfu.c **** 
  582:Middlewares/ST/STM32_USB_Device_Library/Class/DFU/Src/usbd_dfu.c ****         /* Preform the write operation */
  583:Middlewares/ST/STM32_USB_Device_Library/Class/DFU/Src/usbd_dfu.c ****         if (((USBD_DFU_MediaTypeDef *)pdev->pUserData)->Write(hdfu->buffer.d8,
-ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 13
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\cceqZX48.s 			page 13
 
 
  584:Middlewares/ST/STM32_USB_Device_Library/Class/DFU/Src/usbd_dfu.c ****                                                               (uint8_t *)addr, hdfu->wlength) != US
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 1
  121              	.LFE133:
  123              		.section	.text.USBD_DFU_IsoINIncomplete,"ax",%progbits
  124              		.align	1
-ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 14
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\cceqZX48.s 			page 14
 
 
  125              		.syntax unified
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 1
  161              		@ link register save eliminated.
  647:Middlewares/ST/STM32_USB_Device_Library/Class/DFU/Src/usbd_dfu.c **** 
  648:Middlewares/ST/STM32_USB_Device_Library/Class/DFU/Src/usbd_dfu.c ****   return USBD_OK;
-ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 15
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\cceqZX48.s 			page 15
 
 
  162              		.loc 1 648 3 view .LVU23
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 1
  664:Middlewares/ST/STM32_USB_Device_Library/Class/DFU/Src/usbd_dfu.c **** /**
  665:Middlewares/ST/STM32_USB_Device_Library/Class/DFU/Src/usbd_dfu.c **** * @brief  DeviceQualifierDescriptor
  666:Middlewares/ST/STM32_USB_Device_Library/Class/DFU/Src/usbd_dfu.c **** *         return Device Qualifier descriptor
-ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 16
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\cceqZX48.s 			page 16
 
 
  667:Middlewares/ST/STM32_USB_Device_Library/Class/DFU/Src/usbd_dfu.c **** * @param  length : pointer data length
@@ -958,7 +958,7 @@ ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 1
  691:Middlewares/ST/STM32_USB_Device_Library/Class/DFU/Src/usbd_dfu.c ****     USBD_GetString((uint8_t *)((USBD_DFU_MediaTypeDef *)pdev->pUserData)->pStrDesc, USBD_StrDesc, l
  692:Middlewares/ST/STM32_USB_Device_Library/Class/DFU/Src/usbd_dfu.c ****     return USBD_StrDesc;
  693:Middlewares/ST/STM32_USB_Device_Library/Class/DFU/Src/usbd_dfu.c ****   }
-ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 17
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\cceqZX48.s 			page 17
 
 
  694:Middlewares/ST/STM32_USB_Device_Library/Class/DFU/Src/usbd_dfu.c ****   /* Not supported Interface Descriptor index */
@@ -1018,7 +1018,7 @@ ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 1
  748:Middlewares/ST/STM32_USB_Device_Library/Class/DFU/Src/usbd_dfu.c **** 
  749:Middlewares/ST/STM32_USB_Device_Library/Class/DFU/Src/usbd_dfu.c ****   /* Check the detach capability in the DFU functional descriptor */
  750:Middlewares/ST/STM32_USB_Device_Library/Class/DFU/Src/usbd_dfu.c ****   if ((USBD_DFU_CfgDesc[12U + (9U * USBD_DFU_MAX_ITF_NUM)]) & DFU_DETACH_MASK)
-ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 18
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\cceqZX48.s 			page 18
 
 
  751:Middlewares/ST/STM32_USB_Device_Library/Class/DFU/Src/usbd_dfu.c ****   {
@@ -1078,7 +1078,7 @@ ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 1
  805:Middlewares/ST/STM32_USB_Device_Library/Class/DFU/Src/usbd_dfu.c ****     {
  806:Middlewares/ST/STM32_USB_Device_Library/Class/DFU/Src/usbd_dfu.c ****       hdfu->manif_state = DFU_MANIFEST_IN_PROGRESS;
  807:Middlewares/ST/STM32_USB_Device_Library/Class/DFU/Src/usbd_dfu.c ****       hdfu->dev_state = DFU_STATE_MANIFEST_SYNC;
-ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 19
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\cceqZX48.s 			page 19
 
 
  808:Middlewares/ST/STM32_USB_Device_Library/Class/DFU/Src/usbd_dfu.c ****       hdfu->dev_status[1] = 0U;
@@ -1138,7 +1138,7 @@ ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 1
  862:Middlewares/ST/STM32_USB_Device_Library/Class/DFU/Src/usbd_dfu.c ****         /* Send the status data over EP0 */
  863:Middlewares/ST/STM32_USB_Device_Library/Class/DFU/Src/usbd_dfu.c ****         USBD_CtlSendData(pdev, (uint8_t *)(&(hdfu->buffer.d8[0])), 3U);
  864:Middlewares/ST/STM32_USB_Device_Library/Class/DFU/Src/usbd_dfu.c ****       }
-ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 20
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\cceqZX48.s 			page 20
 
 
  865:Middlewares/ST/STM32_USB_Device_Library/Class/DFU/Src/usbd_dfu.c ****       else if (hdfu->wblock_num > 1U)
@@ -1198,7 +1198,7 @@ ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 1
  919:Middlewares/ST/STM32_USB_Device_Library/Class/DFU/Src/usbd_dfu.c ****   * @param  pdev: instance
  920:Middlewares/ST/STM32_USB_Device_Library/Class/DFU/Src/usbd_dfu.c ****   * @retval status
  921:Middlewares/ST/STM32_USB_Device_Library/Class/DFU/Src/usbd_dfu.c ****   */
-ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 21
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\cceqZX48.s 			page 21
 
 
  922:Middlewares/ST/STM32_USB_Device_Library/Class/DFU/Src/usbd_dfu.c **** static void DFU_GetStatus(USBD_HandleTypeDef *pdev)
@@ -1258,7 +1258,7 @@ ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 1
  976:Middlewares/ST/STM32_USB_Device_Library/Class/DFU/Src/usbd_dfu.c **** 
  977:Middlewares/ST/STM32_USB_Device_Library/Class/DFU/Src/usbd_dfu.c ****           hdfu->dev_status[1] = 0U;
  978:Middlewares/ST/STM32_USB_Device_Library/Class/DFU/Src/usbd_dfu.c ****           hdfu->dev_status[2] = 0U;
-ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 22
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\cceqZX48.s 			page 22
 
 
  979:Middlewares/ST/STM32_USB_Device_Library/Class/DFU/Src/usbd_dfu.c ****           hdfu->dev_status[3] = 0U;
@@ -1318,7 +1318,7 @@ ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 1
 1017:Middlewares/ST/STM32_USB_Device_Library/Class/DFU/Src/usbd_dfu.c ****     /*State Error*/
 1018:Middlewares/ST/STM32_USB_Device_Library/Class/DFU/Src/usbd_dfu.c ****     hdfu->dev_state = DFU_STATE_ERROR;
  253              		.loc 1 1018 5 is_stmt 1 view .LVU43
-ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 23
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\cceqZX48.s 			page 23
 
 
  254              		.loc 1 1018 21 is_stmt 0 view .LVU44
@@ -1378,7 +1378,7 @@ ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 1
  292              		.loc 1 1010 25 is_stmt 0 view .LVU65
  293 0040 83F81224 		strb	r2, [r3, #1042]
 1011:Middlewares/ST/STM32_USB_Device_Library/Class/DFU/Src/usbd_dfu.c ****     hdfu->dev_status[4] = hdfu->dev_state;/*bState*/
-ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 24
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\cceqZX48.s 			page 24
 
 
  294              		.loc 1 1011 5 is_stmt 1 view .LVU66
@@ -1438,7 +1438,7 @@ ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 1
  320              		@ frame_needed = 0, uses_anonymous_args = 0
  321              		@ link register save eliminated.
 1052:Middlewares/ST/STM32_USB_Device_Library/Class/DFU/Src/usbd_dfu.c ****   USBD_DFU_HandleTypeDef   *hdfu;
-ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 25
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\cceqZX48.s 			page 25
 
 
  322              		.loc 1 1052 3 view .LVU73
@@ -1498,7 +1498,7 @@ ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 1
  363              		.loc 1 1065 5 is_stmt 1 view .LVU93
  364              		.loc 1 1065 25 is_stmt 0 view .LVU94
  365 0034 83F81414 		strb	r1, [r3, #1044]
-ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 26
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\cceqZX48.s 			page 26
 
 
 1066:Middlewares/ST/STM32_USB_Device_Library/Class/DFU/Src/usbd_dfu.c ****     hdfu->dev_status[5] = 0U; /*iString*/
@@ -1558,7 +1558,7 @@ ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 1
  409              		.loc 1 691 5 view .LVU109
  410 000a 044C     		ldr	r4, .L27
  411 000c 2146     		mov	r1, r4
-ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 27
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\cceqZX48.s 			page 27
 
 
  412              	.LVL21:
@@ -1618,7 +1618,7 @@ ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 1
 1080:Middlewares/ST/STM32_USB_Device_Library/Class/DFU/Src/usbd_dfu.c **** {
  452              		.loc 1 1080 1 is_stmt 1 view -0
  453              		.cfi_startproc
-ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 28
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\cceqZX48.s 			page 28
 
 
  454              		@ args = 0, pretend = 0, frame = 0
@@ -1678,7 +1678,7 @@ ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 1
  492              		.loc 1 1080 1 is_stmt 0 view .LVU137
  493 002e 10B5     		push	{r4, lr}
  494              	.LCFI2:
-ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 29
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\cceqZX48.s 			page 29
 
 
  495              		.cfi_def_cfa_offset 8
@@ -1738,7 +1738,7 @@ ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 1
    1:Drivers/CMSIS/Include/core_cm4.h **** /**************************************************************************//**
    2:Drivers/CMSIS/Include/core_cm4.h ****  * @file     core_cm4.h
    3:Drivers/CMSIS/Include/core_cm4.h ****  * @brief    CMSIS Cortex-M4 Core Peripheral Access Layer Header File
-ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 30
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\cceqZX48.s 			page 30
 
 
    4:Drivers/CMSIS/Include/core_cm4.h ****  * @version  V5.0.8
@@ -1798,7 +1798,7 @@ ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 1
   58:Drivers/CMSIS/Include/core_cm4.h **** /**
   59:Drivers/CMSIS/Include/core_cm4.h ****   \ingroup Cortex_M4
   60:Drivers/CMSIS/Include/core_cm4.h ****   @{
-ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 31
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\cceqZX48.s 			page 31
 
 
   61:Drivers/CMSIS/Include/core_cm4.h ****  */
@@ -1858,7 +1858,7 @@ ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 1
  115:Drivers/CMSIS/Include/core_cm4.h ****       #define __FPU_USED       1U
  116:Drivers/CMSIS/Include/core_cm4.h ****     #else
  117:Drivers/CMSIS/Include/core_cm4.h ****       #error "Compiler generates FPU instructions for a device without an FPU (check __FPU_PRESENT)
-ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 32
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\cceqZX48.s 			page 32
 
 
  118:Drivers/CMSIS/Include/core_cm4.h ****       #define __FPU_USED       0U
@@ -1918,7 +1918,7 @@ ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 1
  172:Drivers/CMSIS/Include/core_cm4.h **** 
  173:Drivers/CMSIS/Include/core_cm4.h **** #ifndef __CORE_CM4_H_DEPENDANT
  174:Drivers/CMSIS/Include/core_cm4.h **** #define __CORE_CM4_H_DEPENDANT
-ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 33
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\cceqZX48.s 			page 33
 
 
  175:Drivers/CMSIS/Include/core_cm4.h **** 
@@ -1978,7 +1978,7 @@ ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 1
  229:Drivers/CMSIS/Include/core_cm4.h **** /*@} end of group Cortex_M4 */
  230:Drivers/CMSIS/Include/core_cm4.h **** 
  231:Drivers/CMSIS/Include/core_cm4.h **** 
-ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 34
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\cceqZX48.s 			page 34
 
 
  232:Drivers/CMSIS/Include/core_cm4.h **** 
@@ -2038,7 +2038,7 @@ ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 1
  286:Drivers/CMSIS/Include/core_cm4.h **** #define APSR_V_Msk                         (1UL << APSR_V_Pos)                            /*!< APSR
  287:Drivers/CMSIS/Include/core_cm4.h **** 
  288:Drivers/CMSIS/Include/core_cm4.h **** #define APSR_Q_Pos                         27U                                            /*!< APSR
-ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 35
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\cceqZX48.s 			page 35
 
 
  289:Drivers/CMSIS/Include/core_cm4.h **** #define APSR_Q_Msk                         (1UL << APSR_Q_Pos)                            /*!< APSR
@@ -2098,7 +2098,7 @@ ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 1
  343:Drivers/CMSIS/Include/core_cm4.h **** #define xPSR_C_Pos                         29U                                            /*!< xPSR
  344:Drivers/CMSIS/Include/core_cm4.h **** #define xPSR_C_Msk                         (1UL << xPSR_C_Pos)                            /*!< xPSR
  345:Drivers/CMSIS/Include/core_cm4.h **** 
-ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 36
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\cceqZX48.s 			page 36
 
 
  346:Drivers/CMSIS/Include/core_cm4.h **** #define xPSR_V_Pos                         28U                                            /*!< xPSR
@@ -2158,7 +2158,7 @@ ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 1
  400:Drivers/CMSIS/Include/core_cm4.h ****   @{
  401:Drivers/CMSIS/Include/core_cm4.h ****  */
  402:Drivers/CMSIS/Include/core_cm4.h **** 
-ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 37
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\cceqZX48.s 			page 37
 
 
  403:Drivers/CMSIS/Include/core_cm4.h **** /**
@@ -2218,7 +2218,7 @@ ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 1
  457:Drivers/CMSIS/Include/core_cm4.h ****   __IM  uint32_t DFR;                    /*!< Offset: 0x048 (R/ )  Debug Feature Register */
  458:Drivers/CMSIS/Include/core_cm4.h ****   __IM  uint32_t ADR;                    /*!< Offset: 0x04C (R/ )  Auxiliary Feature Register */
  459:Drivers/CMSIS/Include/core_cm4.h ****   __IM  uint32_t MMFR[4U];               /*!< Offset: 0x050 (R/ )  Memory Model Feature Register */
-ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 38
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\cceqZX48.s 			page 38
 
 
  460:Drivers/CMSIS/Include/core_cm4.h ****   __IM  uint32_t ISAR[5U];               /*!< Offset: 0x060 (R/ )  Instruction Set Attributes Regis
@@ -2278,7 +2278,7 @@ ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 1
  514:Drivers/CMSIS/Include/core_cm4.h **** #define SCB_VTOR_TBLOFF_Msk                (0x1FFFFFFUL << SCB_VTOR_TBLOFF_Pos)           /*!< SCB 
  515:Drivers/CMSIS/Include/core_cm4.h **** 
  516:Drivers/CMSIS/Include/core_cm4.h **** /* SCB Application Interrupt and Reset Control Register Definitions */
-ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 39
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\cceqZX48.s 			page 39
 
 
  517:Drivers/CMSIS/Include/core_cm4.h **** #define SCB_AIRCR_VECTKEY_Pos              16U                                            /*!< SCB 
@@ -2338,7 +2338,7 @@ ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 1
  571:Drivers/CMSIS/Include/core_cm4.h **** #define SCB_SHCSR_BUSFAULTENA_Pos          17U                                            /*!< SCB 
  572:Drivers/CMSIS/Include/core_cm4.h **** #define SCB_SHCSR_BUSFAULTENA_Msk          (1UL << SCB_SHCSR_BUSFAULTENA_Pos)             /*!< SCB 
  573:Drivers/CMSIS/Include/core_cm4.h **** 
-ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 40
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\cceqZX48.s 			page 40
 
 
  574:Drivers/CMSIS/Include/core_cm4.h **** #define SCB_SHCSR_MEMFAULTENA_Pos          16U                                            /*!< SCB 
@@ -2398,7 +2398,7 @@ ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 1
  628:Drivers/CMSIS/Include/core_cm4.h **** #define SCB_CFSR_MSTKERR_Msk               (1UL << SCB_CFSR_MSTKERR_Pos)                  /*!< SCB 
  629:Drivers/CMSIS/Include/core_cm4.h **** 
  630:Drivers/CMSIS/Include/core_cm4.h **** #define SCB_CFSR_MUNSTKERR_Pos             (SCB_SHCSR_MEMFAULTACT_Pos + 3U)               /*!< SCB 
-ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 41
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\cceqZX48.s 			page 41
 
 
  631:Drivers/CMSIS/Include/core_cm4.h **** #define SCB_CFSR_MUNSTKERR_Msk             (1UL << SCB_CFSR_MUNSTKERR_Pos)                /*!< SCB 
@@ -2458,7 +2458,7 @@ ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 1
  685:Drivers/CMSIS/Include/core_cm4.h **** #define SCB_HFSR_FORCED_Msk                (1UL << SCB_HFSR_FORCED_Pos)                   /*!< SCB 
  686:Drivers/CMSIS/Include/core_cm4.h **** 
  687:Drivers/CMSIS/Include/core_cm4.h **** #define SCB_HFSR_VECTTBL_Pos                1U                                            /*!< SCB 
-ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 42
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\cceqZX48.s 			page 42
 
 
  688:Drivers/CMSIS/Include/core_cm4.h **** #define SCB_HFSR_VECTTBL_Msk               (1UL << SCB_HFSR_VECTTBL_Pos)                  /*!< SCB 
@@ -2518,7 +2518,7 @@ ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 1
  742:Drivers/CMSIS/Include/core_cm4.h **** 
  743:Drivers/CMSIS/Include/core_cm4.h **** #define SCnSCB_ACTLR_DISMCYCINT_Pos         0U                                         /*!< ACTLR: 
  744:Drivers/CMSIS/Include/core_cm4.h **** #define SCnSCB_ACTLR_DISMCYCINT_Msk        (1UL /*<< SCnSCB_ACTLR_DISMCYCINT_Pos*/)    /*!< ACTLR: 
-ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 43
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\cceqZX48.s 			page 43
 
 
  745:Drivers/CMSIS/Include/core_cm4.h **** 
@@ -2578,7 +2578,7 @@ ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 1
  799:Drivers/CMSIS/Include/core_cm4.h **** 
  800:Drivers/CMSIS/Include/core_cm4.h **** 
  801:Drivers/CMSIS/Include/core_cm4.h **** /**
-ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 44
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\cceqZX48.s 			page 44
 
 
  802:Drivers/CMSIS/Include/core_cm4.h ****   \ingroup  CMSIS_core_register
@@ -2638,7 +2638,7 @@ ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 1
  856:Drivers/CMSIS/Include/core_cm4.h **** #define ITM_TCR_TraceBusID_Msk             (0x7FUL << ITM_TCR_TraceBusID_Pos)             /*!< ITM 
  857:Drivers/CMSIS/Include/core_cm4.h **** 
  858:Drivers/CMSIS/Include/core_cm4.h **** #define ITM_TCR_GTSFREQ_Pos                10U                                            /*!< ITM 
-ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 45
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\cceqZX48.s 			page 45
 
 
  859:Drivers/CMSIS/Include/core_cm4.h **** #define ITM_TCR_GTSFREQ_Msk                (3UL << ITM_TCR_GTSFREQ_Pos)                   /*!< ITM 
@@ -2698,7 +2698,7 @@ ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 1
  913:Drivers/CMSIS/Include/core_cm4.h ****  */
  914:Drivers/CMSIS/Include/core_cm4.h **** typedef struct
  915:Drivers/CMSIS/Include/core_cm4.h **** {
-ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 46
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\cceqZX48.s 			page 46
 
 
  916:Drivers/CMSIS/Include/core_cm4.h ****   __IOM uint32_t CTRL;                   /*!< Offset: 0x000 (R/W)  Control Register */
@@ -2758,7 +2758,7 @@ ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 1
  970:Drivers/CMSIS/Include/core_cm4.h **** #define DWT_CTRL_EXCEVTENA_Msk             (0x1UL << DWT_CTRL_EXCEVTENA_Pos)           /*!< DWT CTR
  971:Drivers/CMSIS/Include/core_cm4.h **** 
  972:Drivers/CMSIS/Include/core_cm4.h **** #define DWT_CTRL_CPIEVTENA_Pos             17U                                         /*!< DWT CTR
-ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 47
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\cceqZX48.s 			page 47
 
 
  973:Drivers/CMSIS/Include/core_cm4.h **** #define DWT_CTRL_CPIEVTENA_Msk             (0x1UL << DWT_CTRL_CPIEVTENA_Pos)           /*!< DWT CTR
@@ -2818,7 +2818,7 @@ ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 1
 1027:Drivers/CMSIS/Include/core_cm4.h **** #define DWT_FUNCTION_DATAVADDR0_Pos        12U                                         /*!< DWT FUN
 1028:Drivers/CMSIS/Include/core_cm4.h **** #define DWT_FUNCTION_DATAVADDR0_Msk        (0xFUL << DWT_FUNCTION_DATAVADDR0_Pos)      /*!< DWT FUN
 1029:Drivers/CMSIS/Include/core_cm4.h **** 
-ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 48
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\cceqZX48.s 			page 48
 
 
 1030:Drivers/CMSIS/Include/core_cm4.h **** #define DWT_FUNCTION_DATAVSIZE_Pos         10U                                         /*!< DWT FUN
@@ -2878,7 +2878,7 @@ ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 1
 1084:Drivers/CMSIS/Include/core_cm4.h ****         uint32_t RESERVED7[8U];
 1085:Drivers/CMSIS/Include/core_cm4.h ****   __IM  uint32_t DEVID;                  /*!< Offset: 0xFC8 (R/ )  TPIU_DEVID */
 1086:Drivers/CMSIS/Include/core_cm4.h ****   __IM  uint32_t DEVTYPE;                /*!< Offset: 0xFCC (R/ )  TPIU_DEVTYPE */
-ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 49
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\cceqZX48.s 			page 49
 
 
 1087:Drivers/CMSIS/Include/core_cm4.h **** } TPI_Type;
@@ -2938,7 +2938,7 @@ ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 1
 1141:Drivers/CMSIS/Include/core_cm4.h **** #define TPI_FIFO0_ETM0_Msk                 (0xFFUL /*<< TPI_FIFO0_ETM0_Pos*/)          /*!< TPI FIF
 1142:Drivers/CMSIS/Include/core_cm4.h **** 
 1143:Drivers/CMSIS/Include/core_cm4.h **** /* TPI ITATBCTR2 Register Definitions */
-ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 50
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\cceqZX48.s 			page 50
 
 
 1144:Drivers/CMSIS/Include/core_cm4.h **** #define TPI_ITATBCTR2_ATREADY2_Pos          0U                                         /*!< TPI ITA
@@ -2998,7 +2998,7 @@ ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 1
 1198:Drivers/CMSIS/Include/core_cm4.h **** 
 1199:Drivers/CMSIS/Include/core_cm4.h **** #define TPI_DEVID_NrTraceInput_Pos          0U                                         /*!< TPI DEV
 1200:Drivers/CMSIS/Include/core_cm4.h **** #define TPI_DEVID_NrTraceInput_Msk         (0x1FUL /*<< TPI_DEVID_NrTraceInput_Pos*/)  /*!< TPI DEV
-ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 51
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\cceqZX48.s 			page 51
 
 
 1201:Drivers/CMSIS/Include/core_cm4.h **** 
@@ -3058,7 +3058,7 @@ ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 1
 1255:Drivers/CMSIS/Include/core_cm4.h **** #define MPU_CTRL_HFNMIENA_Msk              (1UL << MPU_CTRL_HFNMIENA_Pos)                 /*!< MPU 
 1256:Drivers/CMSIS/Include/core_cm4.h **** 
 1257:Drivers/CMSIS/Include/core_cm4.h **** #define MPU_CTRL_ENABLE_Pos                 0U                                            /*!< MPU 
-ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 52
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\cceqZX48.s 			page 52
 
 
 1258:Drivers/CMSIS/Include/core_cm4.h **** #define MPU_CTRL_ENABLE_Msk                (1UL /*<< MPU_CTRL_ENABLE_Pos*/)               /*!< MPU 
@@ -3118,7 +3118,7 @@ ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 1
 1312:Drivers/CMSIS/Include/core_cm4.h ****   \brief    Type definitions for the Floating Point Unit (FPU)
 1313:Drivers/CMSIS/Include/core_cm4.h ****   @{
 1314:Drivers/CMSIS/Include/core_cm4.h ****  */
-ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 53
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\cceqZX48.s 			page 53
 
 
 1315:Drivers/CMSIS/Include/core_cm4.h **** 
@@ -3178,7 +3178,7 @@ ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 1
 1369:Drivers/CMSIS/Include/core_cm4.h **** #define FPU_FPDSCR_FZ_Msk                  (1UL << FPU_FPDSCR_FZ_Pos)                     /*!< FPDS
 1370:Drivers/CMSIS/Include/core_cm4.h **** 
 1371:Drivers/CMSIS/Include/core_cm4.h **** #define FPU_FPDSCR_RMode_Pos               22U                                            /*!< FPDS
-ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 54
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\cceqZX48.s 			page 54
 
 
 1372:Drivers/CMSIS/Include/core_cm4.h **** #define FPU_FPDSCR_RMode_Msk               (3UL << FPU_FPDSCR_RMode_Pos)                  /*!< FPDS
@@ -3238,7 +3238,7 @@ ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 1
 1426:Drivers/CMSIS/Include/core_cm4.h **** {
 1427:Drivers/CMSIS/Include/core_cm4.h ****   __IOM uint32_t DHCSR;                  /*!< Offset: 0x000 (R/W)  Debug Halting Control and Status
 1428:Drivers/CMSIS/Include/core_cm4.h ****   __OM  uint32_t DCRSR;                  /*!< Offset: 0x004 ( /W)  Debug Core Register Selector Reg
-ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 55
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\cceqZX48.s 			page 55
 
 
 1429:Drivers/CMSIS/Include/core_cm4.h ****   __IOM uint32_t DCRDR;                  /*!< Offset: 0x008 (R/W)  Debug Core Register Data Registe
@@ -3298,7 +3298,7 @@ ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 1
 1483:Drivers/CMSIS/Include/core_cm4.h **** 
 1484:Drivers/CMSIS/Include/core_cm4.h **** #define CoreDebug_DEMCR_MON_STEP_Pos       18U                                            /*!< Core
 1485:Drivers/CMSIS/Include/core_cm4.h **** #define CoreDebug_DEMCR_MON_STEP_Msk       (1UL << CoreDebug_DEMCR_MON_STEP_Pos)          /*!< Core
-ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 56
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\cceqZX48.s 			page 56
 
 
 1486:Drivers/CMSIS/Include/core_cm4.h **** 
@@ -3358,7 +3358,7 @@ ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 1
 1540:Drivers/CMSIS/Include/core_cm4.h **** */
 1541:Drivers/CMSIS/Include/core_cm4.h **** #define _FLD2VAL(field, value)    (((uint32_t)(value) & field ## _Msk) >> field ## _Pos)
 1542:Drivers/CMSIS/Include/core_cm4.h **** 
-ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 57
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\cceqZX48.s 			page 57
 
 
 1543:Drivers/CMSIS/Include/core_cm4.h **** /*@} end of group CMSIS_core_bitfield */
@@ -3418,7 +3418,7 @@ ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 1
 1597:Drivers/CMSIS/Include/core_cm4.h **** 
 1598:Drivers/CMSIS/Include/core_cm4.h **** /* ##########################   NVIC functions  #################################### */
 1599:Drivers/CMSIS/Include/core_cm4.h **** /**
-ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 58
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\cceqZX48.s 			page 58
 
 
 1600:Drivers/CMSIS/Include/core_cm4.h ****   \ingroup  CMSIS_Core_FunctionInterface
@@ -3478,7 +3478,7 @@ ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 1
 1654:Drivers/CMSIS/Include/core_cm4.h ****            priority bits (__NVIC_PRIO_BITS), the smallest possible priority group is set.
 1655:Drivers/CMSIS/Include/core_cm4.h ****   \param [in]      PriorityGroup  Priority grouping field.
 1656:Drivers/CMSIS/Include/core_cm4.h ****  */
-ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 59
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\cceqZX48.s 			page 59
 
 
 1657:Drivers/CMSIS/Include/core_cm4.h **** __STATIC_INLINE void __NVIC_SetPriorityGrouping(uint32_t PriorityGroup)
@@ -3538,7 +3538,7 @@ ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 1
 1711:Drivers/CMSIS/Include/core_cm4.h ****   else
 1712:Drivers/CMSIS/Include/core_cm4.h ****   {
 1713:Drivers/CMSIS/Include/core_cm4.h ****     return(0U);
-ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 60
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\cceqZX48.s 			page 60
 
 
 1714:Drivers/CMSIS/Include/core_cm4.h ****   }
@@ -3598,7 +3598,7 @@ ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 1
 1768:Drivers/CMSIS/Include/core_cm4.h **** }
 1769:Drivers/CMSIS/Include/core_cm4.h **** 
 1770:Drivers/CMSIS/Include/core_cm4.h **** 
-ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 61
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\cceqZX48.s 			page 61
 
 
 1771:Drivers/CMSIS/Include/core_cm4.h **** /**
@@ -3658,7 +3658,7 @@ ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 1
 1825:Drivers/CMSIS/Include/core_cm4.h ****   }
 1826:Drivers/CMSIS/Include/core_cm4.h **** }
 1827:Drivers/CMSIS/Include/core_cm4.h **** 
-ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 62
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\cceqZX48.s 			page 62
 
 
 1828:Drivers/CMSIS/Include/core_cm4.h **** 
@@ -3718,7 +3718,7 @@ ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 1
 1882:Drivers/CMSIS/Include/core_cm4.h ****            preemptive priority value and subpriority value.
 1883:Drivers/CMSIS/Include/core_cm4.h ****            In case of a conflict between priority grouping and available
 1884:Drivers/CMSIS/Include/core_cm4.h ****            priority bits (__NVIC_PRIO_BITS) the smallest possible priority group is set.
-ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 63
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\cceqZX48.s 			page 63
 
 
 1885:Drivers/CMSIS/Include/core_cm4.h ****   \param [in]         Priority   Priority value, which can be retrieved with the function \ref NVIC
@@ -3778,7 +3778,7 @@ ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 1
 1939:Drivers/CMSIS/Include/core_cm4.h **** __NO_RETURN __STATIC_INLINE void __NVIC_SystemReset(void)
  531              		.loc 2 1939 34 view .LVU154
  532              	.LBB13:
-ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 64
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\cceqZX48.s 			page 64
 
 
 1940:Drivers/CMSIS/Include/core_cm4.h **** {
@@ -3838,7 +3838,7 @@ ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 1
   49:Drivers/CMSIS/Include/cmsis_gcc.h **** #ifndef   __STATIC_FORCEINLINE                 
   50:Drivers/CMSIS/Include/cmsis_gcc.h ****   #define __STATIC_FORCEINLINE                   __attribute__((always_inline)) static inline
   51:Drivers/CMSIS/Include/cmsis_gcc.h **** #endif                                           
-ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 65
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\cceqZX48.s 			page 65
 
 
   52:Drivers/CMSIS/Include/cmsis_gcc.h **** #ifndef   __NO_RETURN
@@ -3898,7 +3898,7 @@ ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 1
  106:Drivers/CMSIS/Include/cmsis_gcc.h ****   __PACKED_STRUCT T_UINT32_READ { uint32_t v; };
  107:Drivers/CMSIS/Include/cmsis_gcc.h ****   #pragma GCC diagnostic pop
  108:Drivers/CMSIS/Include/cmsis_gcc.h ****   #define __UNALIGNED_UINT32_READ(addr)          (((const struct T_UINT32_READ *)(const void *)(add
-ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 66
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\cceqZX48.s 			page 66
 
 
  109:Drivers/CMSIS/Include/cmsis_gcc.h **** #endif
@@ -3958,7 +3958,7 @@ ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 1
  163:Drivers/CMSIS/Include/cmsis_gcc.h ****   \details Returns the content of the non-secure Control Register when in secure mode.
  164:Drivers/CMSIS/Include/cmsis_gcc.h ****   \return               non-secure Control Register value
  165:Drivers/CMSIS/Include/cmsis_gcc.h ****  */
-ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 67
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\cceqZX48.s 			page 67
 
 
  166:Drivers/CMSIS/Include/cmsis_gcc.h **** __STATIC_FORCEINLINE uint32_t __TZ_get_CONTROL_NS(void)
@@ -4018,7 +4018,7 @@ ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 1
  220:Drivers/CMSIS/Include/cmsis_gcc.h **** {
  221:Drivers/CMSIS/Include/cmsis_gcc.h ****   uint32_t result;
  222:Drivers/CMSIS/Include/cmsis_gcc.h **** 
-ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 68
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\cceqZX48.s 			page 68
 
 
  223:Drivers/CMSIS/Include/cmsis_gcc.h ****   __ASM volatile ("MRS %0, apsr" : "=r" (result) );
@@ -4078,7 +4078,7 @@ ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 1
  277:Drivers/CMSIS/Include/cmsis_gcc.h **** __STATIC_FORCEINLINE void __set_PSP(uint32_t topOfProcStack)
  278:Drivers/CMSIS/Include/cmsis_gcc.h **** {
  279:Drivers/CMSIS/Include/cmsis_gcc.h ****   __ASM volatile ("MSR psp, %0" : : "r" (topOfProcStack) : );
-ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 69
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\cceqZX48.s 			page 69
 
 
  280:Drivers/CMSIS/Include/cmsis_gcc.h **** }
@@ -4138,7 +4138,7 @@ ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 1
  334:Drivers/CMSIS/Include/cmsis_gcc.h **** }
  335:Drivers/CMSIS/Include/cmsis_gcc.h **** 
  336:Drivers/CMSIS/Include/cmsis_gcc.h **** 
-ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 70
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\cceqZX48.s 			page 70
 
 
  337:Drivers/CMSIS/Include/cmsis_gcc.h **** #if (defined (__ARM_FEATURE_CMSE ) && (__ARM_FEATURE_CMSE == 3))
@@ -4198,7 +4198,7 @@ ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 1
  391:Drivers/CMSIS/Include/cmsis_gcc.h **** #if (defined (__ARM_FEATURE_CMSE ) && (__ARM_FEATURE_CMSE == 3))
  392:Drivers/CMSIS/Include/cmsis_gcc.h **** /**
  393:Drivers/CMSIS/Include/cmsis_gcc.h ****   \brief   Get Priority Mask (non-secure)
-ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 71
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\cceqZX48.s 			page 71
 
 
  394:Drivers/CMSIS/Include/cmsis_gcc.h ****   \details Returns the current state of the non-secure priority mask bit from the Priority Mask Reg
@@ -4258,7 +4258,7 @@ ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 1
  448:Drivers/CMSIS/Include/cmsis_gcc.h ****            Can only be executed in Privileged modes.
  449:Drivers/CMSIS/Include/cmsis_gcc.h ****  */
  450:Drivers/CMSIS/Include/cmsis_gcc.h **** __STATIC_FORCEINLINE void __disable_fault_irq(void)
-ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 72
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\cceqZX48.s 			page 72
 
 
  451:Drivers/CMSIS/Include/cmsis_gcc.h **** {
@@ -4318,7 +4318,7 @@ ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 1
  505:Drivers/CMSIS/Include/cmsis_gcc.h ****   __ASM volatile ("MSR basepri_ns, %0" : : "r" (basePri) : "memory");
  506:Drivers/CMSIS/Include/cmsis_gcc.h **** }
  507:Drivers/CMSIS/Include/cmsis_gcc.h **** #endif
-ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 73
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\cceqZX48.s 			page 73
 
 
  508:Drivers/CMSIS/Include/cmsis_gcc.h **** 
@@ -4378,7 +4378,7 @@ ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 1
  562:Drivers/CMSIS/Include/cmsis_gcc.h **** 
  563:Drivers/CMSIS/Include/cmsis_gcc.h **** #if (defined (__ARM_FEATURE_CMSE ) && (__ARM_FEATURE_CMSE == 3))
  564:Drivers/CMSIS/Include/cmsis_gcc.h **** /**
-ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 74
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\cceqZX48.s 			page 74
 
 
  565:Drivers/CMSIS/Include/cmsis_gcc.h ****   \brief   Set Fault Mask (non-secure)
@@ -4438,7 +4438,7 @@ ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 1
  619:Drivers/CMSIS/Include/cmsis_gcc.h **** #else
  620:Drivers/CMSIS/Include/cmsis_gcc.h ****   uint32_t result;
  621:Drivers/CMSIS/Include/cmsis_gcc.h ****   __ASM volatile ("MRS %0, psplim_ns"  : "=r" (result) );
-ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 75
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\cceqZX48.s 			page 75
 
 
  622:Drivers/CMSIS/Include/cmsis_gcc.h ****   return result;
@@ -4498,7 +4498,7 @@ ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 1
  676:Drivers/CMSIS/Include/cmsis_gcc.h ****   \details Returns the current value of the Main Stack Pointer Limit (MSPLIM).
  677:Drivers/CMSIS/Include/cmsis_gcc.h ****   \return               MSPLIM Register value
  678:Drivers/CMSIS/Include/cmsis_gcc.h ****  */
-ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 76
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\cceqZX48.s 			page 76
 
 
  679:Drivers/CMSIS/Include/cmsis_gcc.h **** __STATIC_FORCEINLINE uint32_t __get_MSPLIM(void)
@@ -4558,7 +4558,7 @@ ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 1
  733:Drivers/CMSIS/Include/cmsis_gcc.h **** #endif
  734:Drivers/CMSIS/Include/cmsis_gcc.h **** }
  735:Drivers/CMSIS/Include/cmsis_gcc.h **** 
-ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 77
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\cceqZX48.s 			page 77
 
 
  736:Drivers/CMSIS/Include/cmsis_gcc.h **** 
@@ -4618,7 +4618,7 @@ ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 1
  790:Drivers/CMSIS/Include/cmsis_gcc.h ****   \param [in]    fpscr  Floating Point Status/Control value to set
  791:Drivers/CMSIS/Include/cmsis_gcc.h ****  */
  792:Drivers/CMSIS/Include/cmsis_gcc.h **** __STATIC_FORCEINLINE void __set_FPSCR(uint32_t fpscr)
-ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 78
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\cceqZX48.s 			page 78
 
 
  793:Drivers/CMSIS/Include/cmsis_gcc.h **** {
@@ -4678,7 +4678,7 @@ ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 1
  847:Drivers/CMSIS/Include/cmsis_gcc.h ****   \details Wait For Event is a hint instruction that permits the processor to enter
  848:Drivers/CMSIS/Include/cmsis_gcc.h ****            a low-power state until one of a number of events occurs.
  849:Drivers/CMSIS/Include/cmsis_gcc.h ****  */
-ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 79
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\cceqZX48.s 			page 79
 
 
  850:Drivers/CMSIS/Include/cmsis_gcc.h **** #define __WFE()                             __ASM volatile ("wfe")
@@ -4738,7 +4738,7 @@ ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 1
 1943:Drivers/CMSIS/Include/core_cm4.h ****                            (SCB->AIRCR & SCB_AIRCR_PRIGROUP_Msk) |
  557              		.loc 2 1943 15 view .LVU162
  558 0066 CB60     		str	r3, [r1, #12]
-ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 80
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\cceqZX48.s 			page 80
 
 
 1945:Drivers/CMSIS/Include/core_cm4.h ****                             SCB_AIRCR_SYSRESETREQ_Msk    );         /* Keep priority group unchange
@@ -4798,7 +4798,7 @@ ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 1
  606              		.loc 1 528 1 view -0
  607              		.cfi_startproc
  608              		@ args = 0, pretend = 0, frame = 8
-ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 81
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\cceqZX48.s 			page 81
 
 
  609              		@ frame_needed = 0, uses_anonymous_args = 0
@@ -4858,7 +4858,7 @@ ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 1
  650              	.LCFI6:
  651              		.cfi_restore_state
  538:Middlewares/ST/STM32_USB_Device_Library/Class/DFU/Src/usbd_dfu.c ****     {
-ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 82
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\cceqZX48.s 			page 82
 
 
  652              		.loc 1 538 5 is_stmt 1 view .LVU184
@@ -4918,7 +4918,7 @@ ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 1
  554:Middlewares/ST/STM32_USB_Device_Library/Class/DFU/Src/usbd_dfu.c ****         hdfu->data_ptr += (uint32_t)hdfu->buffer.d8[3] << 16;
  689              		.loc 1 554 24 view .LVU202
  690 0042 03EB0223 		add	r3, r3, r2, lsl #8
-ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 83
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\cceqZX48.s 			page 83
 
 
  555:Middlewares/ST/STM32_USB_Device_Library/Class/DFU/Src/usbd_dfu.c ****         hdfu->data_ptr += (uint32_t)hdfu->buffer.d8[4] << 24;
@@ -4978,7 +4978,7 @@ ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 1
  547:Middlewares/ST/STM32_USB_Device_Library/Class/DFU/Src/usbd_dfu.c ****         hdfu->data_ptr += (uint32_t)hdfu->buffer.d8[3] << 16;
  728              		.loc 1 547 9 is_stmt 1 view .LVU220
  547:Middlewares/ST/STM32_USB_Device_Library/Class/DFU/Src/usbd_dfu.c ****         hdfu->data_ptr += (uint32_t)hdfu->buffer.d8[3] << 16;
-ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 84
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\cceqZX48.s 			page 84
 
 
  729              		.loc 1 547 52 is_stmt 0 view .LVU221
@@ -5038,7 +5038,7 @@ ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 1
  592:Middlewares/ST/STM32_USB_Device_Library/Class/DFU/Src/usbd_dfu.c ****     hdfu->wblock_num = 0U;
  766              		.loc 1 592 19 is_stmt 0 view .LVU239
  767 00a2 0020     		movs	r0, #0
-ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 85
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\cceqZX48.s 			page 85
 
 
  768 00a4 C4F80404 		str	r0, [r4, #1028]
@@ -5098,7 +5098,7 @@ ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 1
  583:Middlewares/ST/STM32_USB_Device_Library/Class/DFU/Src/usbd_dfu.c ****                                                               (uint8_t *)addr, hdfu->wlength) != US
  803              		.loc 1 583 9 is_stmt 1 view .LVU259
  583:Middlewares/ST/STM32_USB_Device_Library/Class/DFU/Src/usbd_dfu.c ****                                                               (uint8_t *)addr, hdfu->wlength) != US
-ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 86
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\cceqZX48.s 			page 86
 
 
  804              		.loc 1 583 43 is_stmt 0 view .LVU260
@@ -5158,7 +5158,7 @@ ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 1
  850 0000 70B5     		push	{r4, r5, r6, lr}
  851              	.LCFI7:
  852              		.cfi_def_cfa_offset 16
-ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 87
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\cceqZX48.s 			page 87
 
 
  853              		.cfi_offset 4, -16
@@ -5218,7 +5218,7 @@ ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 1
  844:Middlewares/ST/STM32_USB_Device_Library/Class/DFU/Src/usbd_dfu.c **** 
  890              		.loc 1 844 21 view .LVU288
  891 0022 C4F80424 		str	r2, [r4, #1028]
-ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 88
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\cceqZX48.s 			page 88
 
 
  847:Middlewares/ST/STM32_USB_Device_Library/Class/DFU/Src/usbd_dfu.c ****       {
@@ -5278,7 +5278,7 @@ ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 1
  863:Middlewares/ST/STM32_USB_Device_Library/Class/DFU/Src/usbd_dfu.c ****       }
  927              		.loc 1 863 9 is_stmt 1 discriminator 4 view .LVU308
  928 004e 0322     		movs	r2, #3
-ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 89
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\cceqZX48.s 			page 89
 
 
  929 0050 2146     		mov	r1, r4
@@ -5338,7 +5338,7 @@ ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 1
  966              		.loc 1 874 35 is_stmt 0 view .LVU325
  967 007a 0238     		subs	r0, r0, #2
  874:Middlewares/ST/STM32_USB_Device_Library/Class/DFU/Src/usbd_dfu.c **** 
-ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 90
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\cceqZX48.s 			page 90
 
 
  968              		.loc 1 874 69 view .LVU326
@@ -5398,7 +5398,7 @@ ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 1
  1007 00a8 84F81234 		strb	r3, [r4, #1042]
  888:Middlewares/ST/STM32_USB_Device_Library/Class/DFU/Src/usbd_dfu.c ****         hdfu->dev_status[4] = hdfu->dev_state;
  1008              		.loc 1 888 9 is_stmt 1 view .LVU342
-ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 91
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\cceqZX48.s 			page 91
 
 
  888:Middlewares/ST/STM32_USB_Device_Library/Class/DFU/Src/usbd_dfu.c ****         hdfu->dev_status[4] = hdfu->dev_state;
@@ -5458,7 +5458,7 @@ ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 1
  1046 00d8 84F81234 		strb	r3, [r4, #1042]
  911:Middlewares/ST/STM32_USB_Device_Library/Class/DFU/Src/usbd_dfu.c ****     hdfu->dev_status[4] = hdfu->dev_state;
  1047              		.loc 1 911 5 is_stmt 1 view .LVU360
-ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 92
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\cceqZX48.s 			page 92
 
 
  911:Middlewares/ST/STM32_USB_Device_Library/Class/DFU/Src/usbd_dfu.c ****     hdfu->dev_status[4] = hdfu->dev_state;
@@ -5518,7 +5518,7 @@ ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 1
  928:Middlewares/ST/STM32_USB_Device_Library/Class/DFU/Src/usbd_dfu.c ****   {
  1092              		.loc 1 928 3 view .LVU373
  1093 000c 032B     		cmp	r3, #3
-ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 93
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\cceqZX48.s 			page 93
 
 
  1094 000e 08D0     		beq	.L63
@@ -5578,7 +5578,7 @@ ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 1
  940:Middlewares/ST/STM32_USB_Device_Library/Class/DFU/Src/usbd_dfu.c ****         {
  1132              		.loc 1 940 18 is_stmt 0 view .LVU390
  1133 0040 D4F80034 		ldr	r3, [r4, #1024]
-ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 94
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\cceqZX48.s 			page 94
 
 
  940:Middlewares/ST/STM32_USB_Device_Library/Class/DFU/Src/usbd_dfu.c ****         {
@@ -5638,7 +5638,7 @@ ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 1
  1174              		.loc 1 951 9 is_stmt 1 view .LVU404
  951:Middlewares/ST/STM32_USB_Device_Library/Class/DFU/Src/usbd_dfu.c **** 
  1175              		.loc 1 951 25 is_stmt 0 view .LVU405
-ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 95
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\cceqZX48.s 			page 95
 
 
  1176 0074 0522     		movs	r2, #5
@@ -5698,7 +5698,7 @@ ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 1
  977:Middlewares/ST/STM32_USB_Device_Library/Class/DFU/Src/usbd_dfu.c ****           hdfu->dev_status[2] = 0U;
  1213              		.loc 1 977 11 is_stmt 1 view .LVU423
  977:Middlewares/ST/STM32_USB_Device_Library/Class/DFU/Src/usbd_dfu.c ****           hdfu->dev_status[2] = 0U;
-ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 96
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\cceqZX48.s 			page 96
 
 
  1214              		.loc 1 977 31 is_stmt 0 view .LVU424
@@ -5758,7 +5758,7 @@ ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 1
  1252              	.LFE143:
  1254              		.section	.text.DFU_GetState,"ax",%progbits
  1255              		.align	1
-ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 97
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\cceqZX48.s 			page 97
 
 
  1256              		.syntax unified
@@ -5818,7 +5818,7 @@ ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 1
  1304              		@ frame_needed = 0, uses_anonymous_args = 0
  771:Middlewares/ST/STM32_USB_Device_Library/Class/DFU/Src/usbd_dfu.c ****   USBD_DFU_HandleTypeDef   *hdfu;
  1305              		.loc 1 771 1 is_stmt 0 view .LVU450
-ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 98
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\cceqZX48.s 			page 98
 
 
  1306 0000 08B5     		push	{r3, lr}
@@ -5878,7 +5878,7 @@ ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 1
  1342              		.loc 1 786 23 is_stmt 0 view .LVU468
  1343 0022 0321     		movs	r1, #3
  1344              	.LVL81:
-ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 99
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\cceqZX48.s 			page 99
 
 
  786:Middlewares/ST/STM32_USB_Device_Library/Class/DFU/Src/usbd_dfu.c ****       hdfu->dev_status[4] = hdfu->dev_state;
@@ -5938,7 +5938,7 @@ ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 1
  1383              		.loc 1 807 23 view .LVU484
  1384 004e 83F81814 		strb	r1, [r3, #1048]
  808:Middlewares/ST/STM32_USB_Device_Library/Class/DFU/Src/usbd_dfu.c ****       hdfu->dev_status[2] = 0U;
-ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 100
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\cceqZX48.s 			page 100
 
 
  1385              		.loc 1 808 7 is_stmt 1 view .LVU485
@@ -5998,7 +5998,7 @@ ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 1
  1429              		.cfi_def_cfa_offset 8
  1430              		.cfi_offset 4, -8
  1431              		.cfi_offset 14, -4
-ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 101
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\cceqZX48.s 			page 101
 
 
  1432 0002 0446     		mov	r4, r0
@@ -6058,7 +6058,7 @@ ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 1
  1469              		.loc 1 741 5 is_stmt 1 view .LVU514
  741:Middlewares/ST/STM32_USB_Device_Library/Class/DFU/Src/usbd_dfu.c ****     hdfu->dev_status[3] = 0U; /*bwPollTimeout=0ms*/
  1470              		.loc 1 741 25 is_stmt 0 view .LVU515
-ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 102
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\cceqZX48.s 			page 102
 
 
  1471 0030 83F81224 		strb	r2, [r3, #1042]
@@ -6118,7 +6118,7 @@ ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 1
  1508              	.LVL96:
  1509              	.L87:
  759:Middlewares/ST/STM32_USB_Device_Library/Class/DFU/Src/usbd_dfu.c ****   }
-ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 103
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\cceqZX48.s 			page 103
 
 
  1510              		.loc 1 759 5 is_stmt 1 view .LVU533
@@ -6178,7 +6178,7 @@ ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 1
  366:Middlewares/ST/STM32_USB_Device_Library/Class/DFU/Src/usbd_dfu.c **** 
  1557              		.loc 1 366 3 view .LVU543
  366:Middlewares/ST/STM32_USB_Device_Library/Class/DFU/Src/usbd_dfu.c **** 
-ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 104
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\cceqZX48.s 			page 104
 
 
  1558              		.loc 1 366 8 is_stmt 0 view .LVU544
@@ -6238,7 +6238,7 @@ ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 1
  1600              		.loc 1 364 11 is_stmt 0 view .LVU556
  1601 0038 0024     		movs	r4, #0
  379:Middlewares/ST/STM32_USB_Device_Library/Class/DFU/Src/usbd_dfu.c **** 
-ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 105
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\cceqZX48.s 			page 105
 
 
  1602              		.loc 1 379 11 view .LVU557
@@ -6298,7 +6298,7 @@ ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 1
  1641 0058 0024     		movs	r4, #0
  395:Middlewares/ST/STM32_USB_Device_Library/Class/DFU/Src/usbd_dfu.c **** 
  1642              		.loc 1 395 11 view .LVU573
-ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 106
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\cceqZX48.s 			page 106
 
 
  1643 005a 55E0     		b	.L104
@@ -6358,7 +6358,7 @@ ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 1
  1686              		.loc 1 412 19 is_stmt 0 view .LVU584
  1687 0080 90F89C32 		ldrb	r3, [r0, #668]	@ zero_extendqisi2
  1688              	.LVL119:
-ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 107
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\cceqZX48.s 			page 107
 
 
  412:Middlewares/ST/STM32_USB_Device_Library/Class/DFU/Src/usbd_dfu.c ****           {
@@ -6418,7 +6418,7 @@ ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 1
  1729 00aa FFF7FEFF 		bl	USBD_CtlSendData
  1730              	.LVL127:
  431:Middlewares/ST/STM32_USB_Device_Library/Class/DFU/Src/usbd_dfu.c **** 
-ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 108
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\cceqZX48.s 			page 108
 
 
  1731              		.loc 1 431 11 view .LVU599
@@ -6478,7 +6478,7 @@ ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 1
  1771 00d2 FFF7FEFF 		bl	USBD_CtlSendData
  1772              	.LVL135:
  436:Middlewares/ST/STM32_USB_Device_Library/Class/DFU/Src/usbd_dfu.c ****           }
-ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 109
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\cceqZX48.s 			page 109
 
 
  1773              		.loc 1 436 13 view .LVU614
@@ -6538,7 +6538,7 @@ ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 1
  1812 00fa FFF7FEFF 		bl	USBD_CtlError
  1813              	.LVL141:
  468:Middlewares/ST/STM32_USB_Device_Library/Class/DFU/Src/usbd_dfu.c ****           break;
-ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 110
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\cceqZX48.s 			page 110
 
 
  1814              		.loc 1 468 11 view .LVU630
@@ -6598,7 +6598,7 @@ ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 1
  1859              		.cfi_startproc
  1860              		@ args = 0, pretend = 0, frame = 0
  1861              		@ frame_needed = 0, uses_anonymous_args = 0
-ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 111
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\cceqZX48.s 			page 111
 
 
  328:Middlewares/ST/STM32_USB_Device_Library/Class/DFU/Src/usbd_dfu.c ****   hdfu = (USBD_DFU_HandleTypeDef *) pdev->pClassData;
@@ -6658,7 +6658,7 @@ ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 1
  1898 0024 0446     		mov	r4, r0
  342:Middlewares/ST/STM32_USB_Device_Library/Class/DFU/Src/usbd_dfu.c ****     USBD_free(pdev->pClassData);
  1899              		.loc 1 342 5 is_stmt 1 view .LVU660
-ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 112
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\cceqZX48.s 			page 112
 
 
  342:Middlewares/ST/STM32_USB_Device_Library/Class/DFU/Src/usbd_dfu.c ****     USBD_free(pdev->pClassData);
@@ -6718,7 +6718,7 @@ ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 1
  1944              		.loc 1 280 1 is_stmt 1 view -0
  1945              		.cfi_startproc
  1946              		@ args = 0, pretend = 0, frame = 0
-ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 113
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\cceqZX48.s 			page 113
 
 
  1947              		@ frame_needed = 0, uses_anonymous_args = 0
@@ -6778,7 +6778,7 @@ ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 1
  299:Middlewares/ST/STM32_USB_Device_Library/Class/DFU/Src/usbd_dfu.c ****     hdfu->dev_state = DFU_STATE_IDLE;
  1984              		.loc 1 299 5 is_stmt 1 view .LVU690
  299:Middlewares/ST/STM32_USB_Device_Library/Class/DFU/Src/usbd_dfu.c ****     hdfu->dev_state = DFU_STATE_IDLE;
-ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 114
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\cceqZX48.s 			page 114
 
 
  1985              		.loc 1 299 23 is_stmt 0 view .LVU691
@@ -6838,7 +6838,7 @@ ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 1
  316:Middlewares/ST/STM32_USB_Device_Library/Class/DFU/Src/usbd_dfu.c **** 
  2020              		.loc 1 316 1 view .LVU711
  2021 0054 10BD     		pop	{r4, pc}
-ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 115
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\cceqZX48.s 			page 115
 
 
  2022              	.LVL159:
@@ -6898,7 +6898,7 @@ ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 1
  2069              		.set	.LANCHOR2,. + 0
  2072              	USBD_StrDesc.10846:
  2073 0000 00000000 		.space	255
-ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 116
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\cceqZX48.s 			page 116
 
 
  2073      00000000 
@@ -6958,82 +6958,82 @@ ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 1
  2122              		.file 15 "Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_core.h"
  2123              		.file 16 "Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h"
  2124              		.file 17 "Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ctlreq.h"
-ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 117
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\cceqZX48.s 			page 117
 
 
  2125              		.file 18 "USB_DEVICE/Target/usbd_conf.h"
-ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 118
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\cceqZX48.s 			page 118
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 usbd_dfu.c
-C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s:18     .text.USBD_DFU_GetCfgDesc:0000000000000000 $t
-C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s:25     .text.USBD_DFU_GetCfgDesc:0000000000000000 USBD_DFU_GetCfgDesc
-C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s:47     .text.USBD_DFU_GetCfgDesc:0000000000000008 $d
-C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s:52     .text.USBD_DFU_DataIn:0000000000000000 $t
-C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s:58     .text.USBD_DFU_DataIn:0000000000000000 USBD_DFU_DataIn
-C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s:76     .text.USBD_DFU_EP0_RxReady:0000000000000000 $t
-C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s:82     .text.USBD_DFU_EP0_RxReady:0000000000000000 USBD_DFU_EP0_RxReady
-C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s:100    .text.USBD_DFU_SOF:0000000000000000 $t
-C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s:106    .text.USBD_DFU_SOF:0000000000000000 USBD_DFU_SOF
-C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s:124    .text.USBD_DFU_IsoINIncomplete:0000000000000000 $t
-C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s:130    .text.USBD_DFU_IsoINIncomplete:0000000000000000 USBD_DFU_IsoINIncomplete
-C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s:148    .text.USBD_DFU_IsoOutIncomplete:0000000000000000 $t
-C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s:154    .text.USBD_DFU_IsoOutIncomplete:0000000000000000 USBD_DFU_IsoOutIncomplete
-C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s:172    .text.USBD_DFU_DataOut:0000000000000000 $t
-C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s:178    .text.USBD_DFU_DataOut:0000000000000000 USBD_DFU_DataOut
-C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s:196    .text.USBD_DFU_GetDeviceQualifierDesc:0000000000000000 $t
-C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s:202    .text.USBD_DFU_GetDeviceQualifierDesc:0000000000000000 USBD_DFU_GetDeviceQualifierDesc
-C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s:223    .text.USBD_DFU_GetDeviceQualifierDesc:0000000000000008 $d
-C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s:228    .text.DFU_ClearStatus:0000000000000000 $t
-C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s:234    .text.DFU_ClearStatus:0000000000000000 DFU_ClearStatus
-C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s:308    .text.DFU_Abort:0000000000000000 $t
-C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s:314    .text.DFU_Abort:0000000000000000 DFU_Abort
-C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s:382    .text.USBD_DFU_GetUsrStringDesc:0000000000000000 $t
-C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s:388    .text.USBD_DFU_GetUsrStringDesc:0000000000000000 USBD_DFU_GetUsrStringDesc
-C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s:438    .text.USBD_DFU_GetUsrStringDesc:000000000000001c $d
-C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s:443    .text.DFU_Leave:0000000000000000 $t
-C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s:449    .text.DFU_Leave:0000000000000000 DFU_Leave
-C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s:588    .text.DFU_Leave:0000000000000070 $d
-C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s:597    .text.USBD_DFU_EP0_TxReady:0000000000000000 $t
-C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s:603    .text.USBD_DFU_EP0_TxReady:0000000000000000 USBD_DFU_EP0_TxReady
-C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s:836    .text.DFU_Upload:0000000000000000 $t
-C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s:842    .text.DFU_Upload:0000000000000000 DFU_Upload
-C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s:1062   .text.DFU_GetStatus:0000000000000000 $t
-C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s:1068   .text.DFU_GetStatus:0000000000000000 DFU_GetStatus
-C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s:1250   .text.DFU_GetStatus:00000000000000dc $d
-C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s:1255   .text.DFU_GetState:0000000000000000 $t
-C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s:1261   .text.DFU_GetState:0000000000000000 DFU_GetState
-C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s:1292   .text.DFU_Download:0000000000000000 $t
-C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s:1298   .text.DFU_Download:0000000000000000 DFU_Download
-C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s:1413   .text.DFU_Detach:0000000000000000 $t
-C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s:1419   .text.DFU_Detach:0000000000000000 DFU_Detach
-C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s:1519   .text.DFU_Detach:0000000000000068 $d
-C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s:1524   .text.USBD_DFU_Setup:0000000000000000 $t
-C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s:1530   .text.USBD_DFU_Setup:0000000000000000 USBD_DFU_Setup
-C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s:1577   .text.USBD_DFU_Setup:0000000000000024 $d
-C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s:1671   .text.USBD_DFU_Setup:0000000000000074 $d
-C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s:1683   .text.USBD_DFU_Setup:0000000000000080 $t
-C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s:1844   .text.USBD_DFU_Setup:0000000000000110 $d
-C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s:1849   .text.USBD_DFU_DeInit:0000000000000000 $t
-C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s:1855   .text.USBD_DFU_DeInit:0000000000000000 USBD_DFU_DeInit
-C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s:1935   .text.USBD_DFU_Init:0000000000000000 $t
-C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s:1941   .text.USBD_DFU_Init:0000000000000000 USBD_DFU_Init
-C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s:2035   .text.USBD_DFU_RegisterMedia:0000000000000000 $t
-C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s:2042   .text.USBD_DFU_RegisterMedia:0000000000000000 USBD_DFU_RegisterMedia
-C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s:2078   .data.USBD_DFU:0000000000000000 USBD_DFU
-ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s 			page 119
+C:\Users\PIERRE~1\AppData\Local\Temp\cceqZX48.s:18     .text.USBD_DFU_GetCfgDesc:0000000000000000 $t
+C:\Users\PIERRE~1\AppData\Local\Temp\cceqZX48.s:25     .text.USBD_DFU_GetCfgDesc:0000000000000000 USBD_DFU_GetCfgDesc
+C:\Users\PIERRE~1\AppData\Local\Temp\cceqZX48.s:47     .text.USBD_DFU_GetCfgDesc:0000000000000008 $d
+C:\Users\PIERRE~1\AppData\Local\Temp\cceqZX48.s:52     .text.USBD_DFU_DataIn:0000000000000000 $t
+C:\Users\PIERRE~1\AppData\Local\Temp\cceqZX48.s:58     .text.USBD_DFU_DataIn:0000000000000000 USBD_DFU_DataIn
+C:\Users\PIERRE~1\AppData\Local\Temp\cceqZX48.s:76     .text.USBD_DFU_EP0_RxReady:0000000000000000 $t
+C:\Users\PIERRE~1\AppData\Local\Temp\cceqZX48.s:82     .text.USBD_DFU_EP0_RxReady:0000000000000000 USBD_DFU_EP0_RxReady
+C:\Users\PIERRE~1\AppData\Local\Temp\cceqZX48.s:100    .text.USBD_DFU_SOF:0000000000000000 $t
+C:\Users\PIERRE~1\AppData\Local\Temp\cceqZX48.s:106    .text.USBD_DFU_SOF:0000000000000000 USBD_DFU_SOF
+C:\Users\PIERRE~1\AppData\Local\Temp\cceqZX48.s:124    .text.USBD_DFU_IsoINIncomplete:0000000000000000 $t
+C:\Users\PIERRE~1\AppData\Local\Temp\cceqZX48.s:130    .text.USBD_DFU_IsoINIncomplete:0000000000000000 USBD_DFU_IsoINIncomplete
+C:\Users\PIERRE~1\AppData\Local\Temp\cceqZX48.s:148    .text.USBD_DFU_IsoOutIncomplete:0000000000000000 $t
+C:\Users\PIERRE~1\AppData\Local\Temp\cceqZX48.s:154    .text.USBD_DFU_IsoOutIncomplete:0000000000000000 USBD_DFU_IsoOutIncomplete
+C:\Users\PIERRE~1\AppData\Local\Temp\cceqZX48.s:172    .text.USBD_DFU_DataOut:0000000000000000 $t
+C:\Users\PIERRE~1\AppData\Local\Temp\cceqZX48.s:178    .text.USBD_DFU_DataOut:0000000000000000 USBD_DFU_DataOut
+C:\Users\PIERRE~1\AppData\Local\Temp\cceqZX48.s:196    .text.USBD_DFU_GetDeviceQualifierDesc:0000000000000000 $t
+C:\Users\PIERRE~1\AppData\Local\Temp\cceqZX48.s:202    .text.USBD_DFU_GetDeviceQualifierDesc:0000000000000000 USBD_DFU_GetDeviceQualifierDesc
+C:\Users\PIERRE~1\AppData\Local\Temp\cceqZX48.s:223    .text.USBD_DFU_GetDeviceQualifierDesc:0000000000000008 $d
+C:\Users\PIERRE~1\AppData\Local\Temp\cceqZX48.s:228    .text.DFU_ClearStatus:0000000000000000 $t
+C:\Users\PIERRE~1\AppData\Local\Temp\cceqZX48.s:234    .text.DFU_ClearStatus:0000000000000000 DFU_ClearStatus
+C:\Users\PIERRE~1\AppData\Local\Temp\cceqZX48.s:308    .text.DFU_Abort:0000000000000000 $t
+C:\Users\PIERRE~1\AppData\Local\Temp\cceqZX48.s:314    .text.DFU_Abort:0000000000000000 DFU_Abort
+C:\Users\PIERRE~1\AppData\Local\Temp\cceqZX48.s:382    .text.USBD_DFU_GetUsrStringDesc:0000000000000000 $t
+C:\Users\PIERRE~1\AppData\Local\Temp\cceqZX48.s:388    .text.USBD_DFU_GetUsrStringDesc:0000000000000000 USBD_DFU_GetUsrStringDesc
+C:\Users\PIERRE~1\AppData\Local\Temp\cceqZX48.s:438    .text.USBD_DFU_GetUsrStringDesc:000000000000001c $d
+C:\Users\PIERRE~1\AppData\Local\Temp\cceqZX48.s:443    .text.DFU_Leave:0000000000000000 $t
+C:\Users\PIERRE~1\AppData\Local\Temp\cceqZX48.s:449    .text.DFU_Leave:0000000000000000 DFU_Leave
+C:\Users\PIERRE~1\AppData\Local\Temp\cceqZX48.s:588    .text.DFU_Leave:0000000000000070 $d
+C:\Users\PIERRE~1\AppData\Local\Temp\cceqZX48.s:597    .text.USBD_DFU_EP0_TxReady:0000000000000000 $t
+C:\Users\PIERRE~1\AppData\Local\Temp\cceqZX48.s:603    .text.USBD_DFU_EP0_TxReady:0000000000000000 USBD_DFU_EP0_TxReady
+C:\Users\PIERRE~1\AppData\Local\Temp\cceqZX48.s:836    .text.DFU_Upload:0000000000000000 $t
+C:\Users\PIERRE~1\AppData\Local\Temp\cceqZX48.s:842    .text.DFU_Upload:0000000000000000 DFU_Upload
+C:\Users\PIERRE~1\AppData\Local\Temp\cceqZX48.s:1062   .text.DFU_GetStatus:0000000000000000 $t
+C:\Users\PIERRE~1\AppData\Local\Temp\cceqZX48.s:1068   .text.DFU_GetStatus:0000000000000000 DFU_GetStatus
+C:\Users\PIERRE~1\AppData\Local\Temp\cceqZX48.s:1250   .text.DFU_GetStatus:00000000000000dc $d
+C:\Users\PIERRE~1\AppData\Local\Temp\cceqZX48.s:1255   .text.DFU_GetState:0000000000000000 $t
+C:\Users\PIERRE~1\AppData\Local\Temp\cceqZX48.s:1261   .text.DFU_GetState:0000000000000000 DFU_GetState
+C:\Users\PIERRE~1\AppData\Local\Temp\cceqZX48.s:1292   .text.DFU_Download:0000000000000000 $t
+C:\Users\PIERRE~1\AppData\Local\Temp\cceqZX48.s:1298   .text.DFU_Download:0000000000000000 DFU_Download
+C:\Users\PIERRE~1\AppData\Local\Temp\cceqZX48.s:1413   .text.DFU_Detach:0000000000000000 $t
+C:\Users\PIERRE~1\AppData\Local\Temp\cceqZX48.s:1419   .text.DFU_Detach:0000000000000000 DFU_Detach
+C:\Users\PIERRE~1\AppData\Local\Temp\cceqZX48.s:1519   .text.DFU_Detach:0000000000000068 $d
+C:\Users\PIERRE~1\AppData\Local\Temp\cceqZX48.s:1524   .text.USBD_DFU_Setup:0000000000000000 $t
+C:\Users\PIERRE~1\AppData\Local\Temp\cceqZX48.s:1530   .text.USBD_DFU_Setup:0000000000000000 USBD_DFU_Setup
+C:\Users\PIERRE~1\AppData\Local\Temp\cceqZX48.s:1577   .text.USBD_DFU_Setup:0000000000000024 $d
+C:\Users\PIERRE~1\AppData\Local\Temp\cceqZX48.s:1671   .text.USBD_DFU_Setup:0000000000000074 $d
+C:\Users\PIERRE~1\AppData\Local\Temp\cceqZX48.s:1683   .text.USBD_DFU_Setup:0000000000000080 $t
+C:\Users\PIERRE~1\AppData\Local\Temp\cceqZX48.s:1844   .text.USBD_DFU_Setup:0000000000000110 $d
+C:\Users\PIERRE~1\AppData\Local\Temp\cceqZX48.s:1849   .text.USBD_DFU_DeInit:0000000000000000 $t
+C:\Users\PIERRE~1\AppData\Local\Temp\cceqZX48.s:1855   .text.USBD_DFU_DeInit:0000000000000000 USBD_DFU_DeInit
+C:\Users\PIERRE~1\AppData\Local\Temp\cceqZX48.s:1935   .text.USBD_DFU_Init:0000000000000000 $t
+C:\Users\PIERRE~1\AppData\Local\Temp\cceqZX48.s:1941   .text.USBD_DFU_Init:0000000000000000 USBD_DFU_Init
+C:\Users\PIERRE~1\AppData\Local\Temp\cceqZX48.s:2035   .text.USBD_DFU_RegisterMedia:0000000000000000 $t
+C:\Users\PIERRE~1\AppData\Local\Temp\cceqZX48.s:2042   .text.USBD_DFU_RegisterMedia:0000000000000000 USBD_DFU_RegisterMedia
+C:\Users\PIERRE~1\AppData\Local\Temp\cceqZX48.s:2078   .data.USBD_DFU:0000000000000000 USBD_DFU
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\cceqZX48.s 			page 119
 
 
-C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s:2068   .bss.USBD_StrDesc.10846:0000000000000000 $d
-C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s:2072   .bss.USBD_StrDesc.10846:0000000000000000 USBD_StrDesc.10846
-C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s:2075   .data.USBD_DFU:0000000000000000 $d
-C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s:2095   .data.USBD_DFU_CfgDesc:0000000000000000 $d
-C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s:2099   .data.USBD_DFU_CfgDesc:0000000000000000 USBD_DFU_CfgDesc
-C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s:2103   .data.USBD_DFU_DeviceQualifierDesc:0000000000000000 $d
-C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s:2107   .data.USBD_DFU_DeviceQualifierDesc:0000000000000000 USBD_DFU_DeviceQualifierDesc
-C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s:1584   .text.USBD_DFU_Setup:000000000000002b $d
-C:\Users\PIERRE~1\AppData\Local\Temp\ccx4gejg.s:1584   .text.USBD_DFU_Setup:000000000000002c $t
+C:\Users\PIERRE~1\AppData\Local\Temp\cceqZX48.s:2068   .bss.USBD_StrDesc.10846:0000000000000000 $d
+C:\Users\PIERRE~1\AppData\Local\Temp\cceqZX48.s:2072   .bss.USBD_StrDesc.10846:0000000000000000 USBD_StrDesc.10846
+C:\Users\PIERRE~1\AppData\Local\Temp\cceqZX48.s:2075   .data.USBD_DFU:0000000000000000 $d
+C:\Users\PIERRE~1\AppData\Local\Temp\cceqZX48.s:2095   .data.USBD_DFU_CfgDesc:0000000000000000 $d
+C:\Users\PIERRE~1\AppData\Local\Temp\cceqZX48.s:2099   .data.USBD_DFU_CfgDesc:0000000000000000 USBD_DFU_CfgDesc
+C:\Users\PIERRE~1\AppData\Local\Temp\cceqZX48.s:2103   .data.USBD_DFU_DeviceQualifierDesc:0000000000000000 $d
+C:\Users\PIERRE~1\AppData\Local\Temp\cceqZX48.s:2107   .data.USBD_DFU_DeviceQualifierDesc:0000000000000000 USBD_DFU_DeviceQualifierDesc
+C:\Users\PIERRE~1\AppData\Local\Temp\cceqZX48.s:1584   .text.USBD_DFU_Setup:000000000000002b $d
+C:\Users\PIERRE~1\AppData\Local\Temp\cceqZX48.s:1584   .text.USBD_DFU_Setup:000000000000002c $t
 
 UNDEFINED SYMBOLS
 USBD_GetString

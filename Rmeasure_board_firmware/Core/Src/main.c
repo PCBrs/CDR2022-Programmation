@@ -25,6 +25,7 @@
 #include "tim.h"
 #include "usart.h"
 #include "usb_device.h"
+#include "usbd_cdc_if.h"
 #include "gpio.h"
 
 /* Private includes ----------------------------------------------------------*/
@@ -54,8 +55,17 @@
 
 /* Private function prototypes -----------------------------------------------*/
 void SystemClock_Config(void);
-/* USER CODE BEGIN PFP */
 
+/* USER CODE BEGIN PFP */
+void set_rgb(u_int8_t rouge,u_int8_t vert,u_int8_t bleu);
+
+int _write(int fd, unsigned char *ptr, int len)
+{
+	if (CDC_Transmit_FS(ptr,len) != HAL_OK)
+		return 0;
+
+	return len;
+}
 /* USER CODE END PFP */
 
 /* Private user code ---------------------------------------------------------*/
@@ -98,19 +108,23 @@ int main(void)
   MX_USART1_UART_Init();
   MX_USB_DEVICE_Init();
   /* USER CODE BEGIN 2 */
-  for(uint8_t i=0;i==10;i++){
-  HAL_GPIO_TogglePin(LED_GPIO_Port,LED_Pin);
-  HAL_Delay(300);
-  }
-  
+  HAL_TIM_PWM_Start (&htim2, TIM_CHANNEL_2);
+  HAL_TIM_PWM_Start (&htim2, TIM_CHANNEL_3);
+  HAL_TIM_PWM_Start (&htim2, TIM_CHANNEL_4);
+
+    
   /* USER CODE END 2 */
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
   while (1)
   {
-    HAL_GPIO_TogglePin(LED_GPIO_Port,LED_Pin);
+    set_rgb(125,255,0);
+    //HAL_GPIO_TogglePin(LED_GPIO_Port,LED_Pin);
     HAL_Delay(500);
+    set_rgb(0,0,255);
+    HAL_Delay(500);
+    printf("bjr\n\r");
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
@@ -168,7 +182,12 @@ void SystemClock_Config(void)
 }
 
 /* USER CODE BEGIN 4 */
-
+void set_rgb(u_int8_t rouge,u_int8_t vert,u_int8_t bleu)
+{
+  htim2.Instance->CCR2 = rouge;
+  htim2.Instance->CCR3 = vert;
+  htim2.Instance->CCR4 = bleu;
+}
 /* USER CODE END 4 */
 
 /**
