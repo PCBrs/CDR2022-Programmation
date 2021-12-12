@@ -2,8 +2,9 @@
 
 
 void readLidarData(UART_HandleTypeDef *huart,LD06 *lidar){
-    uint8_t buffer = 0;
-    HAL_UART_Receive_DMA(&huart,buffer,8);
+    uint8_t *buffer = 0;
+    uint8_t datalen=0;
+    HAL_UART_Receive_DMA(huart,buffer,8);
 
     if(buffer==0x54)//SOF
     lidar->state=0;
@@ -11,7 +12,7 @@ void readLidarData(UART_HandleTypeDef *huart,LD06 *lidar){
     switch (lidar->state)
     {
     case 1://data length
-        lidar->dataLength = buffer;
+        lidar->dataLength = &buffer;
         lidar->state++;
         break;
     case 2:// radarspeed lsb
@@ -19,7 +20,7 @@ void readLidarData(UART_HandleTypeDef *huart,LD06 *lidar){
         lidar->state++;
         break;
     case 3://radarspeed msb
-        lidar->radarSpeedH = buffer;
+        lidar->radarSpeedH = &buffer;
         lidar->radarSpeed= lidar->radarSpeedH <<8 + lidar->radarSpeedL;
         lidar->state++;
         break;
@@ -29,33 +30,44 @@ void readLidarData(UART_HandleTypeDef *huart,LD06 *lidar){
         break;
     case 5: //starting angle msb
         lidar->startAngleH = buffer;
-        lidar->startAngle = (lidar->startAngleH<<8 + lidar->startAngleL) * 0.1;
+        lidar->startAngle = (lidar->startAngleH<<8 + lidar->startAngleL) * 0.01;
         lidar->state++;
         break;
-    case 6: //starting angle msb
-        for(uint8_t i =0;i<lidar->dataLength;i++){
-            lidar->distance= lidar->distanceL + lidar->distanceM<<8;
+    case 6: //distance
+        if(lidar->dataLength!=datalen){
+            lidar->data[datalen]=buffer;
+            datalen++;
+            break;
+        }
+        for(uint8_t i =0;i<lidar->dataLength*3;i++){ // a voir si ça marche
+            lidar->distance= lidar->data[i] + lidar->data[i+1]<<8;
+            lidar->confidence = lidar->data[i+2];
         }
         lidar->state++;
         break;
-    case 7: //starting angle msb
-        lidar->startAngleH = buffer;
-        lidar->startAngle = (lidar->startAngleH<<8 + lidar->startAngleL) * 0.1;
+    case 7: //end angle lsb
+        lidar->endAngleL = buffer;
         lidar->state++;
         break;
-    case 8: //starting angle msb
-        lidar->startAngleH = buffer;
-        lidar->startAngle = (lidar->startAngleH<<8 + lidar->startAngleL) * 0.1;
+    case 8: //end angle msb
+        lidar->endAngleM= buffer;
+        lidar->endAngle = (lidar->endAngleM << 8 + lidar->endAngleL) * 0.01;
         lidar->state++;
         break;
-    case 9: //starting angle msb
-        lidar->startAngleH = buffer;
-        lidar->startAngle = (lidar->startAngleH<<8 + lidar->startAngleL) * 0.1;
+    case 9: //timestamp Lsb
+        lidar->timestampL = buffer;
         lidar->state++;
         break;
-    case 5: //starting angle msb
-        lidar->startAngleH = buffer;
-        lidar->startAngle = (lidar->startAngleH<<8 + lidar->startAngleL) * 0.1;
+    case 10: //timestamp Msb
+        lidar->timestampM = buffer;
+        lidar->timestamp = (lidar->timestampM<<8 + lidar->timestampL);
+        lidar->state++;
+        break;
+    case 11: //crc
+        lidar->crcCheck = buffer;
+        //uint8_t crc = CalCRC8(lidar->crcCheck,lidar->dataLength); 
+        //crc not working
+        
         lidar->state++;
         break;
     }

@@ -31,7 +31,7 @@
 
 /* Private typedef -----------------------------------------------------------*/
 /* USER CODE BEGIN PTD */
-
+LD06 *lidar;
 /* USER CODE END PTD */
 
 /* Private define ------------------------------------------------------------*/
@@ -52,7 +52,17 @@
 /* Private function prototypes -----------------------------------------------*/
 void SystemClock_Config(void);
 /* USER CODE BEGIN PFP */
+int _write(int fd, unsigned char *ptr, int len)
+{
+	if (CDC_Transmit_FS(ptr,len) != HAL_OK)
+		return 0;
 
+	return len;
+}
+void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart)
+{
+  readLidarData(&huart1,&lidar);
+}
 /* USER CODE END PFP */
 
 /* Private user code ---------------------------------------------------------*/
@@ -99,6 +109,8 @@ int main(void)
   /* USER CODE BEGIN WHILE */
   while (1)
   {
+    printf("distance=%f",lidar->distance);
+    HAL_Delay(50);
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */

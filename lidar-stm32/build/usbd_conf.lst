@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccfTIGQi.s 			page 1
+ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccKdR2x8.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccfTIGQi.s 			page 1
   28:USB_DEVICE/Target/usbd_conf.c **** 
   29:USB_DEVICE/Target/usbd_conf.c **** /* USER CODE BEGIN Includes */
   30:USB_DEVICE/Target/usbd_conf.c **** 
-ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccfTIGQi.s 			page 2
+ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccKdR2x8.s 			page 2
 
 
   31:USB_DEVICE/Target/usbd_conf.c **** /* USER CODE END Includes */
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccfTIGQi.s 			page 1
   85:USB_DEVICE/Target/usbd_conf.c ****   /* USER CODE END USB_MspInit 1 */
   86:USB_DEVICE/Target/usbd_conf.c ****   }
   87:USB_DEVICE/Target/usbd_conf.c **** }
-ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccfTIGQi.s 			page 3
+ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccKdR2x8.s 			page 3
 
 
   88:USB_DEVICE/Target/usbd_conf.c **** 
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccfTIGQi.s 			page 1
  142:USB_DEVICE/Target/usbd_conf.c ****   */
  143:USB_DEVICE/Target/usbd_conf.c **** #if (USE_HAL_PCD_REGISTER_CALLBACKS == 1U)
  144:USB_DEVICE/Target/usbd_conf.c **** static void PCD_DataInStageCallback(PCD_HandleTypeDef *hpcd, uint8_t epnum)
-ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccfTIGQi.s 			page 4
+ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccKdR2x8.s 			page 4
 
 
  145:USB_DEVICE/Target/usbd_conf.c **** #else
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccfTIGQi.s 			page 1
  199:USB_DEVICE/Target/usbd_conf.c **** void HAL_PCD_SuspendCallback(PCD_HandleTypeDef *hpcd)
  200:USB_DEVICE/Target/usbd_conf.c **** #endif /* USE_HAL_PCD_REGISTER_CALLBACKS */
  201:USB_DEVICE/Target/usbd_conf.c **** {
-ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccfTIGQi.s 			page 5
+ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccKdR2x8.s 			page 5
 
 
  202:USB_DEVICE/Target/usbd_conf.c ****   /* Inform USB library that core enters in suspend Mode. */
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccfTIGQi.s 			page 1
  256:USB_DEVICE/Target/usbd_conf.c **** void HAL_PCD_ISOINIncompleteCallback(PCD_HandleTypeDef *hpcd, uint8_t epnum)
  257:USB_DEVICE/Target/usbd_conf.c **** #endif /* USE_HAL_PCD_REGISTER_CALLBACKS */
  258:USB_DEVICE/Target/usbd_conf.c **** {
-ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccfTIGQi.s 			page 6
+ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccKdR2x8.s 			page 6
 
 
  259:USB_DEVICE/Target/usbd_conf.c ****   USBD_LL_IsoINIncomplete((USBD_HandleTypeDef*)hpcd->pData, epnum);
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccfTIGQi.s 			page 1
  313:USB_DEVICE/Target/usbd_conf.c ****   {
  314:USB_DEVICE/Target/usbd_conf.c ****     Error_Handler( );
  315:USB_DEVICE/Target/usbd_conf.c ****   }
-ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccfTIGQi.s 			page 7
+ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccKdR2x8.s 			page 7
 
 
  316:USB_DEVICE/Target/usbd_conf.c **** 
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccfTIGQi.s 			page 1
  370:USB_DEVICE/Target/usbd_conf.c **** 
  371:USB_DEVICE/Target/usbd_conf.c ****   hal_status = HAL_PCD_Start(pdev->pData);
  372:USB_DEVICE/Target/usbd_conf.c **** 
-ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccfTIGQi.s 			page 8
+ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccKdR2x8.s 			page 8
 
 
  373:USB_DEVICE/Target/usbd_conf.c ****   usb_status =  USBD_Get_USB_Status(hal_status);
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccfTIGQi.s 			page 1
  427:USB_DEVICE/Target/usbd_conf.c **** 
  428:USB_DEVICE/Target/usbd_conf.c ****   usb_status =  USBD_Get_USB_Status(hal_status);
  429:USB_DEVICE/Target/usbd_conf.c **** 
-ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccfTIGQi.s 			page 9
+ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccKdR2x8.s 			page 9
 
 
  430:USB_DEVICE/Target/usbd_conf.c ****   return usb_status;
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccfTIGQi.s 			page 1
  484:USB_DEVICE/Target/usbd_conf.c ****   return usb_status;
  485:USB_DEVICE/Target/usbd_conf.c **** }
  486:USB_DEVICE/Target/usbd_conf.c **** 
-ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccfTIGQi.s 			page 10
+ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccKdR2x8.s 			page 10
 
 
  487:USB_DEVICE/Target/usbd_conf.c **** /**
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccfTIGQi.s 			page 1
  541:USB_DEVICE/Target/usbd_conf.c **** 
  542:USB_DEVICE/Target/usbd_conf.c ****   return usb_status;
  543:USB_DEVICE/Target/usbd_conf.c **** }
-ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccfTIGQi.s 			page 11
+ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccKdR2x8.s 			page 11
 
 
  544:USB_DEVICE/Target/usbd_conf.c **** 
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccfTIGQi.s 			page 1
  598:USB_DEVICE/Target/usbd_conf.c ****   * @brief  Dummy memory free
  599:USB_DEVICE/Target/usbd_conf.c ****   * @param  p: Pointer to allocated  memory address
  600:USB_DEVICE/Target/usbd_conf.c ****   * @retval None
-ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccfTIGQi.s 			page 12
+ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccKdR2x8.s 			page 12
 
 
  601:USB_DEVICE/Target/usbd_conf.c ****   */
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccfTIGQi.s 			page 1
   41 0009 04       		.byte	(.L6-.L4)/2
   42 000a 02       		.byte	(.L3-.L4)/2
   43 000b 00       		.p2align 1
-ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccfTIGQi.s 			page 13
+ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccKdR2x8.s 			page 13
 
 
   44              	.L3:
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccfTIGQi.s 			page 1
   78              		@ args = 0, pretend = 0, frame = 8
   79              		@ frame_needed = 0, uses_anonymous_args = 0
   72:USB_DEVICE/Target/usbd_conf.c ****   {
-ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccfTIGQi.s 			page 14
+ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccKdR2x8.s 			page 14
 
 
   80              		.loc 1 72 3 view .LVU11
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccfTIGQi.s 			page 1
  122 002e 1420     		movs	r0, #20
  123 0030 FFF7FEFF 		bl	HAL_NVIC_EnableIRQ
  124              	.LVL8:
-ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccfTIGQi.s 			page 15
+ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccKdR2x8.s 			page 15
 
 
   87:USB_DEVICE/Target/usbd_conf.c **** 
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccfTIGQi.s 			page 1
  173 000c 054A     		ldr	r2, .L20+4
  174 000e D369     		ldr	r3, [r2, #28]
  175 0010 23F40003 		bic	r3, r3, #8388608
-ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccfTIGQi.s 			page 16
+ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccKdR2x8.s 			page 16
 
 
  176 0014 D361     		str	r3, [r2, #28]
@@ -958,7 +958,7 @@ ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccfTIGQi.s 			page 1
  224              	.LFE128:
  226              		.section	.text.HAL_PCD_DataOutStageCallback,"ax",%progbits
  227              		.align	1
-ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccfTIGQi.s 			page 17
+ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccKdR2x8.s 			page 17
 
 
  228              		.global	HAL_PCD_DataOutStageCallback
@@ -1018,7 +1018,7 @@ ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccfTIGQi.s 			page 1
  278              	.LCFI6:
  279              		.cfi_def_cfa_offset 8
  280              		.cfi_offset 3, -8
-ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccfTIGQi.s 			page 18
+ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccKdR2x8.s 			page 18
 
 
  281              		.cfi_offset 14, -4
@@ -1078,7 +1078,7 @@ ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccfTIGQi.s 			page 1
  330              		.global	HAL_PCD_ResetCallback
  331              		.syntax unified
  332              		.thumb
-ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccfTIGQi.s 			page 19
+ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccKdR2x8.s 			page 19
 
 
  333              		.thumb_func
@@ -1138,7 +1138,7 @@ ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccfTIGQi.s 			page 1
  377 0022 F2E7     		b	.L31
  378              		.cfi_endproc
  379              	.LFE132:
-ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccfTIGQi.s 			page 20
+ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccKdR2x8.s 			page 20
 
 
  381              		.section	.text.HAL_PCD_SuspendCallback,"ax",%progbits
@@ -1198,7 +1198,7 @@ ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccfTIGQi.s 			page 1
  425              		.loc 1 212 1 view .LVU76
  426              		.align	2
  427              	.L37:
-ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccfTIGQi.s 			page 21
+ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccKdR2x8.s 			page 21
 
 
  428 001c 00ED00E0 		.word	-536810240
@@ -1258,7 +1258,7 @@ ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccfTIGQi.s 			page 1
  479              		.loc 1 243 1 is_stmt 0 view .LVU83
  480 0000 08B5     		push	{r3, lr}
  481              	.LCFI11:
-ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccfTIGQi.s 			page 22
+ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccKdR2x8.s 			page 22
 
 
  482              		.cfi_def_cfa_offset 8
@@ -1318,7 +1318,7 @@ ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccfTIGQi.s 			page 1
  531              		.syntax unified
  532              		.thumb
  533              		.thumb_func
-ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccfTIGQi.s 			page 23
+ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccKdR2x8.s 			page 23
 
 
  534              		.fpu fpv4-sp-d16
@@ -1378,7 +1378,7 @@ ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccfTIGQi.s 			page 1
  583              	.LVL50:
  287:USB_DEVICE/Target/usbd_conf.c **** }
  584              		.loc 1 287 3 is_stmt 0 view .LVU100
-ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccfTIGQi.s 			page 24
+ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccKdR2x8.s 			page 24
 
 
  585 0006 FFF7FEFF 		bl	USBD_LL_DevDisconnected
@@ -1438,7 +1438,7 @@ ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccfTIGQi.s 			page 1
  629 0012 0823     		movs	r3, #8
  630 0014 4360     		str	r3, [r0, #4]
  308:USB_DEVICE/Target/usbd_conf.c ****   hpcd_USB_FS.Init.phy_itface = PCD_PHY_EMBEDDED;
-ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccfTIGQi.s 			page 25
+ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccKdR2x8.s 			page 25
 
 
  631              		.loc 1 308 3 is_stmt 1 view .LVU113
@@ -1498,7 +1498,7 @@ ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccfTIGQi.s 			page 1
  672              	.LVL57:
  338:USB_DEVICE/Target/usbd_conf.c ****   HAL_PCDEx_PMAConfig((PCD_HandleTypeDef*)pdev->pData , 0x82 , PCD_SNG_BUF, 0x100);
  673              		.loc 1 338 3 view .LVU127
-ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccfTIGQi.s 			page 26
+ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccKdR2x8.s 			page 26
 
 
  674 0052 4FF48873 		mov	r3, #272
@@ -1558,7 +1558,7 @@ ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccfTIGQi.s 			page 1
  724              		.cfi_offset 3, -8
  725              		.cfi_offset 14, -4
  351:USB_DEVICE/Target/usbd_conf.c ****   USBD_StatusTypeDef usb_status = USBD_OK;
-ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccfTIGQi.s 			page 27
+ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccKdR2x8.s 			page 27
 
 
  726              		.loc 1 351 3 is_stmt 1 view .LVU134
@@ -1618,7 +1618,7 @@ ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccfTIGQi.s 			page 1
  371:USB_DEVICE/Target/usbd_conf.c **** 
  770              		.loc 1 371 3 view .LVU147
  371:USB_DEVICE/Target/usbd_conf.c **** 
-ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccfTIGQi.s 			page 28
+ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccKdR2x8.s 			page 28
 
 
  771              		.loc 1 371 16 is_stmt 0 view .LVU148
@@ -1678,7 +1678,7 @@ ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccfTIGQi.s 			page 1
  815              		.loc 1 388 16 view .LVU160
  816 0006 FFF7FEFF 		bl	HAL_PCD_Stop
  817              	.LVL75:
-ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccfTIGQi.s 			page 29
+ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccKdR2x8.s 			page 29
 
 
  390:USB_DEVICE/Target/usbd_conf.c **** 
@@ -1738,7 +1738,7 @@ ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccfTIGQi.s 			page 1
  862 000c FFF7FEFF 		bl	HAL_PCD_EP_Open
  863              	.LVL81:
  410:USB_DEVICE/Target/usbd_conf.c **** 
-ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccfTIGQi.s 			page 30
+ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccKdR2x8.s 			page 30
 
 
  864              		.loc 1 410 3 is_stmt 1 view .LVU173
@@ -1798,7 +1798,7 @@ ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccfTIGQi.s 			page 1
  908              	.LVL87:
  430:USB_DEVICE/Target/usbd_conf.c **** }
  909              		.loc 1 430 3 is_stmt 1 view .LVU186
-ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccfTIGQi.s 			page 31
+ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccKdR2x8.s 			page 31
 
 
  431:USB_DEVICE/Target/usbd_conf.c **** 
@@ -1858,7 +1858,7 @@ ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccfTIGQi.s 			page 1
  954              	.LFE145:
  956              		.section	.text.USBD_LL_StallEP,"ax",%progbits
  957              		.align	1
-ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccfTIGQi.s 			page 32
+ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccKdR2x8.s 			page 32
 
 
  958              		.global	USBD_LL_StallEP
@@ -1918,7 +1918,7 @@ ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccfTIGQi.s 			page 1
  1003              		.fpu fpv4-sp-d16
  1005              	USBD_LL_ClearStallEP:
  1006              	.LVL98:
-ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccfTIGQi.s 			page 33
+ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccKdR2x8.s 			page 33
 
 
  1007              	.LFB147:
@@ -1978,7 +1978,7 @@ ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccfTIGQi.s 			page 1
  1051              		@ args = 0, pretend = 0, frame = 0
  1052              		@ frame_needed = 0, uses_anonymous_args = 0
  1053              		@ link register save eliminated.
-ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccfTIGQi.s 			page 34
+ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccKdR2x8.s 			page 34
 
 
  495:USB_DEVICE/Target/usbd_conf.c **** 
@@ -2038,7 +2038,7 @@ ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccfTIGQi.s 			page 1
  1098              	USBD_LL_SetUSBAddress:
  1099              	.LVL110:
  1100              	.LFB149:
-ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccfTIGQi.s 			page 35
+ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccKdR2x8.s 			page 35
 
 
  514:USB_DEVICE/Target/usbd_conf.c ****   HAL_StatusTypeDef hal_status = HAL_OK;
@@ -2098,7 +2098,7 @@ ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccfTIGQi.s 			page 1
  1145              		@ frame_needed = 0, uses_anonymous_args = 0
  534:USB_DEVICE/Target/usbd_conf.c ****   HAL_StatusTypeDef hal_status = HAL_OK;
  1146              		.loc 1 534 1 is_stmt 0 view .LVU246
-ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccfTIGQi.s 			page 36
+ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccKdR2x8.s 			page 36
 
 
  1147 0000 08B5     		push	{r3, lr}
@@ -2158,7 +2158,7 @@ ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccfTIGQi.s 			page 1
  1192              		.cfi_offset 14, -4
  555:USB_DEVICE/Target/usbd_conf.c ****   USBD_StatusTypeDef usb_status = USBD_OK;
  1193              		.loc 1 555 3 is_stmt 1 view .LVU258
-ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccfTIGQi.s 			page 37
+ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccKdR2x8.s 			page 37
 
 
  1194              	.LVL121:
@@ -2218,7 +2218,7 @@ ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccfTIGQi.s 			page 1
  573:USB_DEVICE/Target/usbd_conf.c **** }
  1238              		.loc 1 573 10 view .LVU271
  1239 0006 FFF7FEFF 		bl	HAL_PCD_EP_GetRxCount
-ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccfTIGQi.s 			page 38
+ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccKdR2x8.s 			page 38
 
 
  1240              	.LVL127:
@@ -2278,7 +2278,7 @@ ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccfTIGQi.s 			page 1
  1291              		.loc 1 593 3 view .LVU278
  594:USB_DEVICE/Target/usbd_conf.c **** }
  1292              		.loc 1 594 3 view .LVU279
-ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccfTIGQi.s 			page 39
+ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccKdR2x8.s 			page 39
 
 
  595:USB_DEVICE/Target/usbd_conf.c **** 
@@ -2338,16 +2338,16 @@ ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccfTIGQi.s 			page 1
  631:USB_DEVICE/Target/usbd_conf.c **** 
  1344              		.loc 1 631 1 is_stmt 0 view .LVU287
  1345 0000 7047     		bx	lr
-ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccfTIGQi.s 			page 40
+ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccKdR2x8.s 			page 40
 
 
  1346              		.cfi_endproc
  1347              	.LFE156:
  1349              		.comm	hpcd_USB_FS,748,4
- 1350              		.section	.bss.mem.10012,"aw",%nobits
+ 1350              		.section	.bss.mem.10025,"aw",%nobits
  1351              		.align	2
  1352              		.set	.LANCHOR0,. + 0
- 1355              	mem.10012:
+ 1355              	mem.10025:
  1356 0000 00000000 		.space	544
  1356      00000000 
  1356      00000000 
@@ -2378,89 +2378,89 @@ ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccfTIGQi.s 			page 1
  1379              		.file 22 "Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_pcd_ex.h"
  1380              		.file 23 "Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_core.h"
  1381              		.file 24 "Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_cortex.h"
-ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccfTIGQi.s 			page 41
+ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccKdR2x8.s 			page 41
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 usbd_conf.c
-C:\Users\pierr\AppData\Local\Temp\ccfTIGQi.s:18     .text.USBD_Get_USB_Status:0000000000000000 $t
-C:\Users\pierr\AppData\Local\Temp\ccfTIGQi.s:25     .text.USBD_Get_USB_Status:0000000000000000 USBD_Get_USB_Status
-C:\Users\pierr\AppData\Local\Temp\ccfTIGQi.s:40     .text.USBD_Get_USB_Status:0000000000000008 $d
-C:\Users\pierr\AppData\Local\Temp\ccfTIGQi.s:66     .text.HAL_PCD_MspInit:0000000000000000 $t
-C:\Users\pierr\AppData\Local\Temp\ccfTIGQi.s:73     .text.HAL_PCD_MspInit:0000000000000000 HAL_PCD_MspInit
-C:\Users\pierr\AppData\Local\Temp\ccfTIGQi.s:134    .text.HAL_PCD_MspInit:000000000000003c $d
-C:\Users\pierr\AppData\Local\Temp\ccfTIGQi.s:139    .text.HAL_PCD_MspDeInit:0000000000000000 $t
-C:\Users\pierr\AppData\Local\Temp\ccfTIGQi.s:146    .text.HAL_PCD_MspDeInit:0000000000000000 HAL_PCD_MspDeInit
-C:\Users\pierr\AppData\Local\Temp\ccfTIGQi.s:188    .text.HAL_PCD_MspDeInit:0000000000000020 $d
-C:\Users\pierr\AppData\Local\Temp\ccfTIGQi.s:194    .text.HAL_PCD_SetupStageCallback:0000000000000000 $t
-C:\Users\pierr\AppData\Local\Temp\ccfTIGQi.s:201    .text.HAL_PCD_SetupStageCallback:0000000000000000 HAL_PCD_SetupStageCallback
-C:\Users\pierr\AppData\Local\Temp\ccfTIGQi.s:227    .text.HAL_PCD_DataOutStageCallback:0000000000000000 $t
-C:\Users\pierr\AppData\Local\Temp\ccfTIGQi.s:234    .text.HAL_PCD_DataOutStageCallback:0000000000000000 HAL_PCD_DataOutStageCallback
-C:\Users\pierr\AppData\Local\Temp\ccfTIGQi.s:262    .text.HAL_PCD_DataInStageCallback:0000000000000000 $t
-C:\Users\pierr\AppData\Local\Temp\ccfTIGQi.s:269    .text.HAL_PCD_DataInStageCallback:0000000000000000 HAL_PCD_DataInStageCallback
-C:\Users\pierr\AppData\Local\Temp\ccfTIGQi.s:297    .text.HAL_PCD_SOFCallback:0000000000000000 $t
-C:\Users\pierr\AppData\Local\Temp\ccfTIGQi.s:304    .text.HAL_PCD_SOFCallback:0000000000000000 HAL_PCD_SOFCallback
-C:\Users\pierr\AppData\Local\Temp\ccfTIGQi.s:329    .text.HAL_PCD_ResetCallback:0000000000000000 $t
-C:\Users\pierr\AppData\Local\Temp\ccfTIGQi.s:336    .text.HAL_PCD_ResetCallback:0000000000000000 HAL_PCD_ResetCallback
-C:\Users\pierr\AppData\Local\Temp\ccfTIGQi.s:382    .text.HAL_PCD_SuspendCallback:0000000000000000 $t
-C:\Users\pierr\AppData\Local\Temp\ccfTIGQi.s:389    .text.HAL_PCD_SuspendCallback:0000000000000000 HAL_PCD_SuspendCallback
-C:\Users\pierr\AppData\Local\Temp\ccfTIGQi.s:428    .text.HAL_PCD_SuspendCallback:000000000000001c $d
-C:\Users\pierr\AppData\Local\Temp\ccfTIGQi.s:433    .text.HAL_PCD_ResumeCallback:0000000000000000 $t
-C:\Users\pierr\AppData\Local\Temp\ccfTIGQi.s:440    .text.HAL_PCD_ResumeCallback:0000000000000000 HAL_PCD_ResumeCallback
-C:\Users\pierr\AppData\Local\Temp\ccfTIGQi.s:465    .text.HAL_PCD_ISOOUTIncompleteCallback:0000000000000000 $t
-C:\Users\pierr\AppData\Local\Temp\ccfTIGQi.s:472    .text.HAL_PCD_ISOOUTIncompleteCallback:0000000000000000 HAL_PCD_ISOOUTIncompleteCallback
-C:\Users\pierr\AppData\Local\Temp\ccfTIGQi.s:497    .text.HAL_PCD_ISOINIncompleteCallback:0000000000000000 $t
-C:\Users\pierr\AppData\Local\Temp\ccfTIGQi.s:504    .text.HAL_PCD_ISOINIncompleteCallback:0000000000000000 HAL_PCD_ISOINIncompleteCallback
-C:\Users\pierr\AppData\Local\Temp\ccfTIGQi.s:529    .text.HAL_PCD_ConnectCallback:0000000000000000 $t
-C:\Users\pierr\AppData\Local\Temp\ccfTIGQi.s:536    .text.HAL_PCD_ConnectCallback:0000000000000000 HAL_PCD_ConnectCallback
-C:\Users\pierr\AppData\Local\Temp\ccfTIGQi.s:561    .text.HAL_PCD_DisconnectCallback:0000000000000000 $t
-C:\Users\pierr\AppData\Local\Temp\ccfTIGQi.s:568    .text.HAL_PCD_DisconnectCallback:0000000000000000 HAL_PCD_DisconnectCallback
-C:\Users\pierr\AppData\Local\Temp\ccfTIGQi.s:593    .text.USBD_LL_Init:0000000000000000 $t
-C:\Users\pierr\AppData\Local\Temp\ccfTIGQi.s:600    .text.USBD_LL_Init:0000000000000000 USBD_LL_Init
-C:\Users\pierr\AppData\Local\Temp\ccfTIGQi.s:700    .text.USBD_LL_Init:000000000000007c $d
+C:\Users\pierr\AppData\Local\Temp\ccKdR2x8.s:18     .text.USBD_Get_USB_Status:0000000000000000 $t
+C:\Users\pierr\AppData\Local\Temp\ccKdR2x8.s:25     .text.USBD_Get_USB_Status:0000000000000000 USBD_Get_USB_Status
+C:\Users\pierr\AppData\Local\Temp\ccKdR2x8.s:40     .text.USBD_Get_USB_Status:0000000000000008 $d
+C:\Users\pierr\AppData\Local\Temp\ccKdR2x8.s:66     .text.HAL_PCD_MspInit:0000000000000000 $t
+C:\Users\pierr\AppData\Local\Temp\ccKdR2x8.s:73     .text.HAL_PCD_MspInit:0000000000000000 HAL_PCD_MspInit
+C:\Users\pierr\AppData\Local\Temp\ccKdR2x8.s:134    .text.HAL_PCD_MspInit:000000000000003c $d
+C:\Users\pierr\AppData\Local\Temp\ccKdR2x8.s:139    .text.HAL_PCD_MspDeInit:0000000000000000 $t
+C:\Users\pierr\AppData\Local\Temp\ccKdR2x8.s:146    .text.HAL_PCD_MspDeInit:0000000000000000 HAL_PCD_MspDeInit
+C:\Users\pierr\AppData\Local\Temp\ccKdR2x8.s:188    .text.HAL_PCD_MspDeInit:0000000000000020 $d
+C:\Users\pierr\AppData\Local\Temp\ccKdR2x8.s:194    .text.HAL_PCD_SetupStageCallback:0000000000000000 $t
+C:\Users\pierr\AppData\Local\Temp\ccKdR2x8.s:201    .text.HAL_PCD_SetupStageCallback:0000000000000000 HAL_PCD_SetupStageCallback
+C:\Users\pierr\AppData\Local\Temp\ccKdR2x8.s:227    .text.HAL_PCD_DataOutStageCallback:0000000000000000 $t
+C:\Users\pierr\AppData\Local\Temp\ccKdR2x8.s:234    .text.HAL_PCD_DataOutStageCallback:0000000000000000 HAL_PCD_DataOutStageCallback
+C:\Users\pierr\AppData\Local\Temp\ccKdR2x8.s:262    .text.HAL_PCD_DataInStageCallback:0000000000000000 $t
+C:\Users\pierr\AppData\Local\Temp\ccKdR2x8.s:269    .text.HAL_PCD_DataInStageCallback:0000000000000000 HAL_PCD_DataInStageCallback
+C:\Users\pierr\AppData\Local\Temp\ccKdR2x8.s:297    .text.HAL_PCD_SOFCallback:0000000000000000 $t
+C:\Users\pierr\AppData\Local\Temp\ccKdR2x8.s:304    .text.HAL_PCD_SOFCallback:0000000000000000 HAL_PCD_SOFCallback
+C:\Users\pierr\AppData\Local\Temp\ccKdR2x8.s:329    .text.HAL_PCD_ResetCallback:0000000000000000 $t
+C:\Users\pierr\AppData\Local\Temp\ccKdR2x8.s:336    .text.HAL_PCD_ResetCallback:0000000000000000 HAL_PCD_ResetCallback
+C:\Users\pierr\AppData\Local\Temp\ccKdR2x8.s:382    .text.HAL_PCD_SuspendCallback:0000000000000000 $t
+C:\Users\pierr\AppData\Local\Temp\ccKdR2x8.s:389    .text.HAL_PCD_SuspendCallback:0000000000000000 HAL_PCD_SuspendCallback
+C:\Users\pierr\AppData\Local\Temp\ccKdR2x8.s:428    .text.HAL_PCD_SuspendCallback:000000000000001c $d
+C:\Users\pierr\AppData\Local\Temp\ccKdR2x8.s:433    .text.HAL_PCD_ResumeCallback:0000000000000000 $t
+C:\Users\pierr\AppData\Local\Temp\ccKdR2x8.s:440    .text.HAL_PCD_ResumeCallback:0000000000000000 HAL_PCD_ResumeCallback
+C:\Users\pierr\AppData\Local\Temp\ccKdR2x8.s:465    .text.HAL_PCD_ISOOUTIncompleteCallback:0000000000000000 $t
+C:\Users\pierr\AppData\Local\Temp\ccKdR2x8.s:472    .text.HAL_PCD_ISOOUTIncompleteCallback:0000000000000000 HAL_PCD_ISOOUTIncompleteCallback
+C:\Users\pierr\AppData\Local\Temp\ccKdR2x8.s:497    .text.HAL_PCD_ISOINIncompleteCallback:0000000000000000 $t
+C:\Users\pierr\AppData\Local\Temp\ccKdR2x8.s:504    .text.HAL_PCD_ISOINIncompleteCallback:0000000000000000 HAL_PCD_ISOINIncompleteCallback
+C:\Users\pierr\AppData\Local\Temp\ccKdR2x8.s:529    .text.HAL_PCD_ConnectCallback:0000000000000000 $t
+C:\Users\pierr\AppData\Local\Temp\ccKdR2x8.s:536    .text.HAL_PCD_ConnectCallback:0000000000000000 HAL_PCD_ConnectCallback
+C:\Users\pierr\AppData\Local\Temp\ccKdR2x8.s:561    .text.HAL_PCD_DisconnectCallback:0000000000000000 $t
+C:\Users\pierr\AppData\Local\Temp\ccKdR2x8.s:568    .text.HAL_PCD_DisconnectCallback:0000000000000000 HAL_PCD_DisconnectCallback
+C:\Users\pierr\AppData\Local\Temp\ccKdR2x8.s:593    .text.USBD_LL_Init:0000000000000000 $t
+C:\Users\pierr\AppData\Local\Temp\ccKdR2x8.s:600    .text.USBD_LL_Init:0000000000000000 USBD_LL_Init
+C:\Users\pierr\AppData\Local\Temp\ccKdR2x8.s:700    .text.USBD_LL_Init:000000000000007c $d
                             *COM*:00000000000002ec hpcd_USB_FS
-C:\Users\pierr\AppData\Local\Temp\ccfTIGQi.s:706    .text.USBD_LL_DeInit:0000000000000000 $t
-C:\Users\pierr\AppData\Local\Temp\ccfTIGQi.s:713    .text.USBD_LL_DeInit:0000000000000000 USBD_LL_DeInit
-C:\Users\pierr\AppData\Local\Temp\ccfTIGQi.s:747    .text.USBD_LL_Start:0000000000000000 $t
-C:\Users\pierr\AppData\Local\Temp\ccfTIGQi.s:754    .text.USBD_LL_Start:0000000000000000 USBD_LL_Start
-C:\Users\pierr\AppData\Local\Temp\ccfTIGQi.s:788    .text.USBD_LL_Stop:0000000000000000 $t
-C:\Users\pierr\AppData\Local\Temp\ccfTIGQi.s:795    .text.USBD_LL_Stop:0000000000000000 USBD_LL_Stop
-C:\Users\pierr\AppData\Local\Temp\ccfTIGQi.s:829    .text.USBD_LL_OpenEP:0000000000000000 $t
-C:\Users\pierr\AppData\Local\Temp\ccfTIGQi.s:836    .text.USBD_LL_OpenEP:0000000000000000 USBD_LL_OpenEP
-C:\Users\pierr\AppData\Local\Temp\ccfTIGQi.s:875    .text.USBD_LL_CloseEP:0000000000000000 $t
-C:\Users\pierr\AppData\Local\Temp\ccfTIGQi.s:882    .text.USBD_LL_CloseEP:0000000000000000 USBD_LL_CloseEP
-C:\Users\pierr\AppData\Local\Temp\ccfTIGQi.s:916    .text.USBD_LL_FlushEP:0000000000000000 $t
-C:\Users\pierr\AppData\Local\Temp\ccfTIGQi.s:923    .text.USBD_LL_FlushEP:0000000000000000 USBD_LL_FlushEP
-C:\Users\pierr\AppData\Local\Temp\ccfTIGQi.s:957    .text.USBD_LL_StallEP:0000000000000000 $t
-C:\Users\pierr\AppData\Local\Temp\ccfTIGQi.s:964    .text.USBD_LL_StallEP:0000000000000000 USBD_LL_StallEP
-C:\Users\pierr\AppData\Local\Temp\ccfTIGQi.s:998    .text.USBD_LL_ClearStallEP:0000000000000000 $t
-C:\Users\pierr\AppData\Local\Temp\ccfTIGQi.s:1005   .text.USBD_LL_ClearStallEP:0000000000000000 USBD_LL_ClearStallEP
-C:\Users\pierr\AppData\Local\Temp\ccfTIGQi.s:1039   .text.USBD_LL_IsStallEP:0000000000000000 $t
-C:\Users\pierr\AppData\Local\Temp\ccfTIGQi.s:1046   .text.USBD_LL_IsStallEP:0000000000000000 USBD_LL_IsStallEP
-C:\Users\pierr\AppData\Local\Temp\ccfTIGQi.s:1091   .text.USBD_LL_SetUSBAddress:0000000000000000 $t
-ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccfTIGQi.s 			page 42
+C:\Users\pierr\AppData\Local\Temp\ccKdR2x8.s:706    .text.USBD_LL_DeInit:0000000000000000 $t
+C:\Users\pierr\AppData\Local\Temp\ccKdR2x8.s:713    .text.USBD_LL_DeInit:0000000000000000 USBD_LL_DeInit
+C:\Users\pierr\AppData\Local\Temp\ccKdR2x8.s:747    .text.USBD_LL_Start:0000000000000000 $t
+C:\Users\pierr\AppData\Local\Temp\ccKdR2x8.s:754    .text.USBD_LL_Start:0000000000000000 USBD_LL_Start
+C:\Users\pierr\AppData\Local\Temp\ccKdR2x8.s:788    .text.USBD_LL_Stop:0000000000000000 $t
+C:\Users\pierr\AppData\Local\Temp\ccKdR2x8.s:795    .text.USBD_LL_Stop:0000000000000000 USBD_LL_Stop
+C:\Users\pierr\AppData\Local\Temp\ccKdR2x8.s:829    .text.USBD_LL_OpenEP:0000000000000000 $t
+C:\Users\pierr\AppData\Local\Temp\ccKdR2x8.s:836    .text.USBD_LL_OpenEP:0000000000000000 USBD_LL_OpenEP
+C:\Users\pierr\AppData\Local\Temp\ccKdR2x8.s:875    .text.USBD_LL_CloseEP:0000000000000000 $t
+C:\Users\pierr\AppData\Local\Temp\ccKdR2x8.s:882    .text.USBD_LL_CloseEP:0000000000000000 USBD_LL_CloseEP
+C:\Users\pierr\AppData\Local\Temp\ccKdR2x8.s:916    .text.USBD_LL_FlushEP:0000000000000000 $t
+C:\Users\pierr\AppData\Local\Temp\ccKdR2x8.s:923    .text.USBD_LL_FlushEP:0000000000000000 USBD_LL_FlushEP
+C:\Users\pierr\AppData\Local\Temp\ccKdR2x8.s:957    .text.USBD_LL_StallEP:0000000000000000 $t
+C:\Users\pierr\AppData\Local\Temp\ccKdR2x8.s:964    .text.USBD_LL_StallEP:0000000000000000 USBD_LL_StallEP
+C:\Users\pierr\AppData\Local\Temp\ccKdR2x8.s:998    .text.USBD_LL_ClearStallEP:0000000000000000 $t
+C:\Users\pierr\AppData\Local\Temp\ccKdR2x8.s:1005   .text.USBD_LL_ClearStallEP:0000000000000000 USBD_LL_ClearStallEP
+C:\Users\pierr\AppData\Local\Temp\ccKdR2x8.s:1039   .text.USBD_LL_IsStallEP:0000000000000000 $t
+C:\Users\pierr\AppData\Local\Temp\ccKdR2x8.s:1046   .text.USBD_LL_IsStallEP:0000000000000000 USBD_LL_IsStallEP
+C:\Users\pierr\AppData\Local\Temp\ccKdR2x8.s:1091   .text.USBD_LL_SetUSBAddress:0000000000000000 $t
+ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccKdR2x8.s 			page 42
 
 
-C:\Users\pierr\AppData\Local\Temp\ccfTIGQi.s:1098   .text.USBD_LL_SetUSBAddress:0000000000000000 USBD_LL_SetUSBAddress
-C:\Users\pierr\AppData\Local\Temp\ccfTIGQi.s:1132   .text.USBD_LL_Transmit:0000000000000000 $t
-C:\Users\pierr\AppData\Local\Temp\ccfTIGQi.s:1139   .text.USBD_LL_Transmit:0000000000000000 USBD_LL_Transmit
-C:\Users\pierr\AppData\Local\Temp\ccfTIGQi.s:1173   .text.USBD_LL_PrepareReceive:0000000000000000 $t
-C:\Users\pierr\AppData\Local\Temp\ccfTIGQi.s:1180   .text.USBD_LL_PrepareReceive:0000000000000000 USBD_LL_PrepareReceive
-C:\Users\pierr\AppData\Local\Temp\ccfTIGQi.s:1214   .text.USBD_LL_GetRxDataSize:0000000000000000 $t
-C:\Users\pierr\AppData\Local\Temp\ccfTIGQi.s:1221   .text.USBD_LL_GetRxDataSize:0000000000000000 USBD_LL_GetRxDataSize
-C:\Users\pierr\AppData\Local\Temp\ccfTIGQi.s:1247   .text.USBD_LL_Delay:0000000000000000 $t
-C:\Users\pierr\AppData\Local\Temp\ccfTIGQi.s:1254   .text.USBD_LL_Delay:0000000000000000 USBD_LL_Delay
-C:\Users\pierr\AppData\Local\Temp\ccfTIGQi.s:1276   .text.USBD_static_malloc:0000000000000000 $t
-C:\Users\pierr\AppData\Local\Temp\ccfTIGQi.s:1283   .text.USBD_static_malloc:0000000000000000 USBD_static_malloc
-C:\Users\pierr\AppData\Local\Temp\ccfTIGQi.s:1301   .text.USBD_static_malloc:0000000000000004 $d
-C:\Users\pierr\AppData\Local\Temp\ccfTIGQi.s:1306   .text.USBD_static_free:0000000000000000 $t
-C:\Users\pierr\AppData\Local\Temp\ccfTIGQi.s:1313   .text.USBD_static_free:0000000000000000 USBD_static_free
-C:\Users\pierr\AppData\Local\Temp\ccfTIGQi.s:1327   .text.HAL_PCDEx_SetConnectionState:0000000000000000 $t
-C:\Users\pierr\AppData\Local\Temp\ccfTIGQi.s:1334   .text.HAL_PCDEx_SetConnectionState:0000000000000000 HAL_PCDEx_SetConnectionState
-C:\Users\pierr\AppData\Local\Temp\ccfTIGQi.s:1351   .bss.mem.10012:0000000000000000 $d
-C:\Users\pierr\AppData\Local\Temp\ccfTIGQi.s:1355   .bss.mem.10012:0000000000000000 mem.10012
-C:\Users\pierr\AppData\Local\Temp\ccfTIGQi.s:43     .text.USBD_Get_USB_Status:000000000000000b $d
-C:\Users\pierr\AppData\Local\Temp\ccfTIGQi.s:43     .text.USBD_Get_USB_Status:000000000000000c $t
+C:\Users\pierr\AppData\Local\Temp\ccKdR2x8.s:1098   .text.USBD_LL_SetUSBAddress:0000000000000000 USBD_LL_SetUSBAddress
+C:\Users\pierr\AppData\Local\Temp\ccKdR2x8.s:1132   .text.USBD_LL_Transmit:0000000000000000 $t
+C:\Users\pierr\AppData\Local\Temp\ccKdR2x8.s:1139   .text.USBD_LL_Transmit:0000000000000000 USBD_LL_Transmit
+C:\Users\pierr\AppData\Local\Temp\ccKdR2x8.s:1173   .text.USBD_LL_PrepareReceive:0000000000000000 $t
+C:\Users\pierr\AppData\Local\Temp\ccKdR2x8.s:1180   .text.USBD_LL_PrepareReceive:0000000000000000 USBD_LL_PrepareReceive
+C:\Users\pierr\AppData\Local\Temp\ccKdR2x8.s:1214   .text.USBD_LL_GetRxDataSize:0000000000000000 $t
+C:\Users\pierr\AppData\Local\Temp\ccKdR2x8.s:1221   .text.USBD_LL_GetRxDataSize:0000000000000000 USBD_LL_GetRxDataSize
+C:\Users\pierr\AppData\Local\Temp\ccKdR2x8.s:1247   .text.USBD_LL_Delay:0000000000000000 $t
+C:\Users\pierr\AppData\Local\Temp\ccKdR2x8.s:1254   .text.USBD_LL_Delay:0000000000000000 USBD_LL_Delay
+C:\Users\pierr\AppData\Local\Temp\ccKdR2x8.s:1276   .text.USBD_static_malloc:0000000000000000 $t
+C:\Users\pierr\AppData\Local\Temp\ccKdR2x8.s:1283   .text.USBD_static_malloc:0000000000000000 USBD_static_malloc
+C:\Users\pierr\AppData\Local\Temp\ccKdR2x8.s:1301   .text.USBD_static_malloc:0000000000000004 $d
+C:\Users\pierr\AppData\Local\Temp\ccKdR2x8.s:1306   .text.USBD_static_free:0000000000000000 $t
+C:\Users\pierr\AppData\Local\Temp\ccKdR2x8.s:1313   .text.USBD_static_free:0000000000000000 USBD_static_free
+C:\Users\pierr\AppData\Local\Temp\ccKdR2x8.s:1327   .text.HAL_PCDEx_SetConnectionState:0000000000000000 $t
+C:\Users\pierr\AppData\Local\Temp\ccKdR2x8.s:1334   .text.HAL_PCDEx_SetConnectionState:0000000000000000 HAL_PCDEx_SetConnectionState
+C:\Users\pierr\AppData\Local\Temp\ccKdR2x8.s:1351   .bss.mem.10025:0000000000000000 $d
+C:\Users\pierr\AppData\Local\Temp\ccKdR2x8.s:1355   .bss.mem.10025:0000000000000000 mem.10025
+C:\Users\pierr\AppData\Local\Temp\ccKdR2x8.s:43     .text.USBD_Get_USB_Status:000000000000000b $d
+C:\Users\pierr\AppData\Local\Temp\ccKdR2x8.s:43     .text.USBD_Get_USB_Status:000000000000000c $t
 
 UNDEFINED SYMBOLS
 HAL_NVIC_SetPriority

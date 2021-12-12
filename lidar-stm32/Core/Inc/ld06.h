@@ -16,9 +16,17 @@ typedef struct LD06 {
      float startAngle;
      uint8_t startAngleL;
      uint8_t startAngleH;
-     uint8_t data[8];     //data bytes(distance and confidence data in raw format)
-     int32_t endAngle;
-     int32_t timestamp;
-     uint8_t crcCheck;
+     float distance; 
+     uint8_t data[100];
+     uint8_t confidence;
+     float endAngle;
+     uint8_t endAngleL;
+     uint8_t endAngleM;
+     float timestamp;
+     uint8_t timestampL;
+     uint8_t timestampM;
+     uint8_t * crcCheck;
 
 }LD06;
+
+void readLidarData(UART_HandleTypeDef *huart,LD06 *lidar);
