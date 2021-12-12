@@ -32,6 +32,32 @@ void readLidarData(UART_HandleTypeDef *huart,LD06 *lidar){
         lidar->startAngle = (lidar->startAngleH<<8 + lidar->startAngleL) * 0.1;
         lidar->state++;
         break;
+    case 6: //starting angle msb
+        for(uint8_t i =0;i<lidar->dataLength;i++){
+            lidar->distance= lidar->distanceL + lidar->distanceM<<8;
+        }
+        lidar->state++;
+        break;
+    case 7: //starting angle msb
+        lidar->startAngleH = buffer;
+        lidar->startAngle = (lidar->startAngleH<<8 + lidar->startAngleL) * 0.1;
+        lidar->state++;
+        break;
+    case 8: //starting angle msb
+        lidar->startAngleH = buffer;
+        lidar->startAngle = (lidar->startAngleH<<8 + lidar->startAngleL) * 0.1;
+        lidar->state++;
+        break;
+    case 9: //starting angle msb
+        lidar->startAngleH = buffer;
+        lidar->startAngle = (lidar->startAngleH<<8 + lidar->startAngleL) * 0.1;
+        lidar->state++;
+        break;
+    case 5: //starting angle msb
+        lidar->startAngleH = buffer;
+        lidar->startAngle = (lidar->startAngleH<<8 + lidar->startAngleL) * 0.1;
+        lidar->state++;
+        break;
     }
 
 
