@@ -1,12 +1,12 @@
 #include "main.h"
 
 
-void readLidarData(UART_HandleTypeDef *huart,LD06 *lidar){
-    uint8_t *buffer = 0;
+void readLidarData(UART_HandleTypeDef *huart,LD06 *lidar, uint8_t *buffer){
+    
     uint8_t datalen=0;
-    HAL_UART_Receive_DMA(huart,buffer,8);
-
-    if(buffer==0x54)//SOF
+    
+     
+    if(&buffer==0x54)//SOF
     lidar->state=0;
 
     switch (lidar->state)
@@ -71,7 +71,7 @@ void readLidarData(UART_HandleTypeDef *huart,LD06 *lidar){
         lidar->state++;
         break;
     }
-
+   
 
 
 }

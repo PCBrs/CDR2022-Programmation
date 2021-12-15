@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\pierr\AppData\Local\Temp\cc2CZ6Lw.s 			page 1
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccxabTlE.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\pierr\AppData\Local\Temp\cc2CZ6Lw.s 			page 1
   28:USB_DEVICE/App/usb_device.c **** #include "usbd_cdc_if.h"
   29:USB_DEVICE/App/usb_device.c **** 
   30:USB_DEVICE/App/usb_device.c **** /* USER CODE BEGIN Includes */
-ARM GAS  C:\Users\pierr\AppData\Local\Temp\cc2CZ6Lw.s 			page 2
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccxabTlE.s 			page 2
 
 
   31:USB_DEVICE/App/usb_device.c **** 
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\pierr\AppData\Local\Temp\cc2CZ6Lw.s 			page 1
   41 0004 0F49     		ldr	r1, .L11
   42 0006 1048     		ldr	r0, .L11+4
   43 0008 FFF7FEFF 		bl	USBD_Init
-ARM GAS  C:\Users\pierr\AppData\Local\Temp\cc2CZ6Lw.s 			page 3
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccxabTlE.s 			page 3
 
 
   44              	.LVL0:
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\pierr\AppData\Local\Temp\cc2CZ6Lw.s 			page 1
   77              		.loc 1 74 5 is_stmt 1 view .LVU14
   78 002c FFF7FEFF 		bl	Error_Handler
   79              	.LVL4:
-ARM GAS  C:\Users\pierr\AppData\Local\Temp\cc2CZ6Lw.s 			page 4
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccxabTlE.s 			page 4
 
 
   80 0030 EDE7     		b	.L2
@@ -213,8 +213,8 @@ ARM GAS  C:\Users\pierr\AppData\Local\Temp\cc2CZ6Lw.s 			page 1
  107              		.comm	hUsbDeviceFS,708,4
  108              		.text
  109              	.Letext0:
- 110              		.file 2 "c:\\users\\pierr\\.vscode\\extensions\\buzzyelectronics.stm-helper-1.2.9\\armgcc\\arm-non
- 111              		.file 3 "c:\\users\\pierr\\.vscode\\extensions\\buzzyelectronics.stm-helper-1.2.9\\armgcc\\arm-non
+ 110              		.file 2 "c:\\users\\pierre-anthony\\.vscode\\extensions\\buzzyelectronics.stm-helper-1.2.9\\armgcc
+ 111              		.file 3 "c:\\users\\pierre-anthony\\.vscode\\extensions\\buzzyelectronics.stm-helper-1.2.9\\armgcc
  112              		.file 4 "Drivers/CMSIS/Include/core_cm4.h"
  113              		.file 5 "Drivers/CMSIS/Device/ST/STM32F3xx/Include/system_stm32f3xx.h"
  114              		.file 6 "Drivers/CMSIS/Device/ST/STM32F3xx/Include/stm32f302x8.h"
@@ -222,11 +222,11 @@ ARM GAS  C:\Users\pierr\AppData\Local\Temp\cc2CZ6Lw.s 			page 1
  116              		.file 8 "Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_dma.h"
  117              		.file 9 "Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_uart.h"
  118              		.file 10 "Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal.h"
- 119              		.file 11 "c:\\users\\pierr\\.vscode\\extensions\\buzzyelectronics.stm-helper-1.2.9\\armgcc\\arm-no
- 120              		.file 12 "c:\\users\\pierr\\.vscode\\extensions\\buzzyelectronics.stm-helper-1.2.9\\armgcc\\arm-no
- 121              		.file 13 "c:\\users\\pierr\\.vscode\\extensions\\buzzyelectronics.stm-helper-1.2.9\\armgcc\\lib\\g
- 122              		.file 14 "c:\\users\\pierr\\.vscode\\extensions\\buzzyelectronics.stm-helper-1.2.9\\armgcc\\arm-no
- 123              		.file 15 "c:\\users\\pierr\\.vscode\\extensions\\buzzyelectronics.stm-helper-1.2.9\\armgcc\\arm-no
+ 119              		.file 11 "c:\\users\\pierre-anthony\\.vscode\\extensions\\buzzyelectronics.stm-helper-1.2.9\\armgc
+ 120              		.file 12 "c:\\users\\pierre-anthony\\.vscode\\extensions\\buzzyelectronics.stm-helper-1.2.9\\armgc
+ 121              		.file 13 "c:\\users\\pierre-anthony\\.vscode\\extensions\\buzzyelectronics.stm-helper-1.2.9\\armgc
+ 122              		.file 14 "c:\\users\\pierre-anthony\\.vscode\\extensions\\buzzyelectronics.stm-helper-1.2.9\\armgc
+ 123              		.file 15 "c:\\users\\pierre-anthony\\.vscode\\extensions\\buzzyelectronics.stm-helper-1.2.9\\armgc
  124              		.file 16 "Core/Inc/usart.h"
  125              		.file 17 "Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h"
  126              		.file 18 "USB_DEVICE/App/usbd_desc.h"
@@ -234,14 +234,14 @@ ARM GAS  C:\Users\pierr\AppData\Local\Temp\cc2CZ6Lw.s 			page 1
  128              		.file 20 "USB_DEVICE/App/usbd_cdc_if.h"
  129              		.file 21 "Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_core.h"
  130              		.file 22 "Core/Inc/main.h"
-ARM GAS  C:\Users\pierr\AppData\Local\Temp\cc2CZ6Lw.s 			page 5
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccxabTlE.s 			page 5
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 usb_device.c
-C:\Users\pierr\AppData\Local\Temp\cc2CZ6Lw.s:18     .text.MX_USB_DEVICE_Init:0000000000000000 $t
-C:\Users\pierr\AppData\Local\Temp\cc2CZ6Lw.s:26     .text.MX_USB_DEVICE_Init:0000000000000000 MX_USB_DEVICE_Init
-C:\Users\pierr\AppData\Local\Temp\cc2CZ6Lw.s:100    .text.MX_USB_DEVICE_Init:0000000000000044 $d
+C:\Users\PIERRE~1\AppData\Local\Temp\ccxabTlE.s:18     .text.MX_USB_DEVICE_Init:0000000000000000 $t
+C:\Users\PIERRE~1\AppData\Local\Temp\ccxabTlE.s:26     .text.MX_USB_DEVICE_Init:0000000000000000 MX_USB_DEVICE_Init
+C:\Users\PIERRE~1\AppData\Local\Temp\ccxabTlE.s:100    .text.MX_USB_DEVICE_Init:0000000000000044 $d
                             *COM*:00000000000002c4 hUsbDeviceFS
 
 UNDEFINED SYMBOLS

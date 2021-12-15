@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccWncRNO.s 			page 1
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccHBeCzG.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccWncRNO.s 			page 1
   27:USB_DEVICE/App/usbd_desc.c **** /* USER CODE BEGIN INCLUDE */
   28:USB_DEVICE/App/usbd_desc.c **** 
   29:USB_DEVICE/App/usbd_desc.c **** /* USER CODE END INCLUDE */
-ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccWncRNO.s 			page 2
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccHBeCzG.s 			page 2
 
 
   30:USB_DEVICE/App/usbd_desc.c **** 
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccWncRNO.s 			page 1
   84:USB_DEVICE/App/usbd_desc.c **** /* USER CODE END 0 */
   85:USB_DEVICE/App/usbd_desc.c **** 
   86:USB_DEVICE/App/usbd_desc.c **** /** @defgroup USBD_DESC_Private_Macros USBD_DESC_Private_Macros
-ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccWncRNO.s 			page 3
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccHBeCzG.s 			page 3
 
 
   87:USB_DEVICE/App/usbd_desc.c ****   * @brief Private macros.
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccWncRNO.s 			page 1
  141:USB_DEVICE/App/usbd_desc.c **** , USBD_FS_InterfaceStrDescriptor
  142:USB_DEVICE/App/usbd_desc.c **** };
  143:USB_DEVICE/App/usbd_desc.c **** 
-ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccWncRNO.s 			page 4
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccHBeCzG.s 			page 4
 
 
  144:USB_DEVICE/App/usbd_desc.c **** #if defined ( __ICCARM__ ) /* IAR Compiler */
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccWncRNO.s 			page 1
  198:USB_DEVICE/App/usbd_desc.c **** __ALIGN_BEGIN uint8_t USBD_StrDesc[USBD_MAX_STR_DESC_SIZ] __ALIGN_END;
  199:USB_DEVICE/App/usbd_desc.c **** 
  200:USB_DEVICE/App/usbd_desc.c **** #if defined ( __ICCARM__ ) /*!< IAR Compiler */
-ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccWncRNO.s 			page 5
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccHBeCzG.s 			page 5
 
 
  201:USB_DEVICE/App/usbd_desc.c ****   #pragma data_alignment=4
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccWncRNO.s 			page 1
   57              		.thumb
   58              		.thumb_func
   59              		.fpu fpv4-sp-d16
-ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccWncRNO.s 			page 6
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccHBeCzG.s 			page 6
 
 
   61              	USBD_FS_LangIDStrDescriptor:
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccWncRNO.s 			page 1
  249:USB_DEVICE/App/usbd_desc.c **** uint8_t * USBD_FS_ProductStrDescriptor(USBD_SpeedTypeDef speed, uint16_t *length)
  250:USB_DEVICE/App/usbd_desc.c **** {
  251:USB_DEVICE/App/usbd_desc.c ****   if(speed == 0)
-ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccWncRNO.s 			page 7
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccHBeCzG.s 			page 7
 
 
  252:USB_DEVICE/App/usbd_desc.c ****   {
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccWncRNO.s 			page 1
  306:USB_DEVICE/App/usbd_desc.c ****   }
  307:USB_DEVICE/App/usbd_desc.c ****   else
  308:USB_DEVICE/App/usbd_desc.c ****   {
-ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccWncRNO.s 			page 8
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccHBeCzG.s 			page 8
 
 
  309:USB_DEVICE/App/usbd_desc.c ****     USBD_GetString((uint8_t *)USBD_CONFIGURATION_STRING_FS, USBD_StrDesc, length);
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccWncRNO.s 			page 1
  363:USB_DEVICE/App/usbd_desc.c **** {
   97              		.loc 1 363 1 is_stmt 1 view -0
   98              		.cfi_startproc
-ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccWncRNO.s 			page 9
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccHBeCzG.s 			page 9
 
 
   99              		@ args = 0, pretend = 0, frame = 0
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccWncRNO.s 			page 1
  136 0018 0D55     		strb	r5, [r1, r4]
  366:USB_DEVICE/App/usbd_desc.c ****   {
  137              		.loc 1 366 28 is_stmt 1 discriminator 2 view .LVU30
-ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccWncRNO.s 			page 10
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccHBeCzG.s 			page 10
 
 
  366:USB_DEVICE/App/usbd_desc.c ****   {
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccWncRNO.s 			page 1
  182              	Get_SerialNum:
  183              	.LFB133:
  339:USB_DEVICE/App/usbd_desc.c ****   uint32_t deviceserial0, deviceserial1, deviceserial2;
-ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccWncRNO.s 			page 11
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccHBeCzG.s 			page 11
 
 
  184              		.loc 1 339 1 is_stmt 1 view -0
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccWncRNO.s 			page 1
  225 0014 064D     		ldr	r5, .L21+4
  226 0016 0822     		movs	r2, #8
  227 0018 A91C     		adds	r1, r5, #2
-ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccWncRNO.s 			page 12
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccHBeCzG.s 			page 12
 
 
  228 001a FFF7FEFF 		bl	IntToUnicode
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccWncRNO.s 			page 1
  275              		.loc 1 292 3 view .LVU65
  293:USB_DEVICE/App/usbd_desc.c **** 
  276              		.loc 1 293 1 is_stmt 0 view .LVU66
-ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccWncRNO.s 			page 13
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccHBeCzG.s 			page 13
 
 
  277 000a 0148     		ldr	r0, .L25
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccWncRNO.s 			page 1
  322 000a FFF7FEFF 		bl	USBD_GetString
  323              	.LVL22:
  324              	.L29:
-ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccWncRNO.s 			page 14
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccHBeCzG.s 			page 14
 
 
  259:USB_DEVICE/App/usbd_desc.c **** }
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccWncRNO.s 			page 1
  369              		.loc 1 269 1 is_stmt 0 view .LVU81
  370 0000 10B5     		push	{r4, lr}
  371              	.LCFI5:
-ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccWncRNO.s 			page 15
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccHBeCzG.s 			page 15
 
 
  372              		.cfi_def_cfa_offset 8
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccWncRNO.s 			page 1
  418              		.loc 1 302 1 is_stmt 0 view .LVU89
  419 0000 08B5     		push	{r3, lr}
  420              	.LCFI6:
-ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccWncRNO.s 			page 16
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccHBeCzG.s 			page 16
 
 
  421              		.cfi_def_cfa_offset 8
@@ -958,7 +958,7 @@ ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccWncRNO.s 			page 1
  465              	.LC3:
  466 0000 43444320 		.ascii	"CDC Interface\000"
  466      496E7465 
-ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccWncRNO.s 			page 17
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccHBeCzG.s 			page 17
 
 
  466      72666163 
@@ -1018,7 +1018,7 @@ ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccWncRNO.s 			page 1
  510              	.LVL44:
  328:USB_DEVICE/App/usbd_desc.c ****   }
  511              		.loc 1 328 5 is_stmt 0 view .LVU111
-ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccWncRNO.s 			page 18
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccHBeCzG.s 			page 18
 
 
  512 0014 0248     		ldr	r0, .L47+4
@@ -1078,16 +1078,16 @@ ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccWncRNO.s 			page 1
  566      00000000 
  567              		.text
  568              	.Letext0:
-ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccWncRNO.s 			page 19
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccHBeCzG.s 			page 19
 
 
- 569              		.file 2 "c:\\users\\pierr\\.vscode\\extensions\\buzzyelectronics.stm-helper-1.2.9\\armgcc\\arm-non
- 570              		.file 3 "c:\\users\\pierr\\.vscode\\extensions\\buzzyelectronics.stm-helper-1.2.9\\armgcc\\arm-non
- 571              		.file 4 "c:\\users\\pierr\\.vscode\\extensions\\buzzyelectronics.stm-helper-1.2.9\\armgcc\\arm-non
- 572              		.file 5 "c:\\users\\pierr\\.vscode\\extensions\\buzzyelectronics.stm-helper-1.2.9\\armgcc\\lib\\gc
- 573              		.file 6 "c:\\users\\pierr\\.vscode\\extensions\\buzzyelectronics.stm-helper-1.2.9\\armgcc\\arm-non
- 574              		.file 7 "c:\\users\\pierr\\.vscode\\extensions\\buzzyelectronics.stm-helper-1.2.9\\armgcc\\arm-non
- 575              		.file 8 "c:\\users\\pierr\\.vscode\\extensions\\buzzyelectronics.stm-helper-1.2.9\\armgcc\\arm-non
+ 569              		.file 2 "c:\\users\\pierre-anthony\\.vscode\\extensions\\buzzyelectronics.stm-helper-1.2.9\\armgcc
+ 570              		.file 3 "c:\\users\\pierre-anthony\\.vscode\\extensions\\buzzyelectronics.stm-helper-1.2.9\\armgcc
+ 571              		.file 4 "c:\\users\\pierre-anthony\\.vscode\\extensions\\buzzyelectronics.stm-helper-1.2.9\\armgcc
+ 572              		.file 5 "c:\\users\\pierre-anthony\\.vscode\\extensions\\buzzyelectronics.stm-helper-1.2.9\\armgcc
+ 573              		.file 6 "c:\\users\\pierre-anthony\\.vscode\\extensions\\buzzyelectronics.stm-helper-1.2.9\\armgcc
+ 574              		.file 7 "c:\\users\\pierre-anthony\\.vscode\\extensions\\buzzyelectronics.stm-helper-1.2.9\\armgcc
+ 575              		.file 8 "c:\\users\\pierre-anthony\\.vscode\\extensions\\buzzyelectronics.stm-helper-1.2.9\\armgcc
  576              		.file 9 "Drivers/CMSIS/Include/core_cm4.h"
  577              		.file 10 "Drivers/CMSIS/Device/ST/STM32F3xx/Include/system_stm32f3xx.h"
  578              		.file 11 "Drivers/CMSIS/Device/ST/STM32F3xx/Include/stm32f302x8.h"
@@ -1099,50 +1099,50 @@ ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccWncRNO.s 			page 1
  584              		.file 17 "Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h"
  585              		.file 18 "USB_DEVICE/App/usbd_desc.h"
  586              		.file 19 "Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ctlreq.h"
-ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccWncRNO.s 			page 20
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccHBeCzG.s 			page 20
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 usbd_desc.c
-C:\Users\pierr\AppData\Local\Temp\ccWncRNO.s:18     .text.USBD_FS_DeviceDescriptor:0000000000000000 $t
-C:\Users\pierr\AppData\Local\Temp\ccWncRNO.s:26     .text.USBD_FS_DeviceDescriptor:0000000000000000 USBD_FS_DeviceDescriptor
-C:\Users\pierr\AppData\Local\Temp\ccWncRNO.s:49     .text.USBD_FS_DeviceDescriptor:0000000000000008 $d
-C:\Users\pierr\AppData\Local\Temp\ccWncRNO.s:54     .text.USBD_FS_LangIDStrDescriptor:0000000000000000 $t
-C:\Users\pierr\AppData\Local\Temp\ccWncRNO.s:61     .text.USBD_FS_LangIDStrDescriptor:0000000000000000 USBD_FS_LangIDStrDescriptor
-C:\Users\pierr\AppData\Local\Temp\ccWncRNO.s:83     .text.USBD_FS_LangIDStrDescriptor:0000000000000008 $d
-C:\Users\pierr\AppData\Local\Temp\ccWncRNO.s:88     .text.IntToUnicode:0000000000000000 $t
-C:\Users\pierr\AppData\Local\Temp\ccWncRNO.s:94     .text.IntToUnicode:0000000000000000 IntToUnicode
-C:\Users\pierr\AppData\Local\Temp\ccWncRNO.s:176    .text.Get_SerialNum:0000000000000000 $t
-C:\Users\pierr\AppData\Local\Temp\ccWncRNO.s:182    .text.Get_SerialNum:0000000000000000 Get_SerialNum
-C:\Users\pierr\AppData\Local\Temp\ccWncRNO.s:241    .text.Get_SerialNum:000000000000002c $d
-C:\Users\pierr\AppData\Local\Temp\ccWncRNO.s:247    .text.USBD_FS_SerialStrDescriptor:0000000000000000 $t
-C:\Users\pierr\AppData\Local\Temp\ccWncRNO.s:254    .text.USBD_FS_SerialStrDescriptor:0000000000000000 USBD_FS_SerialStrDescriptor
-C:\Users\pierr\AppData\Local\Temp\ccWncRNO.s:282    .text.USBD_FS_SerialStrDescriptor:0000000000000010 $d
-C:\Users\pierr\AppData\Local\Temp\ccWncRNO.s:287    .rodata.USBD_FS_ProductStrDescriptor.str1.4:0000000000000000 $d
-C:\Users\pierr\AppData\Local\Temp\ccWncRNO.s:291    .text.USBD_FS_ProductStrDescriptor:0000000000000000 $t
-C:\Users\pierr\AppData\Local\Temp\ccWncRNO.s:298    .text.USBD_FS_ProductStrDescriptor:0000000000000000 USBD_FS_ProductStrDescriptor
-C:\Users\pierr\AppData\Local\Temp\ccWncRNO.s:345    .text.USBD_FS_ProductStrDescriptor:000000000000001c $d
+C:\Users\PIERRE~1\AppData\Local\Temp\ccHBeCzG.s:18     .text.USBD_FS_DeviceDescriptor:0000000000000000 $t
+C:\Users\PIERRE~1\AppData\Local\Temp\ccHBeCzG.s:26     .text.USBD_FS_DeviceDescriptor:0000000000000000 USBD_FS_DeviceDescriptor
+C:\Users\PIERRE~1\AppData\Local\Temp\ccHBeCzG.s:49     .text.USBD_FS_DeviceDescriptor:0000000000000008 $d
+C:\Users\PIERRE~1\AppData\Local\Temp\ccHBeCzG.s:54     .text.USBD_FS_LangIDStrDescriptor:0000000000000000 $t
+C:\Users\PIERRE~1\AppData\Local\Temp\ccHBeCzG.s:61     .text.USBD_FS_LangIDStrDescriptor:0000000000000000 USBD_FS_LangIDStrDescriptor
+C:\Users\PIERRE~1\AppData\Local\Temp\ccHBeCzG.s:83     .text.USBD_FS_LangIDStrDescriptor:0000000000000008 $d
+C:\Users\PIERRE~1\AppData\Local\Temp\ccHBeCzG.s:88     .text.IntToUnicode:0000000000000000 $t
+C:\Users\PIERRE~1\AppData\Local\Temp\ccHBeCzG.s:94     .text.IntToUnicode:0000000000000000 IntToUnicode
+C:\Users\PIERRE~1\AppData\Local\Temp\ccHBeCzG.s:176    .text.Get_SerialNum:0000000000000000 $t
+C:\Users\PIERRE~1\AppData\Local\Temp\ccHBeCzG.s:182    .text.Get_SerialNum:0000000000000000 Get_SerialNum
+C:\Users\PIERRE~1\AppData\Local\Temp\ccHBeCzG.s:241    .text.Get_SerialNum:000000000000002c $d
+C:\Users\PIERRE~1\AppData\Local\Temp\ccHBeCzG.s:247    .text.USBD_FS_SerialStrDescriptor:0000000000000000 $t
+C:\Users\PIERRE~1\AppData\Local\Temp\ccHBeCzG.s:254    .text.USBD_FS_SerialStrDescriptor:0000000000000000 USBD_FS_SerialStrDescriptor
+C:\Users\PIERRE~1\AppData\Local\Temp\ccHBeCzG.s:282    .text.USBD_FS_SerialStrDescriptor:0000000000000010 $d
+C:\Users\PIERRE~1\AppData\Local\Temp\ccHBeCzG.s:287    .rodata.USBD_FS_ProductStrDescriptor.str1.4:0000000000000000 $d
+C:\Users\PIERRE~1\AppData\Local\Temp\ccHBeCzG.s:291    .text.USBD_FS_ProductStrDescriptor:0000000000000000 $t
+C:\Users\PIERRE~1\AppData\Local\Temp\ccHBeCzG.s:298    .text.USBD_FS_ProductStrDescriptor:0000000000000000 USBD_FS_ProductStrDescriptor
+C:\Users\PIERRE~1\AppData\Local\Temp\ccHBeCzG.s:345    .text.USBD_FS_ProductStrDescriptor:000000000000001c $d
                             *COM*:0000000000000200 USBD_StrDesc
-C:\Users\pierr\AppData\Local\Temp\ccWncRNO.s:351    .rodata.USBD_FS_ManufacturerStrDescriptor.str1.4:0000000000000000 $d
-C:\Users\pierr\AppData\Local\Temp\ccWncRNO.s:355    .text.USBD_FS_ManufacturerStrDescriptor:0000000000000000 $t
-C:\Users\pierr\AppData\Local\Temp\ccWncRNO.s:362    .text.USBD_FS_ManufacturerStrDescriptor:0000000000000000 USBD_FS_ManufacturerStrDescriptor
-C:\Users\pierr\AppData\Local\Temp\ccWncRNO.s:394    .text.USBD_FS_ManufacturerStrDescriptor:0000000000000014 $d
-C:\Users\pierr\AppData\Local\Temp\ccWncRNO.s:400    .rodata.USBD_FS_ConfigStrDescriptor.str1.4:0000000000000000 $d
-C:\Users\pierr\AppData\Local\Temp\ccWncRNO.s:404    .text.USBD_FS_ConfigStrDescriptor:0000000000000000 $t
-C:\Users\pierr\AppData\Local\Temp\ccWncRNO.s:411    .text.USBD_FS_ConfigStrDescriptor:0000000000000000 USBD_FS_ConfigStrDescriptor
-C:\Users\pierr\AppData\Local\Temp\ccWncRNO.s:458    .text.USBD_FS_ConfigStrDescriptor:000000000000001c $d
-C:\Users\pierr\AppData\Local\Temp\ccWncRNO.s:464    .rodata.USBD_FS_InterfaceStrDescriptor.str1.4:0000000000000000 $d
-C:\Users\pierr\AppData\Local\Temp\ccWncRNO.s:468    .text.USBD_FS_InterfaceStrDescriptor:0000000000000000 $t
-C:\Users\pierr\AppData\Local\Temp\ccWncRNO.s:475    .text.USBD_FS_InterfaceStrDescriptor:0000000000000000 USBD_FS_InterfaceStrDescriptor
-C:\Users\pierr\AppData\Local\Temp\ccWncRNO.s:522    .text.USBD_FS_InterfaceStrDescriptor:000000000000001c $d
-C:\Users\pierr\AppData\Local\Temp\ccWncRNO.s:564    .data.USBD_StringSerial:0000000000000000 USBD_StringSerial
-C:\Users\pierr\AppData\Local\Temp\ccWncRNO.s:557    .data.USBD_LangIDDesc:0000000000000000 USBD_LangIDDesc
-C:\Users\pierr\AppData\Local\Temp\ccWncRNO.s:549    .data.USBD_FS_DeviceDesc:0000000000000000 USBD_FS_DeviceDesc
-C:\Users\pierr\AppData\Local\Temp\ccWncRNO.s:536    .data.FS_Desc:0000000000000000 FS_Desc
-C:\Users\pierr\AppData\Local\Temp\ccWncRNO.s:533    .data.FS_Desc:0000000000000000 $d
-C:\Users\pierr\AppData\Local\Temp\ccWncRNO.s:545    .data.USBD_FS_DeviceDesc:0000000000000000 $d
-C:\Users\pierr\AppData\Local\Temp\ccWncRNO.s:553    .data.USBD_LangIDDesc:0000000000000000 $d
-C:\Users\pierr\AppData\Local\Temp\ccWncRNO.s:560    .data.USBD_StringSerial:0000000000000000 $d
+C:\Users\PIERRE~1\AppData\Local\Temp\ccHBeCzG.s:351    .rodata.USBD_FS_ManufacturerStrDescriptor.str1.4:0000000000000000 $d
+C:\Users\PIERRE~1\AppData\Local\Temp\ccHBeCzG.s:355    .text.USBD_FS_ManufacturerStrDescriptor:0000000000000000 $t
+C:\Users\PIERRE~1\AppData\Local\Temp\ccHBeCzG.s:362    .text.USBD_FS_ManufacturerStrDescriptor:0000000000000000 USBD_FS_ManufacturerStrDescriptor
+C:\Users\PIERRE~1\AppData\Local\Temp\ccHBeCzG.s:394    .text.USBD_FS_ManufacturerStrDescriptor:0000000000000014 $d
+C:\Users\PIERRE~1\AppData\Local\Temp\ccHBeCzG.s:400    .rodata.USBD_FS_ConfigStrDescriptor.str1.4:0000000000000000 $d
+C:\Users\PIERRE~1\AppData\Local\Temp\ccHBeCzG.s:404    .text.USBD_FS_ConfigStrDescriptor:0000000000000000 $t
+C:\Users\PIERRE~1\AppData\Local\Temp\ccHBeCzG.s:411    .text.USBD_FS_ConfigStrDescriptor:0000000000000000 USBD_FS_ConfigStrDescriptor
+C:\Users\PIERRE~1\AppData\Local\Temp\ccHBeCzG.s:458    .text.USBD_FS_ConfigStrDescriptor:000000000000001c $d
+C:\Users\PIERRE~1\AppData\Local\Temp\ccHBeCzG.s:464    .rodata.USBD_FS_InterfaceStrDescriptor.str1.4:0000000000000000 $d
+C:\Users\PIERRE~1\AppData\Local\Temp\ccHBeCzG.s:468    .text.USBD_FS_InterfaceStrDescriptor:0000000000000000 $t
+C:\Users\PIERRE~1\AppData\Local\Temp\ccHBeCzG.s:475    .text.USBD_FS_InterfaceStrDescriptor:0000000000000000 USBD_FS_InterfaceStrDescriptor
+C:\Users\PIERRE~1\AppData\Local\Temp\ccHBeCzG.s:522    .text.USBD_FS_InterfaceStrDescriptor:000000000000001c $d
+C:\Users\PIERRE~1\AppData\Local\Temp\ccHBeCzG.s:564    .data.USBD_StringSerial:0000000000000000 USBD_StringSerial
+C:\Users\PIERRE~1\AppData\Local\Temp\ccHBeCzG.s:557    .data.USBD_LangIDDesc:0000000000000000 USBD_LangIDDesc
+C:\Users\PIERRE~1\AppData\Local\Temp\ccHBeCzG.s:549    .data.USBD_FS_DeviceDesc:0000000000000000 USBD_FS_DeviceDesc
+C:\Users\PIERRE~1\AppData\Local\Temp\ccHBeCzG.s:536    .data.FS_Desc:0000000000000000 FS_Desc
+C:\Users\PIERRE~1\AppData\Local\Temp\ccHBeCzG.s:533    .data.FS_Desc:0000000000000000 $d
+C:\Users\PIERRE~1\AppData\Local\Temp\ccHBeCzG.s:545    .data.USBD_FS_DeviceDesc:0000000000000000 $d
+C:\Users\PIERRE~1\AppData\Local\Temp\ccHBeCzG.s:553    .data.USBD_LangIDDesc:0000000000000000 $d
+C:\Users\PIERRE~1\AppData\Local\Temp\ccHBeCzG.s:560    .data.USBD_StringSerial:0000000000000000 $d
 
 UNDEFINED SYMBOLS
 USBD_GetString

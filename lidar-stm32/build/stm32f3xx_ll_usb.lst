@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s 			page 1
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccPtOOsN.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s 			page 1
   27:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c ****   * @attention
   28:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c ****   *
   29:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c ****   * <h2><center>&copy; Copyright (c) 2016 STMicroelectronics.
-ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s 			page 2
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccPtOOsN.s 			page 2
 
 
   30:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c ****   * All rights reserved.</center></h2>
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s 			page 1
   69:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c **** 
   70:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c ****   /* NOTE : - This function is not required by USB Device FS peripheral, it is used
   71:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c ****               only by USB OTG FS peripheral.
-ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s 			page 3
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccPtOOsN.s 			page 3
 
 
   72:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c ****             - This function is added to ensure compatibility across platforms.
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s 			page 1
   80              		.loc 1 92 3 is_stmt 1 view .LVU13
   81              	.LVL4:
   93:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c ****                    USB_CNTR_SUSPM | USB_CNTR_ERRM |
-ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s 			page 4
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccPtOOsN.s 			page 4
 
 
   94:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c ****                    USB_CNTR_SOFM | USB_CNTR_ESOFM |
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s 			page 1
  111              		.loc 1 120 14 is_stmt 0 view .LVU22
  112 0000 B0F84030 		ldrh	r3, [r0, #64]
  113 0004 23F47C53 		bic	r3, r3, #16128
-ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s 			page 5
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccPtOOsN.s 			page 5
 
 
  114 0008 5B04     		lsls	r3, r3, #17
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s 			page 1
  146 0000 0020     		movs	r0, #0
  147              	.LVL8:
  148              		.loc 1 144 1 view .LVU31
-ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s 			page 6
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccPtOOsN.s 			page 6
 
 
  149 0002 7047     		bx	lr
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s 			page 1
  163:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c ****   /* CNTR_FRES = 0 */
  164:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c ****   USBx->CNTR = 0U;
  187              		.loc 1 164 3 is_stmt 1 view .LVU38
-ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s 			page 7
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccPtOOsN.s 			page 7
 
 
  188              		.loc 1 164 14 is_stmt 0 view .LVU39
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s 			page 1
  225              		@ args = 0, pretend = 0, frame = 0
  226              		@ frame_needed = 0, uses_anonymous_args = 0
  227              		@ link register save eliminated.
-ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s 			page 8
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccPtOOsN.s 			page 8
 
 
  228              		.loc 1 183 1 is_stmt 0 view .LVU48
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s 			page 1
  199:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c **** 
  200:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c ****     case EP_TYPE_INTR:
  201:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c ****       wEpRegVal |= USB_EP_INTERRUPT;
-ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s 			page 9
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccPtOOsN.s 			page 9
 
 
  202:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c ****       break;
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s 			page 1
  303 0056 4ED0     		beq	.L16
  220:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c ****     {
  221:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c ****       /*Set the endpoint Transmit buffer address */
-ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s 			page 10
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccPtOOsN.s 			page 10
 
 
  222:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c ****       PCD_SET_EP_TX_ADDRESS(USBx, ep->num, ep->pmaadress);
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s 			page 1
  356              		.loc 1 223 7 discriminator 3 view .LVU91
  224:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c **** 
  225:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c ****       if (ep->type != EP_TYPE_ISOC)
-ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s 			page 11
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccPtOOsN.s 			page 11
 
 
  357              		.loc 1 225 7 discriminator 3 view .LVU92
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s 			page 1
  402              		.loc 1 202 7 is_stmt 1 view .LVU110
  184:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c ****   uint16_t wEpRegVal;
  403              		.loc 1 184 21 is_stmt 0 view .LVU111
-ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s 			page 12
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccPtOOsN.s 			page 12
 
 
  404 00c8 0020     		movs	r0, #0
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s 			page 1
  446              		.loc 1 233 9 view .LVU127
  447              	.LBE7:
  234:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c ****       }
-ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s 			page 13
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccPtOOsN.s 			page 13
 
 
  235:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c ****     }
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s 			page 1
  494              		.loc 1 242 7 discriminator 1 view .LVU145
  495 0130 B2F80644 		ldrh	r4, [r2, #1030]
  496 0134 6FEA4444 		mvn	r4, r4, lsl #17
-ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s 			page 14
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccPtOOsN.s 			page 14
 
 
  497 0138 6FEA5444 		mvn	r4, r4, lsr #17
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s 			page 1
  547 016e 92B2     		uxth	r2, r2
  548 0170 22F48042 		bic	r2, r2, #16384
  549 0174 22F07002 		bic	r2, r2, #112
-ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s 			page 15
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccPtOOsN.s 			page 15
 
 
  550              	.LVL51:
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s 			page 1
  285:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c ****       }
  286:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c ****       else
  287:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c ****       {
-ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s 			page 16
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccPtOOsN.s 			page 16
 
 
  288:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c ****         /* Configure TX Endpoint to disabled state */
@@ -958,7 +958,7 @@ ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s 			page 1
  602              		.loc 1 242 7 is_stmt 1 discriminator 8 view .LVU183
  603 01a2 CEE7     		b	.L21
  604              	.L22:
-ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s 			page 17
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccPtOOsN.s 			page 17
 
 
  242:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c ****       PCD_CLEAR_RX_DTOG(USBx, ep->num);
@@ -1018,7 +1018,7 @@ ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s 			page 1
  260:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c ****     }
  646              		.loc 1 260 7 is_stmt 0 view .LVU197
  647 01d8 42F08002 		orr	r2, r2, #128
-ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s 			page 18
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccPtOOsN.s 			page 18
 
 
  648 01dc 23F82420 		strh	r2, [r3, r4, lsl #2]	@ movhi
@@ -1078,7 +1078,7 @@ ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s 			page 1
  264:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c **** 
  685              		.loc 1 264 5 is_stmt 0 discriminator 1 view .LVU215
  686 01fc 13FA82F2 		uxtah	r2, r3, r2
-ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s 			page 19
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccPtOOsN.s 			page 19
 
 
  687              	.LVL68:
@@ -1138,7 +1138,7 @@ ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s 			page 1
  725 0226 92B2     		uxth	r2, r2
  726 0228 22F4E042 		bic	r2, r2, #28672
  727 022c 22F07002 		bic	r2, r2, #112
-ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s 			page 20
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccPtOOsN.s 			page 20
 
 
  728              	.LVL73:
@@ -1198,7 +1198,7 @@ ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s 			page 1
  767 025e 23F82420 		strh	r2, [r3, r4, lsl #2]	@ movhi
  768              	.L30:
  270:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c **** 
-ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s 			page 21
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccPtOOsN.s 			page 21
 
 
  769              		.loc 1 270 7 discriminator 1 view .LVU247
@@ -1258,7 +1258,7 @@ ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s 			page 1
  807 0288 22F4E042 		bic	r2, r2, #28672
  808 028c 22F04002 		bic	r2, r2, #64
  809              	.LVL83:
-ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s 			page 22
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccPtOOsN.s 			page 22
 
 
  273:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c ****     }
@@ -1318,7 +1318,7 @@ ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s 			page 1
  849              		.loc 1 278 7 view .LVU278
  850 02bc 12F4804F 		tst	r2, #16384
  851 02c0 0CD0     		beq	.L31
-ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s 			page 23
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccPtOOsN.s 			page 23
 
 
  278:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c ****       PCD_CLEAR_TX_DTOG(USBx, ep->num);
@@ -1378,7 +1378,7 @@ ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s 			page 1
  890              	.LVL93:
  279:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c **** 
  891              		.loc 1 279 7 is_stmt 0 discriminator 1 view .LVU295
-ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s 			page 24
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccPtOOsN.s 			page 24
 
 
  892 02ec 92B2     		uxth	r2, r2
@@ -1438,7 +1438,7 @@ ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s 			page 1
  931              	.LVL98:
  284:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c ****       }
  932              		.loc 1 284 9 is_stmt 0 view .LVU311
-ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s 			page 25
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccPtOOsN.s 			page 25
 
 
  933 0320 42F08002 		orr	r2, r2, #128
@@ -1498,7 +1498,7 @@ ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s 			page 1
  973              	.LVL103:
  289:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c ****       }
  974              		.loc 1 289 9 view .LVU326
-ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s 			page 26
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccPtOOsN.s 			page 26
 
 
  289:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c ****       }
@@ -1558,7 +1558,7 @@ ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s 			page 1
  1014              		.loc 1 311 7 is_stmt 1 view .LVU337
  1015              	.LBB33:
  1016              		.loc 1 311 7 view .LVU338
-ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s 			page 27
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccPtOOsN.s 			page 27
 
 
  1017              		.loc 1 311 7 view .LVU339
@@ -1618,7 +1618,7 @@ ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s 			page 1
  315:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c ****     }
  316:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c ****     else
  317:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c ****     {
-ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s 			page 28
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccPtOOsN.s 			page 28
 
 
  318:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c ****       PCD_CLEAR_RX_DTOG(USBx, ep->num);
@@ -1678,7 +1678,7 @@ ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s 			page 1
  1083              	.LVL114:
  318:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c **** 
  1084              		.loc 1 318 7 view .LVU365
-ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s 			page 29
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccPtOOsN.s 			page 29
 
 
  1085 0056 13F4804F 		tst	r3, #16384
@@ -1738,7 +1738,7 @@ ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s 			page 1
  1124              	.LVL119:
  321:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c ****     }
  1125              		.loc 1 321 7 is_stmt 0 discriminator 3 view .LVU381
-ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s 			page 30
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccPtOOsN.s 			page 30
 
 
  1126 008a 43F08003 		orr	r3, r3, #128
@@ -1798,7 +1798,7 @@ ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s 			page 1
  1166              	.LVL123:
  330:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c ****       PCD_CLEAR_TX_DTOG(USBx, ep->num);
  1167              		.loc 1 330 7 is_stmt 0 discriminator 1 view .LVU396
-ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s 			page 31
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccPtOOsN.s 			page 31
 
 
  1168 00ba 43F08003 		orr	r3, r3, #128
@@ -1858,7 +1858,7 @@ ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s 			page 1
  1207              	.LBE41:
  331:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c **** 
  1208              		.loc 1 331 7 discriminator 3 view .LVU412
-ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s 			page 32
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccPtOOsN.s 			page 32
 
 
  334:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c **** 
@@ -1918,7 +1918,7 @@ ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s 			page 1
  1248              	.LBB45:
  337:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c ****     }
  1249              		.loc 1 337 7 discriminator 3 view .LVU428
-ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s 			page 33
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccPtOOsN.s 			page 33
 
 
  337:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c ****     }
@@ -1978,7 +1978,7 @@ ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s 			page 1
  1292 0146 0CD0     		beq	.L47
  342:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c ****       PCD_CLEAR_TX_DTOG(USBx, ep->num);
  1293              		.loc 1 342 7 discriminator 1 view .LVU443
-ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s 			page 34
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccPtOOsN.s 			page 34
 
 
  1294              	.LBB47:
@@ -2038,7 +2038,7 @@ ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s 			page 1
  1332              		.loc 1 343 7 is_stmt 0 discriminator 1 view .LVU459
  1333 0172 9BB2     		uxth	r3, r3
  1334 0174 23F4E043 		bic	r3, r3, #28672
-ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s 			page 35
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccPtOOsN.s 			page 35
 
 
  1335 0178 23F07003 		bic	r3, r3, #112
@@ -2098,7 +2098,7 @@ ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s 			page 1
  1375 01b0 22F04002 		bic	r2, r2, #64
  1376              	.LVL146:
  347:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c ****       PCD_SET_EP_RX_STATUS(USBx, ep->num, USB_EP_RX_DIS);
-ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s 			page 36
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccPtOOsN.s 			page 36
 
 
  1377              		.loc 1 347 7 discriminator 3 view .LVU474
@@ -2158,7 +2158,7 @@ ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s 			page 1
  356:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c ****   * @brief  USB_EPStartXfer setup and starts a transfer over an EP
  357:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c ****   * @param  USBx Selected device
  358:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c ****   * @param  ep pointer to endpoint structure
-ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s 			page 37
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccPtOOsN.s 			page 37
 
 
  359:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c ****   * @retval HAL status
@@ -2218,7 +2218,7 @@ ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s 			page 1
  413:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c ****             }
  414:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c ****             else
  415:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c ****             {
-ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s 			page 38
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccPtOOsN.s 			page 38
 
 
  416:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c ****               len = ep->xfer_len_db;
@@ -2278,7 +2278,7 @@ ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s 			page 1
  470:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c ****       }
  471:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c ****       else /* manage isochronous double buffer IN mode */
  472:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c ****       {
-ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s 			page 39
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccPtOOsN.s 			page 39
 
 
  473:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c ****         /* each Time to write in PMA xfer_len_db will */
@@ -2338,7 +2338,7 @@ ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s 			page 1
  527:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c ****         if (ep->xfer_count != 0U)
  528:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c ****         {
  529:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c ****           /* update last value to check if there is blocking state */
-ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s 			page 40
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccPtOOsN.s 			page 40
 
 
  530:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c ****           wEPVal = PCD_GET_ENDPOINT(USBx, ep->num);
@@ -2398,7 +2398,7 @@ ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s 			page 1
  1426              		.loc 1 577 9 is_stmt 0 view .LVU488
  1427 0000 4B78     		ldrb	r3, [r1, #1]	@ zero_extendqisi2
  1428              		.loc 1 577 6 view .LVU489
-ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s 			page 41
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccPtOOsN.s 			page 41
 
 
  1429 0002 8BB1     		cbz	r3, .L53
@@ -2458,7 +2458,7 @@ ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s 			page 1
  1470 0030 23F48043 		bic	r3, r3, #16384
  1471 0034 23F07003 		bic	r3, r3, #112
  1472              	.LVL156:
-ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s 			page 42
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccPtOOsN.s 			page 42
 
 
  583:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c ****   }
@@ -2518,7 +2518,7 @@ ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s 			page 1
  1512              		.loc 1 599 11 is_stmt 0 view .LVU516
  1513 0006 4B78     		ldrb	r3, [r1, #1]	@ zero_extendqisi2
  1514              		.loc 1 599 8 view .LVU517
-ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s 			page 43
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccPtOOsN.s 			page 43
 
 
  1515 0008 33B3     		cbz	r3, .L57
@@ -2578,7 +2578,7 @@ ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s 			page 1
  1562 003e 23F4E043 		bic	r3, r3, #28672
  1563 0042 23F04003 		bic	r3, r3, #64
  1564              	.LVL164:
-ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s 			page 44
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccPtOOsN.s 			page 44
 
 
  1565              		.loc 1 606 9 view .LVU537
@@ -2638,7 +2638,7 @@ ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s 			page 1
  613:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c ****       /* Configure VALID status for the Endpoint */
  614:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c ****       PCD_SET_EP_RX_STATUS(USBx, ep->num, USB_EP_RX_VALID);
  1613              		.loc 1 614 7 discriminator 3 view .LVU556
-ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s 			page 45
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccPtOOsN.s 			page 45
 
 
  1614              	.LBB60:
@@ -2698,7 +2698,7 @@ ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s 			page 1
  626:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c ****   */
  627:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c **** HAL_StatusTypeDef USB_StopDevice(USB_TypeDef *USBx)
  628:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c **** {
-ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s 			page 46
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccPtOOsN.s 			page 46
 
 
  1659              		.loc 1 628 1 is_stmt 1 view -0
@@ -2758,7 +2758,7 @@ ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s 			page 1
  647:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c ****   */
  648:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c **** HAL_StatusTypeDef  USB_SetDevAddress(USB_TypeDef *USBx, uint8_t address)
  649:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c **** {
-ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s 			page 47
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccPtOOsN.s 			page 47
 
 
  1697              		.loc 1 649 1 is_stmt 1 view -0
@@ -2818,7 +2818,7 @@ ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s 			page 1
  1735              		.loc 1 667 3 view .LVU590
  668:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c **** 
  669:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c ****   /* NOTE : - This function is not required by USB Device FS peripheral, it is used
-ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s 			page 48
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccPtOOsN.s 			page 48
 
 
  670:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c ****               only by USB OTG FS peripheral.
@@ -2878,7 +2878,7 @@ ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s 			page 1
  1768              		.cfi_endproc
  1769              	.LFE136:
  1771              		.section	.text.USB_ReadInterrupts,"ax",%progbits
-ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s 			page 49
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccPtOOsN.s 			page 49
 
 
  1772              		.align	1
@@ -2938,7 +2938,7 @@ ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s 			page 1
  711:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c ****   * @retval HAL status
  712:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c ****   */
  713:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c **** HAL_StatusTypeDef USB_ActivateRemoteWakeup(USB_TypeDef *USBx)
-ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s 			page 50
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccPtOOsN.s 			page 50
 
 
  714:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c **** {
@@ -2998,7 +2998,7 @@ ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s 			page 1
  1854 000c A0F84030 		strh	r3, [r0, #64]	@ movhi
  728:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c **** 
  729:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c ****   return HAL_OK;
-ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s 			page 51
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccPtOOsN.s 			page 51
 
 
  1855              		.loc 1 729 3 is_stmt 1 view .LVU615
@@ -3058,7 +3058,7 @@ ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s 			page 1
  1894              		.loc 1 746 3 view .LVU626
  747:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c **** 
  748:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c ****   pdwVal = (__IO uint16_t *)(BaseAddr + 0x400U + ((uint32_t)wPMABufAddr * PMA_ACCESS));
-ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s 			page 52
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccPtOOsN.s 			page 52
 
 
  1895              		.loc 1 748 3 view .LVU627
@@ -3118,7 +3118,7 @@ ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s 			page 1
  1932              		.loc 1 750 25 discriminator 3 view .LVU646
  1933 001e F5E7     		b	.L69
  1934              	.LVL200:
-ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s 			page 53
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccPtOOsN.s 			page 53
 
 
  1935              	.L72:
@@ -3178,7 +3178,7 @@ ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s 			page 1
  502:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c ****     {
  1981              		.loc 1 502 5 is_stmt 1 view .LVU657
  502:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c ****     {
-ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s 			page 54
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccPtOOsN.s 			page 54
 
 
  1982              		.loc 1 502 11 is_stmt 0 view .LVU658
@@ -3238,7 +3238,7 @@ ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s 			page 1
  516:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c ****     }
  2020              		.loc 1 516 7 view .LVU675
  2021 0030 002A     		cmp	r2, #0
-ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s 			page 55
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccPtOOsN.s 			page 55
 
 
  2022 0032 40F05B82 		bne	.L126
@@ -3298,7 +3298,7 @@ ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s 			page 1
  2063 0074 25F82230 		strh	r3, [r5, r2, lsl #2]	@ movhi
  2064              	.LBE64:
  565:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c **** }
-ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s 			page 56
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccPtOOsN.s 			page 56
 
 
  2065              		.loc 1 565 10 view .LVU689
@@ -3358,7 +3358,7 @@ ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s 			page 1
  2103 0096 2378     		ldrb	r3, [r4]	@ zero_extendqisi2
  2104 0098 35F82310 		ldrh	r1, [r5, r3, lsl #2]
  477:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c ****         {
-ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s 			page 57
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccPtOOsN.s 			page 57
 
 
  2105              		.loc 1 477 12 view .LVU706
@@ -3418,7 +3418,7 @@ ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s 			page 1
  2144 00d0 6FEA4242 		mvn	r2, r2, lsl #17
  2145 00d4 6FEA5242 		mvn	r2, r2, lsr #17
  2146 00d8 92B2     		uxth	r2, r2
-ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s 			page 58
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccPtOOsN.s 			page 58
 
 
  2147 00da A3F80624 		strh	r2, [r3, #1030]	@ movhi
@@ -3478,7 +3478,7 @@ ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s 			page 1
  498:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c ****   }
  2188              		.loc 1 498 5 view .LVU735
  2189 0100 2278     		ldrb	r2, [r4]	@ zero_extendqisi2
-ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s 			page 59
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccPtOOsN.s 			page 59
 
 
  2190 0102 35F82230 		ldrh	r3, [r5, r2, lsl #2]
@@ -3538,7 +3538,7 @@ ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s 			page 1
  394:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c **** 
  2230              		.loc 1 394 11 view .LVU750
  2231 013c 43F40143 		orr	r3, r3, #33024
-ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s 			page 60
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccPtOOsN.s 			page 60
 
 
  2232              	.LVL233:
@@ -3598,7 +3598,7 @@ ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s 			page 1
  403:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c ****             pmabuffer = ep->pmaaddr1;
  2270              		.loc 1 403 13 discriminator 1 view .LVU767
  2271              	.LBB75:
-ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s 			page 61
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccPtOOsN.s 			page 61
 
 
  403:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c ****             pmabuffer = ep->pmaaddr1;
@@ -3658,7 +3658,7 @@ ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s 			page 1
  2313 01a8 0EE0     		b	.L83
  2314              	.LVL243:
  2315              	.L84:
-ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s 			page 62
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccPtOOsN.s 			page 62
 
 
  403:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c ****             pmabuffer = ep->pmaaddr1;
@@ -3718,7 +3718,7 @@ ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s 			page 1
  2357              	.LVL250:
  408:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c **** 
  2358              		.loc 1 408 13 is_stmt 1 discriminator 18 view .LVU794
-ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s 			page 63
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccPtOOsN.s 			page 63
 
 
  408:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c **** 
@@ -3778,7 +3778,7 @@ ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s 			page 1
  421:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c ****             pmabuffer = ep->pmaaddr0;
  2397              		.loc 1 421 13 discriminator 1 view .LVU811
  2398 01fa FEB9     		cbnz	r6, .L90
-ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s 			page 64
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccPtOOsN.s 			page 64
 
 
  421:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c ****             pmabuffer = ep->pmaaddr0;
@@ -3838,7 +3838,7 @@ ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s 			page 1
  2441 0238 1E46     		mov	r6, r3
  2442 023a D4E7     		b	.L88
  2443              	.LVL259:
-ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s 			page 65
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccPtOOsN.s 			page 65
 
 
  2444              	.L90:
@@ -3898,7 +3898,7 @@ ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s 			page 1
  2484              		.loc 1 421 13 is_stmt 0 discriminator 14 view .LVU837
  2485 0262 6FEA5242 		mvn	r2, r2, lsr #17
  2486 0266 92B2     		uxth	r2, r2
-ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s 			page 66
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccPtOOsN.s 			page 66
 
 
  2487 0268 A3F80224 		strh	r2, [r3, #1026]	@ movhi
@@ -3958,7 +3958,7 @@ ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s 			page 1
  2528 0294 EDE7     		b	.L91
  2529              	.LVL272:
  2530              	.L80:
-ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s 			page 67
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccPtOOsN.s 			page 67
 
 
  421:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c ****             pmabuffer = ep->pmaaddr0;
@@ -4018,7 +4018,7 @@ ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s 			page 1
  430:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c ****             pmabuffer = ep->pmaaddr0;
  2571              		.loc 1 430 13 discriminator 4 view .LVU865
  2572 02cc 3E2E     		cmp	r6, #62
-ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s 			page 68
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccPtOOsN.s 			page 68
 
 
  2573 02ce 09D8     		bhi	.L98
@@ -4078,7 +4078,7 @@ ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s 			page 1
  2614              	.LVL285:
  2615              	.L95:
  430:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c ****             pmabuffer = ep->pmaaddr0;
-ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s 			page 69
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccPtOOsN.s 			page 69
 
 
  2616              		.loc 1 430 13 discriminator 14 view .LVU879
@@ -4138,7 +4138,7 @@ ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s 			page 1
  2655              	.LBB84:
  448:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c ****             pmabuffer = ep->pmaaddr1;
  2656              		.loc 1 448 13 view .LVU895
-ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s 			page 70
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccPtOOsN.s 			page 70
 
 
  2657              	.LVL289:
@@ -4198,7 +4198,7 @@ ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s 			page 1
  2698              	.LBE85:
  2699              	.LBE84:
  430:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c ****             pmabuffer = ep->pmaaddr0;
-ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s 			page 71
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccPtOOsN.s 			page 71
 
 
  2700              		.loc 1 430 13 is_stmt 1 discriminator 16 view .LVU909
@@ -4258,7 +4258,7 @@ ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s 			page 1
  2740              	.LVL299:
  448:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c ****             pmabuffer = ep->pmaaddr1;
  2741              		.loc 1 448 13 discriminator 6 view .LVU924
-ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s 			page 72
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccPtOOsN.s 			page 72
 
 
  2742 037c 16F0010F 		tst	r6, #1
@@ -4318,7 +4318,7 @@ ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s 			page 1
  2784              	.LVL306:
  2785              	.L105:
  448:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c ****             pmabuffer = ep->pmaaddr1;
-ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s 			page 73
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccPtOOsN.s 			page 73
 
 
  2786              		.loc 1 448 13 is_stmt 0 discriminator 2 view .LVU937
@@ -4378,7 +4378,7 @@ ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s 			page 1
  2828              	.LVL312:
  461:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c **** 
  2829              		.loc 1 461 11 view .LVU950
-ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s 			page 74
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccPtOOsN.s 			page 74
 
 
  2830 03e0 42F40042 		orr	r2, r2, #32768
@@ -4438,7 +4438,7 @@ ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s 			page 1
  2869              	.LVL321:
  468:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c ****         }
  2870              		.loc 1 468 11 view .LVU966
-ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s 			page 75
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccPtOOsN.s 			page 75
 
 
  2871 040a 79E6     		b	.L77
@@ -4498,7 +4498,7 @@ ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s 			page 1
  2912              		.loc 1 480 11 discriminator 14 view .LVU979
  2913 042e 6FEAC262 		mvn	r2, r2, lsl #27
  2914              	.LVL329:
-ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s 			page 76
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccPtOOsN.s 			page 76
 
 
  480:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c ****           pmabuffer = ep->pmaaddr1;
@@ -4558,7 +4558,7 @@ ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s 			page 1
  2956              	.L109:
  489:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c ****           pmabuffer = ep->pmaaddr0;
  2957              		.loc 1 489 11 is_stmt 1 view .LVU993
-ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s 			page 77
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccPtOOsN.s 			page 77
 
 
  489:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c ****           pmabuffer = ep->pmaaddr0;
@@ -4618,7 +4618,7 @@ ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s 			page 1
  489:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c ****           pmabuffer = ep->pmaaddr0;
  2998              		.loc 1 489 11 discriminator 6 view .LVU1008
  2999 0496 7208     		lsrs	r2, r6, #1
-ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s 			page 78
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccPtOOsN.s 			page 78
 
 
  3000              	.LVL343:
@@ -4678,7 +4678,7 @@ ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s 			page 1
  489:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c ****           pmabuffer = ep->pmaaddr0;
  3042              		.loc 1 489 11 is_stmt 1 discriminator 16 view .LVU1021
  489:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c ****           pmabuffer = ep->pmaaddr0;
-ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s 			page 79
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccPtOOsN.s 			page 79
 
 
  3043              		.loc 1 489 11 discriminator 16 view .LVU1022
@@ -4738,7 +4738,7 @@ ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s 			page 1
  3081              		.loc 1 513 22 is_stmt 0 view .LVU1038
  3082 04e4 0022     		movs	r2, #0
  3083 04e6 8A61     		str	r2, [r1, #24]
-ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s 			page 80
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccPtOOsN.s 			page 80
 
 
  512:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c ****         ep->xfer_len = 0U;
@@ -4798,7 +4798,7 @@ ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s 			page 1
  516:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c ****     }
  3125              		.loc 1 516 7 discriminator 12 view .LVU1052
  3126 050e 6FEAC161 		mvn	r1, r1, lsl #27
-ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s 			page 81
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccPtOOsN.s 			page 81
 
 
  3127              	.LVL364:
@@ -4858,7 +4858,7 @@ ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s 			page 1
  3165              		.loc 1 554 9 view .LVU1068
  554:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c ****       }
  3166              		.loc 1 554 9 view .LVU1069
-ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s 			page 82
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccPtOOsN.s 			page 82
 
 
  3167 0538 D2B9     		cbnz	r2, .L146
@@ -4918,7 +4918,7 @@ ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s 			page 1
  3207              	.LBB102:
  554:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c ****       }
  3208              		.loc 1 554 9 discriminator 18 view .LVU1084
-ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s 			page 83
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccPtOOsN.s 			page 83
 
 
  554:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c ****       }
@@ -4978,7 +4978,7 @@ ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s 			page 1
  554:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c ****       }
  3250              		.loc 1 554 9 is_stmt 0 discriminator 21 view .LVU1098
  3251              	.LBE104:
-ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s 			page 84
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccPtOOsN.s 			page 84
 
 
  3252              	.LBE103:
@@ -5038,7 +5038,7 @@ ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s 			page 1
  3292              	.LBE108:
  3293              	.LBE107:
  524:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c **** 
-ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s 			page 85
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccPtOOsN.s 			page 85
 
 
  3294              		.loc 1 524 9 is_stmt 1 discriminator 18 view .LVU1113
@@ -5098,7 +5098,7 @@ ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s 			page 1
  3333 061a 92B2     		uxth	r2, r2
  3334 061c A3F80624 		strh	r2, [r3, #1030]	@ movhi
  3335 0620 33E0     		b	.L139
-ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s 			page 86
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccPtOOsN.s 			page 86
 
 
  3336              	.LVL384:
@@ -5158,7 +5158,7 @@ ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s 			page 1
  3377              		.loc 1 524 9 discriminator 14 view .LVU1141
  3378 0644 6FEAC162 		mvn	r2, r1, lsl #27
  3379 0648 6FEA5242 		mvn	r2, r2, lsr #17
-ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s 			page 87
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccPtOOsN.s 			page 87
 
 
  3380 064c 92B2     		uxth	r2, r2
@@ -5218,7 +5218,7 @@ ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s 			page 1
  3422              	.LVL395:
  3423              	.L142:
  524:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c **** 
-ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s 			page 88
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccPtOOsN.s 			page 88
 
 
  3424              		.loc 1 524 9 discriminator 32 view .LVU1154
@@ -5278,7 +5278,7 @@ ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s 			page 1
  3464 06a4 0028     		cmp	r0, #0
  3465 06a6 7FF4D7AC 		bne	.L127
  3466              	.L143:
-ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s 			page 89
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccPtOOsN.s 			page 89
 
 
  536:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c ****           }
@@ -5338,7 +5338,7 @@ ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s 			page 1
  3507              		.loc 1 552 11 view .LVU1182
  552:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c ****         }
  3508              		.loc 1 552 24 is_stmt 0 view .LVU1183
-ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s 			page 90
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccPtOOsN.s 			page 90
 
 
  3509 06dc 0023     		movs	r3, #0
@@ -5398,7 +5398,7 @@ ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s 			page 1
  3550              	.LVL411:
  3551              	.L150:
  554:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c ****       }
-ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s 			page 91
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccPtOOsN.s 			page 91
 
 
  3552              		.loc 1 554 9 discriminator 14 view .LVU1197
@@ -5458,7 +5458,7 @@ ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s 			page 1
  3594 072e 5909     		lsrs	r1, r3, #5
  3595              	.LVL418:
  554:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c ****       }
-ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s 			page 92
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccPtOOsN.s 			page 92
 
 
  3596              		.loc 1 554 9 discriminator 25 view .LVU1210
@@ -5518,7 +5518,7 @@ ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s 			page 1
  3639              	.LVL426:
  558:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c ****       }
  3640              		.loc 1 558 16 view .LVU1222
-ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s 			page 93
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccPtOOsN.s 			page 93
 
 
  3641 0766 88E4     		b	.L122
@@ -5578,7 +5578,7 @@ ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s 			page 1
  3679 0006 00F58060 		add	r0, r0, #1024
  3680              	.LVL430:
  783:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c **** 
-ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s 			page 94
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccPtOOsN.s 			page 94
 
 
  784:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c ****   for (i = n; i != 0U; i--)
@@ -5638,7 +5638,7 @@ ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s 			page 1
  799:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c ****   {
  800:Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_ll_usb.c ****     temp = *pdwVal;
  3717              		.loc 1 800 5 is_stmt 1 view .LVU1253
-ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s 			page 95
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccPtOOsN.s 			page 95
 
 
  3718              		.loc 1 800 12 is_stmt 0 view .LVU1254
@@ -5664,58 +5664,58 @@ ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s 			page 1
  3735              	.LFE141:
  3737              		.text
  3738              	.Letext0:
- 3739              		.file 2 "c:\\users\\pierr\\.vscode\\extensions\\buzzyelectronics.stm-helper-1.2.9\\armgcc\\arm-non
- 3740              		.file 3 "c:\\users\\pierr\\.vscode\\extensions\\buzzyelectronics.stm-helper-1.2.9\\armgcc\\arm-non
+ 3739              		.file 2 "c:\\users\\pierre-anthony\\.vscode\\extensions\\buzzyelectronics.stm-helper-1.2.9\\armgcc
+ 3740              		.file 3 "c:\\users\\pierre-anthony\\.vscode\\extensions\\buzzyelectronics.stm-helper-1.2.9\\armgcc
  3741              		.file 4 "Drivers/CMSIS/Include/core_cm4.h"
  3742              		.file 5 "Drivers/CMSIS/Device/ST/STM32F3xx/Include/system_stm32f3xx.h"
  3743              		.file 6 "Drivers/CMSIS/Device/ST/STM32F3xx/Include/stm32f302x8.h"
  3744              		.file 7 "Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_def.h"
  3745              		.file 8 "Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_ll_usb.h"
  3746              		.file 9 "Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal.h"
-ARM GAS  C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s 			page 96
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccPtOOsN.s 			page 96
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 stm32f3xx_ll_usb.c
-C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s:18     .text.USB_CoreInit:0000000000000000 $t
-C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s:26     .text.USB_CoreInit:0000000000000000 USB_CoreInit
-C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s:56     .text.USB_EnableGlobalInt:0000000000000000 $t
-C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s:63     .text.USB_EnableGlobalInt:0000000000000000 USB_EnableGlobalInt
-C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s:93     .text.USB_DisableGlobalInt:0000000000000000 $t
-C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s:100    .text.USB_DisableGlobalInt:0000000000000000 USB_DisableGlobalInt
-C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s:127    .text.USB_SetCurrentMode:0000000000000000 $t
-C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s:134    .text.USB_SetCurrentMode:0000000000000000 USB_SetCurrentMode
-C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s:154    .text.USB_DevInit:0000000000000000 $t
-C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s:161    .text.USB_DevInit:0000000000000000 USB_DevInit
-C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s:213    .text.USB_ActivateEndpoint:0000000000000000 $t
-C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s:220    .text.USB_ActivateEndpoint:0000000000000000 USB_ActivateEndpoint
-C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s:258    .text.USB_ActivateEndpoint:0000000000000020 $d
-C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s:262    .text.USB_ActivateEndpoint:0000000000000024 $t
-C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s:988    .text.USB_DeactivateEndpoint:0000000000000000 $t
-C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s:995    .text.USB_DeactivateEndpoint:0000000000000000 USB_DeactivateEndpoint
-C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s:1410   .text.USB_EPSetStall:0000000000000000 $t
-C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s:1417   .text.USB_EPSetStall:0000000000000000 USB_EPSetStall
-C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s:1490   .text.USB_EPClearStall:0000000000000000 $t
-C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s:1497   .text.USB_EPClearStall:0000000000000000 USB_EPClearStall
-C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s:1649   .text.USB_StopDevice:0000000000000000 $t
-C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s:1656   .text.USB_StopDevice:0000000000000000 USB_StopDevice
-C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s:1687   .text.USB_SetDevAddress:0000000000000000 $t
-C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s:1694   .text.USB_SetDevAddress:0000000000000000 USB_SetDevAddress
-C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s:1720   .text.USB_DevConnect:0000000000000000 $t
-C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s:1727   .text.USB_DevConnect:0000000000000000 USB_DevConnect
-C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s:1746   .text.USB_DevDisconnect:0000000000000000 $t
-C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s:1753   .text.USB_DevDisconnect:0000000000000000 USB_DevDisconnect
-C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s:1772   .text.USB_ReadInterrupts:0000000000000000 $t
-C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s:1779   .text.USB_ReadInterrupts:0000000000000000 USB_ReadInterrupts
-C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s:1802   .text.USB_ActivateRemoteWakeup:0000000000000000 $t
-C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s:1809   .text.USB_ActivateRemoteWakeup:0000000000000000 USB_ActivateRemoteWakeup
-C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s:1833   .text.USB_DeActivateRemoteWakeup:0000000000000000 $t
-C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s:1840   .text.USB_DeActivateRemoteWakeup:0000000000000000 USB_DeActivateRemoteWakeup
-C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s:1865   .text.USB_WritePMA:0000000000000000 $t
-C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s:1872   .text.USB_WritePMA:0000000000000000 USB_WritePMA
-C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s:1948   .text.USB_EPStartXfer:0000000000000000 $t
-C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s:1955   .text.USB_EPStartXfer:0000000000000000 USB_EPStartXfer
-C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s:3646   .text.USB_ReadPMA:0000000000000000 $t
-C:\Users\pierr\AppData\Local\Temp\ccTcJxRm.s:3653   .text.USB_ReadPMA:0000000000000000 USB_ReadPMA
+C:\Users\PIERRE~1\AppData\Local\Temp\ccPtOOsN.s:18     .text.USB_CoreInit:0000000000000000 $t
+C:\Users\PIERRE~1\AppData\Local\Temp\ccPtOOsN.s:26     .text.USB_CoreInit:0000000000000000 USB_CoreInit
+C:\Users\PIERRE~1\AppData\Local\Temp\ccPtOOsN.s:56     .text.USB_EnableGlobalInt:0000000000000000 $t
+C:\Users\PIERRE~1\AppData\Local\Temp\ccPtOOsN.s:63     .text.USB_EnableGlobalInt:0000000000000000 USB_EnableGlobalInt
+C:\Users\PIERRE~1\AppData\Local\Temp\ccPtOOsN.s:93     .text.USB_DisableGlobalInt:0000000000000000 $t
+C:\Users\PIERRE~1\AppData\Local\Temp\ccPtOOsN.s:100    .text.USB_DisableGlobalInt:0000000000000000 USB_DisableGlobalInt
+C:\Users\PIERRE~1\AppData\Local\Temp\ccPtOOsN.s:127    .text.USB_SetCurrentMode:0000000000000000 $t
+C:\Users\PIERRE~1\AppData\Local\Temp\ccPtOOsN.s:134    .text.USB_SetCurrentMode:0000000000000000 USB_SetCurrentMode
+C:\Users\PIERRE~1\AppData\Local\Temp\ccPtOOsN.s:154    .text.USB_DevInit:0000000000000000 $t
+C:\Users\PIERRE~1\AppData\Local\Temp\ccPtOOsN.s:161    .text.USB_DevInit:0000000000000000 USB_DevInit
+C:\Users\PIERRE~1\AppData\Local\Temp\ccPtOOsN.s:213    .text.USB_ActivateEndpoint:0000000000000000 $t
+C:\Users\PIERRE~1\AppData\Local\Temp\ccPtOOsN.s:220    .text.USB_ActivateEndpoint:0000000000000000 USB_ActivateEndpoint
+C:\Users\PIERRE~1\AppData\Local\Temp\ccPtOOsN.s:258    .text.USB_ActivateEndpoint:0000000000000020 $d
+C:\Users\PIERRE~1\AppData\Local\Temp\ccPtOOsN.s:262    .text.USB_ActivateEndpoint:0000000000000024 $t
+C:\Users\PIERRE~1\AppData\Local\Temp\ccPtOOsN.s:988    .text.USB_DeactivateEndpoint:0000000000000000 $t
+C:\Users\PIERRE~1\AppData\Local\Temp\ccPtOOsN.s:995    .text.USB_DeactivateEndpoint:0000000000000000 USB_DeactivateEndpoint
+C:\Users\PIERRE~1\AppData\Local\Temp\ccPtOOsN.s:1410   .text.USB_EPSetStall:0000000000000000 $t
+C:\Users\PIERRE~1\AppData\Local\Temp\ccPtOOsN.s:1417   .text.USB_EPSetStall:0000000000000000 USB_EPSetStall
+C:\Users\PIERRE~1\AppData\Local\Temp\ccPtOOsN.s:1490   .text.USB_EPClearStall:0000000000000000 $t
+C:\Users\PIERRE~1\AppData\Local\Temp\ccPtOOsN.s:1497   .text.USB_EPClearStall:0000000000000000 USB_EPClearStall
+C:\Users\PIERRE~1\AppData\Local\Temp\ccPtOOsN.s:1649   .text.USB_StopDevice:0000000000000000 $t
+C:\Users\PIERRE~1\AppData\Local\Temp\ccPtOOsN.s:1656   .text.USB_StopDevice:0000000000000000 USB_StopDevice
+C:\Users\PIERRE~1\AppData\Local\Temp\ccPtOOsN.s:1687   .text.USB_SetDevAddress:0000000000000000 $t
+C:\Users\PIERRE~1\AppData\Local\Temp\ccPtOOsN.s:1694   .text.USB_SetDevAddress:0000000000000000 USB_SetDevAddress
+C:\Users\PIERRE~1\AppData\Local\Temp\ccPtOOsN.s:1720   .text.USB_DevConnect:0000000000000000 $t
+C:\Users\PIERRE~1\AppData\Local\Temp\ccPtOOsN.s:1727   .text.USB_DevConnect:0000000000000000 USB_DevConnect
+C:\Users\PIERRE~1\AppData\Local\Temp\ccPtOOsN.s:1746   .text.USB_DevDisconnect:0000000000000000 $t
+C:\Users\PIERRE~1\AppData\Local\Temp\ccPtOOsN.s:1753   .text.USB_DevDisconnect:0000000000000000 USB_DevDisconnect
+C:\Users\PIERRE~1\AppData\Local\Temp\ccPtOOsN.s:1772   .text.USB_ReadInterrupts:0000000000000000 $t
+C:\Users\PIERRE~1\AppData\Local\Temp\ccPtOOsN.s:1779   .text.USB_ReadInterrupts:0000000000000000 USB_ReadInterrupts
+C:\Users\PIERRE~1\AppData\Local\Temp\ccPtOOsN.s:1802   .text.USB_ActivateRemoteWakeup:0000000000000000 $t
+C:\Users\PIERRE~1\AppData\Local\Temp\ccPtOOsN.s:1809   .text.USB_ActivateRemoteWakeup:0000000000000000 USB_ActivateRemoteWakeup
+C:\Users\PIERRE~1\AppData\Local\Temp\ccPtOOsN.s:1833   .text.USB_DeActivateRemoteWakeup:0000000000000000 $t
+C:\Users\PIERRE~1\AppData\Local\Temp\ccPtOOsN.s:1840   .text.USB_DeActivateRemoteWakeup:0000000000000000 USB_DeActivateRemoteWakeup
+C:\Users\PIERRE~1\AppData\Local\Temp\ccPtOOsN.s:1865   .text.USB_WritePMA:0000000000000000 $t
+C:\Users\PIERRE~1\AppData\Local\Temp\ccPtOOsN.s:1872   .text.USB_WritePMA:0000000000000000 USB_WritePMA
+C:\Users\PIERRE~1\AppData\Local\Temp\ccPtOOsN.s:1948   .text.USB_EPStartXfer:0000000000000000 $t
+C:\Users\PIERRE~1\AppData\Local\Temp\ccPtOOsN.s:1955   .text.USB_EPStartXfer:0000000000000000 USB_EPStartXfer
+C:\Users\PIERRE~1\AppData\Local\Temp\ccPtOOsN.s:3646   .text.USB_ReadPMA:0000000000000000 $t
+C:\Users\PIERRE~1\AppData\Local\Temp\ccPtOOsN.s:3653   .text.USB_ReadPMA:0000000000000000 USB_ReadPMA
 
 NO UNDEFINED SYMBOLS

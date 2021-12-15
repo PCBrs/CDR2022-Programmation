@@ -29,4 +29,4 @@ typedef struct LD06 {
 
 }LD06;
 
-void readLidarData(UART_HandleTypeDef *huart,LD06 *lidar);
+void readLidarData(UART_HandleTypeDef *huart,LD06 *lidar,uint8_t * buffer);
