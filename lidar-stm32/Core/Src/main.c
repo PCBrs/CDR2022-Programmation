@@ -174,8 +174,8 @@ void SystemClock_Config(void)
 void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart)
 { 
   HAL_GPIO_TogglePin(LED_GPIO_Port,LED_Pin);
-  //readLidarData(&huart1,&lidar,&buffer);
-  //printf("datalength= %li , radarspeed= %f , start angle = %f , stop angle= %f , distance= %f\r\n ",lidar.dataLength,lidar.radarSpeed,lidar.startAngle,lidar.endAngle,lidar.distance);
+  readLidarData(&huart1,&lidar,&buffer);
+  printf("datalength= %li , radarspeed= %f , start angle = %f , stop angle= %f , distance= %f\r\n ",lidar.dataLength,lidar.radarSpeed,lidar.startAngle,lidar.endAngle,lidar.distance);
   HAL_UART_Receive_DMA(&huart1,&buffer,8);
 }
 /* USER CODE END 4 */
