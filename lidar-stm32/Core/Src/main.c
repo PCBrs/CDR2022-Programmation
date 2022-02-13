@@ -21,9 +21,9 @@
 #include "main.h"
 #include "dma.h"
 #include "usart.h"
-#include "usb_device.h"
 #include "gpio.h"
-
+#include "usbd_cdc_if.h"
+#include "usb_device.h"
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 
@@ -54,7 +54,7 @@ uint8_t TXmsg = 1;
 /* Private function prototypes -----------------------------------------------*/
 void SystemClock_Config(void);
 /* USER CODE BEGIN PFP */
-/*
+
 int _write(int fd, unsigned char *ptr, int len)
 {
 	if (CDC_Transmit_FS(ptr,len) != HAL_OK)
@@ -62,7 +62,7 @@ int _write(int fd, unsigned char *ptr, int len)
 
 	return len;
 }
-*/
+
 
 /* USER CODE END PFP */
 
@@ -100,11 +100,12 @@ int main(void)
   /* Initialize all configured peripherals */
   MX_GPIO_Init();
   MX_DMA_Init();
-  MX_USART1_UART_Init();
   MX_USB_DEVICE_Init();
+  MX_USART2_UART_Init();
   /* USER CODE BEGIN 2 */
-  HAL_UART_Receive_DMA(&huart1,&buffer,sizeof(buffer));
-  UART_Start_Receive_DMA(&huart1,&buffer,sizeof(buffer));
+  HAL_UART_Receive_DMA(&huart2,&buffer,sizeof(buffer));
+  //UART_Start_Receive_DMA(&huart2,&buffer,sizeof(buffer));
+  printf("Config ok\r\n");
   //HAL_GPIO_TogglePin(LED_GPIO_Port,LED_Pin);
   
   /* USER CODE END 2 */
@@ -113,10 +114,11 @@ int main(void)
   /* USER CODE BEGIN WHILE */
   while (1)
   {
-    
+    //printf("Config ok\r\n");
     //printf("cc\n\r");
-     //HAL_Delay(1000);
+     
       //HAL_GPIO_TogglePin(LED_GPIO_Port,LED_Pin);
+     printf("datalength= %li , radarspeed= %f , start angle = %f , stop angle= %f , distance= %f  \r\n ",lidar.dataLength,lidar.radarSpeed,lidar.startAngle,lidar.endAngle,lidar.distance);
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
@@ -161,8 +163,7 @@ void SystemClock_Config(void)
   {
     Error_Handler();
   }
-  PeriphClkInit.PeriphClockSelection = RCC_PERIPHCLK_USB|RCC_PERIPHCLK_USART1;
-  PeriphClkInit.Usart1ClockSelection = RCC_USART1CLKSOURCE_SYSCLK;
+  PeriphClkInit.PeriphClockSelection = RCC_PERIPHCLK_USB;
   PeriphClkInit.USBClockSelection = RCC_USBCLKSOURCE_PLL_DIV1_5;
   if (HAL_RCCEx_PeriphCLKConfig(&PeriphClkInit) != HAL_OK)
   {
@@ -174,9 +175,10 @@ void SystemClock_Config(void)
 void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart)
 { 
   HAL_GPIO_TogglePin(LED_GPIO_Port,LED_Pin);
-  readLidarData(&huart1,&lidar,&buffer);
-  printf("datalength= %li , radarspeed= %f , start angle = %f , stop angle= %f , distance= %f\r\n ",lidar.dataLength,lidar.radarSpeed,lidar.startAngle,lidar.endAngle,lidar.distance);
-  HAL_UART_Receive_DMA(&huart1,&buffer,8);
+  //printf("cc\n\r");
+  readLidarData(&huart2,&lidar,&buffer);
+  //printf("distance=%f , angle=%f \n\r",lidar.distance,lidar.endAngle);
+  HAL_UART_Receive_DMA(&huart2,&buffer,8);
 }
 /* USER CODE END 4 */
 
