@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccNER3am.s 			page 1
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccMOwpEW.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -36,7 +36,7 @@ ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccNER3am.s 			page 1
    6:Core/Src/dma.c ****   ******************************************************************************
    7:Core/Src/dma.c ****   * @attention
    8:Core/Src/dma.c ****   *
-   9:Core/Src/dma.c ****   * <h2><center>&copy; Copyright (c) 2021 STMicroelectronics.
+   9:Core/Src/dma.c ****   * <h2><center>&copy; Copyright (c) 2022 STMicroelectronics.
   10:Core/Src/dma.c ****   * All rights reserved.</center></h2>
   11:Core/Src/dma.c ****   *
   12:Core/Src/dma.c ****   * This software component is licensed by ST under Ultimate Liberty license
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccNER3am.s 			page 1
   28:Core/Src/dma.c **** /* Configure DMA                                                              */
   29:Core/Src/dma.c **** /*----------------------------------------------------------------------------*/
   30:Core/Src/dma.c **** 
-ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccNER3am.s 			page 2
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccMOwpEW.s 			page 2
 
 
   31:Core/Src/dma.c **** /* USER CODE BEGIN 1 */
@@ -102,23 +102,23 @@ ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccNER3am.s 			page 1
   55              		.loc 1 42 3 view .LVU6
   43:Core/Src/dma.c **** 
   44:Core/Src/dma.c ****   /* DMA interrupt init */
-  45:Core/Src/dma.c ****   /* DMA1_Channel5_IRQn interrupt configuration */
-  46:Core/Src/dma.c ****   HAL_NVIC_SetPriority(DMA1_Channel5_IRQn, 0, 0);
+  45:Core/Src/dma.c ****   /* DMA1_Channel6_IRQn interrupt configuration */
+  46:Core/Src/dma.c ****   HAL_NVIC_SetPriority(DMA1_Channel6_IRQn, 0, 0);
   56              		.loc 1 46 3 view .LVU7
   57 0018 0022     		movs	r2, #0
   58 001a 1146     		mov	r1, r2
-  59 001c 0F20     		movs	r0, #15
+  59 001c 1020     		movs	r0, #16
   60 001e FFF7FEFF 		bl	HAL_NVIC_SetPriority
   61              	.LVL0:
-  47:Core/Src/dma.c ****   HAL_NVIC_EnableIRQ(DMA1_Channel5_IRQn);
+  47:Core/Src/dma.c ****   HAL_NVIC_EnableIRQ(DMA1_Channel6_IRQn);
   62              		.loc 1 47 3 view .LVU8
-  63 0022 0F20     		movs	r0, #15
+  63 0022 1020     		movs	r0, #16
   64 0024 FFF7FEFF 		bl	HAL_NVIC_EnableIRQ
   65              	.LVL1:
   48:Core/Src/dma.c **** 
   49:Core/Src/dma.c **** }
   66              		.loc 1 49 1 is_stmt 0 view .LVU9
-ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccNER3am.s 			page 3
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccMOwpEW.s 			page 3
 
 
   67 0028 03B0     		add	sp, sp, #12
@@ -149,14 +149,14 @@ ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccNER3am.s 			page 1
   93              		.file 14 "c:\\users\\pierre-anthony\\.vscode\\extensions\\buzzyelectronics.stm-helper-1.2.9\\armgc
   94              		.file 15 "c:\\users\\pierre-anthony\\.vscode\\extensions\\buzzyelectronics.stm-helper-1.2.9\\armgc
   95              		.file 16 "Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_cortex.h"
-ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccNER3am.s 			page 4
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccMOwpEW.s 			page 4
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 dma.c
-C:\Users\PIERRE~1\AppData\Local\Temp\ccNER3am.s:18     .text.MX_DMA_Init:0000000000000000 $t
-C:\Users\PIERRE~1\AppData\Local\Temp\ccNER3am.s:26     .text.MX_DMA_Init:0000000000000000 MX_DMA_Init
-C:\Users\PIERRE~1\AppData\Local\Temp\ccNER3am.s:75     .text.MX_DMA_Init:0000000000000030 $d
+C:\Users\PIERRE~1\AppData\Local\Temp\ccMOwpEW.s:18     .text.MX_DMA_Init:0000000000000000 $t
+C:\Users\PIERRE~1\AppData\Local\Temp\ccMOwpEW.s:26     .text.MX_DMA_Init:0000000000000000 MX_DMA_Init
+C:\Users\PIERRE~1\AppData\Local\Temp\ccMOwpEW.s:75     .text.MX_DMA_Init:0000000000000030 $d
 
 UNDEFINED SYMBOLS
 HAL_NVIC_SetPriority
