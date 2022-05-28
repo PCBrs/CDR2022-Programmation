@@ -21,17 +21,18 @@
 #include "main.h"
 #include "dma.h"
 #include "usart.h"
+//#include "usb_device.h"
 #include "gpio.h"
-#include "usbd_cdc_if.h"
-#include "usb_device.h"
+
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-
+#include "RPLidar.h"
+#include "uart_lib.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
 /* USER CODE BEGIN PTD */
-LD06 lidar;
+RPLidar lidar;
 uint8_t buffer = 0;
 uint8_t TXmsg = 1;
 /* USER CODE END PTD */
@@ -54,14 +55,14 @@ uint8_t TXmsg = 1;
 /* Private function prototypes -----------------------------------------------*/
 void SystemClock_Config(void);
 /* USER CODE BEGIN PFP */
-
+/*
 int _write(int fd, unsigned char *ptr, int len)
 {
 	if (CDC_Transmit_FS(ptr,len) != HAL_OK)
 		return 0;
 
 	return len;
-}
+}*/
 
 
 /* USER CODE END PFP */
@@ -100,10 +101,10 @@ int main(void)
   /* Initialize all configured peripherals */
   MX_GPIO_Init();
   MX_DMA_Init();
-  MX_USB_DEVICE_Init();
+  
   MX_USART2_UART_Init();
   /* USER CODE BEGIN 2 */
-  HAL_UART_Receive_DMA(&huart2,&buffer,sizeof(buffer));
+  HAL_UART_Receive_IT(&huart2,&buffer,sizeof(buffer));
   //UART_Start_Receive_DMA(&huart2,&buffer,sizeof(buffer));
   printf("Config ok\r\n");
   //HAL_GPIO_TogglePin(LED_GPIO_Port,LED_Pin);
@@ -114,14 +115,34 @@ int main(void)
   /* USER CODE BEGIN WHILE */
   while (1)
   {
-    //printf("Config ok\r\n");
-    //printf("cc\n\r");
-     
-      //HAL_GPIO_TogglePin(LED_GPIO_Port,LED_Pin);
-     printf("datalength= %li , radarspeed= %f , start angle = %f , stop angle= %f , distance= %f  \r\n ",lidar.dataLength,lidar.radarSpeed,lidar.startAngle,lidar.endAngle,lidar.distance);
+    
+
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
+
+     if (IS_OK(lidar.waitPoint())) {
+	    float distance = lidar.getCurrentPoint().distance; //distance value in mm unit
+	    float angle    = lidar.getCurrentPoint().angle; //anglue value in degree
+	    bool  startBit = lidar.getCurrentPoint().startBit; //whether this point is belong to a new scan
+	    unsigned char  quality  = lidar.getCurrentPoint().quality; //quality of the current measurement
+
+	  } else {
+	    //analogWrite(RPLIDAR_MOTOR, 0);
+	    HAL_GPIO_WritePin(GPIOA, GPIO_PIN_3, GPIO_PIN_RESET);
+
+	    // try to detect RPLIDAR...
+	    rplidar_response_device_info_t info;
+	    if (IS_OK(lidar.getDeviceInfo(info, 100))) {
+	       // detected...
+	       lidar.startScan();
+
+	       // start motor rotating at max allowed speed
+	       //analogWrite(RPLIDAR_MOTOR, 255);
+	       //HAL_GPIO_WritePin(GPIOA, GPIO_PIN_3, GPIO_PIN_SET);
+	       HAL_Delay(1000);
+	    }
+	  }
   }
   /* USER CODE END 3 */
 }
@@ -172,13 +193,26 @@ void SystemClock_Config(void)
 }
 
 /* USER CODE BEGIN 4 */
-void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart)
-{ 
+/*
+void USART3_IRQHandler(){
+  //HAL_UART_DMAPause(&huart2);
   HAL_GPIO_TogglePin(LED_GPIO_Port,LED_Pin);
   //printf("cc\n\r");
+  buffer= USART2->RDR;
   readLidarData(&huart2,&lidar,&buffer);
-  //printf("distance=%f , angle=%f \n\r",lidar.distance,lidar.endAngle);
-  HAL_UART_Receive_DMA(&huart2,&buffer,8);
+  printf("%hhn \n\r",&buffer);
+  //HAL_UART_Receive_IT(&huart2,&buffer,8);
+}
+*/
+void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart)
+{ 
+  //HAL_UART_DMAPause(&huart2);
+  HAL_GPIO_TogglePin(LED_GPIO_Port,LED_Pin);
+  //printf("cc\n\r");
+  buffer= USART2->RDR;
+
+  printf("%c \n\r",&buffer);
+  HAL_UART_Receive_IT(&huart2,&buffer,8);
 }
 /* USER CODE END 4 */
 

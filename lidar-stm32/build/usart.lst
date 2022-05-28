@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccCnk9jZ.s 			page 1
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccI174el.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -39,10 +39,10 @@ ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccCnk9jZ.s 			page 1
    9:Core/Src/usart.c ****   * <h2><center>&copy; Copyright (c) 2022 STMicroelectronics.
   10:Core/Src/usart.c ****   * All rights reserved.</center></h2>
   11:Core/Src/usart.c ****   *
-  12:Core/Src/usart.c ****   * This software component is licensed by ST under Ultimate Liberty license
-  13:Core/Src/usart.c ****   * SLA0044, the "License"; You may not use this file except in compliance with
-  14:Core/Src/usart.c ****   * the License. You may obtain a copy of the License at:
-  15:Core/Src/usart.c ****   *                             www.st.com/SLA0044
+  12:Core/Src/usart.c ****   * This software component is licensed by ST under BSD 3-Clause license,
+  13:Core/Src/usart.c ****   * the "License"; You may not use this file except in compliance with the
+  14:Core/Src/usart.c ****   * License. You may obtain a copy of the License at:
+  15:Core/Src/usart.c ****   *                        opensource.org/licenses/BSD-3-Clause
   16:Core/Src/usart.c ****   *
   17:Core/Src/usart.c ****   ******************************************************************************
   18:Core/Src/usart.c ****   */
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccCnk9jZ.s 			page 1
   28:Core/Src/usart.c **** DMA_HandleTypeDef hdma_usart2_rx;
   29:Core/Src/usart.c **** 
   30:Core/Src/usart.c **** /* USART2 init function */
-ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccCnk9jZ.s 			page 2
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccI174el.s 			page 2
 
 
   31:Core/Src/usart.c **** 
@@ -80,10 +80,10 @@ ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccCnk9jZ.s 			page 1
   40 0002 0B48     		ldr	r0, .L5
   41 0004 0B4B     		ldr	r3, .L5+4
   42 0006 0360     		str	r3, [r0]
-  36:Core/Src/usart.c ****   huart2.Init.BaudRate = 230400;
+  36:Core/Src/usart.c ****   huart2.Init.BaudRate = 115200;
   43              		.loc 1 36 3 is_stmt 1 view .LVU3
   44              		.loc 1 36 24 is_stmt 0 view .LVU4
-  45 0008 4FF46133 		mov	r3, #230400
+  45 0008 4FF4E133 		mov	r3, #115200
   46 000c 4360     		str	r3, [r0, #4]
   37:Core/Src/usart.c ****   huart2.Init.WordLength = UART_WORDLENGTH_8B;
   47              		.loc 1 37 3 is_stmt 1 view .LVU5
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccCnk9jZ.s 			page 1
   44:Core/Src/usart.c ****   huart2.AdvancedInit.AdvFeatureInit = UART_ADVFEATURE_NO_INIT;
   70              		.loc 1 44 3 is_stmt 1 view .LVU19
   71              		.loc 1 44 38 is_stmt 0 view .LVU20
-ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccCnk9jZ.s 			page 3
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccI174el.s 			page 3
 
 
   72 0020 4362     		str	r3, [r0, #36]
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccCnk9jZ.s 			page 1
  118 0002 89B0     		sub	sp, sp, #36
  119              	.LCFI2:
  120              		.cfi_def_cfa_offset 48
-ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccCnk9jZ.s 			page 4
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccI174el.s 			page 4
 
 
   54:Core/Src/usart.c **** 
@@ -228,7 +228,7 @@ ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccCnk9jZ.s 			page 1
   81:Core/Src/usart.c ****     hdma_usart2_rx.Init.MemInc = DMA_MINC_ENABLE;
   82:Core/Src/usart.c ****     hdma_usart2_rx.Init.PeriphDataAlignment = DMA_PDATAALIGN_BYTE;
   83:Core/Src/usart.c ****     hdma_usart2_rx.Init.MemDataAlignment = DMA_MDATAALIGN_BYTE;
-  84:Core/Src/usart.c ****     hdma_usart2_rx.Init.Mode = DMA_CIRCULAR;
+  84:Core/Src/usart.c ****     hdma_usart2_rx.Init.Mode = DMA_NORMAL;
   85:Core/Src/usart.c ****     hdma_usart2_rx.Init.Priority = DMA_PRIORITY_LOW;
   86:Core/Src/usart.c ****     if (HAL_DMA_Init(&hdma_usart2_rx) != HAL_OK)
   87:Core/Src/usart.c ****     {
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccCnk9jZ.s 			page 1
   91:Core/Src/usart.c ****     __HAL_LINKDMA(uartHandle,hdmarx,hdma_usart2_rx);
   92:Core/Src/usart.c **** 
   93:Core/Src/usart.c ****     /* USART2 interrupt Init */
-ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccCnk9jZ.s 			page 5
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccI174el.s 			page 5
 
 
   94:Core/Src/usart.c ****     HAL_NVIC_SetPriority(USART2_IRQn, 0, 0);
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccCnk9jZ.s 			page 1
  175 003c 5B69     		ldr	r3, [r3, #20]
  176 003e 03F40033 		and	r3, r3, #131072
  177 0042 0293     		str	r3, [sp, #8]
-ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccCnk9jZ.s 			page 6
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccI174el.s 			page 6
 
 
   64:Core/Src/usart.c ****     /**USART2 GPIO Configuration
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccCnk9jZ.s 			page 1
   79:Core/Src/usart.c ****     hdma_usart2_rx.Init.PeriphInc = DMA_PINC_DISABLE;
  215              		.loc 1 79 35 is_stmt 0 view .LVU63
  216 006a 4560     		str	r5, [r0, #4]
-ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccCnk9jZ.s 			page 7
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccI174el.s 			page 7
 
 
   80:Core/Src/usart.c ****     hdma_usart2_rx.Init.MemInc = DMA_MINC_ENABLE;
@@ -377,207 +377,206 @@ ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccCnk9jZ.s 			page 1
   82:Core/Src/usart.c ****     hdma_usart2_rx.Init.MemDataAlignment = DMA_MDATAALIGN_BYTE;
  225              		.loc 1 82 45 is_stmt 0 view .LVU69
  226 0072 0561     		str	r5, [r0, #16]
-  83:Core/Src/usart.c ****     hdma_usart2_rx.Init.Mode = DMA_CIRCULAR;
+  83:Core/Src/usart.c ****     hdma_usart2_rx.Init.Mode = DMA_NORMAL;
  227              		.loc 1 83 5 is_stmt 1 view .LVU70
-  83:Core/Src/usart.c ****     hdma_usart2_rx.Init.Mode = DMA_CIRCULAR;
+  83:Core/Src/usart.c ****     hdma_usart2_rx.Init.Mode = DMA_NORMAL;
  228              		.loc 1 83 42 is_stmt 0 view .LVU71
  229 0074 4561     		str	r5, [r0, #20]
   84:Core/Src/usart.c ****     hdma_usart2_rx.Init.Priority = DMA_PRIORITY_LOW;
  230              		.loc 1 84 5 is_stmt 1 view .LVU72
   84:Core/Src/usart.c ****     hdma_usart2_rx.Init.Priority = DMA_PRIORITY_LOW;
  231              		.loc 1 84 30 is_stmt 0 view .LVU73
- 232 0076 2023     		movs	r3, #32
- 233 0078 8361     		str	r3, [r0, #24]
+ 232 0076 8561     		str	r5, [r0, #24]
   85:Core/Src/usart.c ****     if (HAL_DMA_Init(&hdma_usart2_rx) != HAL_OK)
- 234              		.loc 1 85 5 is_stmt 1 view .LVU74
+ 233              		.loc 1 85 5 is_stmt 1 view .LVU74
   85:Core/Src/usart.c ****     if (HAL_DMA_Init(&hdma_usart2_rx) != HAL_OK)
- 235              		.loc 1 85 34 is_stmt 0 view .LVU75
- 236 007a C561     		str	r5, [r0, #28]
+ 234              		.loc 1 85 34 is_stmt 0 view .LVU75
+ 235 0078 C561     		str	r5, [r0, #28]
   86:Core/Src/usart.c ****     {
- 237              		.loc 1 86 5 is_stmt 1 view .LVU76
+ 236              		.loc 1 86 5 is_stmt 1 view .LVU76
   86:Core/Src/usart.c ****     {
- 238              		.loc 1 86 9 is_stmt 0 view .LVU77
- 239 007c FFF7FEFF 		bl	HAL_DMA_Init
- 240              	.LVL7:
+ 237              		.loc 1 86 9 is_stmt 0 view .LVU77
+ 238 007a FFF7FEFF 		bl	HAL_DMA_Init
+ 239              	.LVL7:
   86:Core/Src/usart.c ****     {
- 241              		.loc 1 86 8 view .LVU78
- 242 0080 58B9     		cbnz	r0, .L12
- 243              	.L9:
+ 240              		.loc 1 86 8 view .LVU78
+ 241 007e 58B9     		cbnz	r0, .L12
+ 242              	.L9:
   91:Core/Src/usart.c **** 
- 244              		.loc 1 91 5 is_stmt 1 view .LVU79
+ 243              		.loc 1 91 5 is_stmt 1 view .LVU79
   91:Core/Src/usart.c **** 
- 245              		.loc 1 91 5 view .LVU80
- 246 0082 084B     		ldr	r3, .L13+4
- 247 0084 2367     		str	r3, [r4, #112]
+ 244              		.loc 1 91 5 view .LVU80
+ 245 0080 084B     		ldr	r3, .L13+4
+ 246 0082 2367     		str	r3, [r4, #112]
   91:Core/Src/usart.c **** 
- 248              		.loc 1 91 5 view .LVU81
- 249 0086 5C62     		str	r4, [r3, #36]
+ 247              		.loc 1 91 5 view .LVU81
+ 248 0084 5C62     		str	r4, [r3, #36]
   91:Core/Src/usart.c **** 
- 250              		.loc 1 91 5 view .LVU82
+ 249              		.loc 1 91 5 view .LVU82
   94:Core/Src/usart.c ****     HAL_NVIC_EnableIRQ(USART2_IRQn);
- 251              		.loc 1 94 5 view .LVU83
- 252 0088 0022     		movs	r2, #0
- 253 008a 1146     		mov	r1, r2
-ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccCnk9jZ.s 			page 8
+ 250              		.loc 1 94 5 view .LVU83
+ 251 0086 0022     		movs	r2, #0
+ 252 0088 1146     		mov	r1, r2
+ 253 008a 2620     		movs	r0, #38
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccI174el.s 			page 8
 
 
- 254 008c 2620     		movs	r0, #38
- 255 008e FFF7FEFF 		bl	HAL_NVIC_SetPriority
- 256              	.LVL8:
+ 254 008c FFF7FEFF 		bl	HAL_NVIC_SetPriority
+ 255              	.LVL8:
   95:Core/Src/usart.c ****   /* USER CODE BEGIN USART2_MspInit 1 */
- 257              		.loc 1 95 5 view .LVU84
- 258 0092 2620     		movs	r0, #38
- 259 0094 FFF7FEFF 		bl	HAL_NVIC_EnableIRQ
- 260              	.LVL9:
- 261              		.loc 1 100 1 is_stmt 0 view .LVU85
- 262 0098 BEE7     		b	.L7
- 263              	.L12:
+ 256              		.loc 1 95 5 view .LVU84
+ 257 0090 2620     		movs	r0, #38
+ 258 0092 FFF7FEFF 		bl	HAL_NVIC_EnableIRQ
+ 259              	.LVL9:
+ 260              		.loc 1 100 1 is_stmt 0 view .LVU85
+ 261 0096 BFE7     		b	.L7
+ 262              	.L12:
   88:Core/Src/usart.c ****     }
- 264              		.loc 1 88 7 is_stmt 1 view .LVU86
- 265 009a FFF7FEFF 		bl	Error_Handler
- 266              	.LVL10:
- 267 009e F0E7     		b	.L9
- 268              	.L14:
- 269              		.align	2
- 270              	.L13:
- 271 00a0 00440040 		.word	1073759232
- 272 00a4 00000000 		.word	hdma_usart2_rx
- 273 00a8 6C000240 		.word	1073873004
- 274              		.cfi_endproc
- 275              	.LFE127:
- 277              		.section	.text.HAL_UART_MspDeInit,"ax",%progbits
- 278              		.align	1
- 279              		.global	HAL_UART_MspDeInit
- 280              		.syntax unified
- 281              		.thumb
- 282              		.thumb_func
- 283              		.fpu fpv4-sp-d16
- 285              	HAL_UART_MspDeInit:
- 286              	.LVL11:
- 287              	.LFB128:
+ 263              		.loc 1 88 7 is_stmt 1 view .LVU86
+ 264 0098 FFF7FEFF 		bl	Error_Handler
+ 265              	.LVL10:
+ 266 009c F0E7     		b	.L9
+ 267              	.L14:
+ 268 009e 00BF     		.align	2
+ 269              	.L13:
+ 270 00a0 00440040 		.word	1073759232
+ 271 00a4 00000000 		.word	hdma_usart2_rx
+ 272 00a8 6C000240 		.word	1073873004
+ 273              		.cfi_endproc
+ 274              	.LFE127:
+ 276              		.section	.text.HAL_UART_MspDeInit,"ax",%progbits
+ 277              		.align	1
+ 278              		.global	HAL_UART_MspDeInit
+ 279              		.syntax unified
+ 280              		.thumb
+ 281              		.thumb_func
+ 282              		.fpu fpv4-sp-d16
+ 284              	HAL_UART_MspDeInit:
+ 285              	.LVL11:
+ 286              	.LFB128:
  101:Core/Src/usart.c **** 
  102:Core/Src/usart.c **** void HAL_UART_MspDeInit(UART_HandleTypeDef* uartHandle)
  103:Core/Src/usart.c **** {
- 288              		.loc 1 103 1 view -0
- 289              		.cfi_startproc
- 290              		@ args = 0, pretend = 0, frame = 0
- 291              		@ frame_needed = 0, uses_anonymous_args = 0
+ 287              		.loc 1 103 1 view -0
+ 288              		.cfi_startproc
+ 289              		@ args = 0, pretend = 0, frame = 0
+ 290              		@ frame_needed = 0, uses_anonymous_args = 0
  104:Core/Src/usart.c **** 
  105:Core/Src/usart.c ****   if(uartHandle->Instance==USART2)
- 292              		.loc 1 105 3 view .LVU88
- 293              		.loc 1 105 16 is_stmt 0 view .LVU89
- 294 0000 0268     		ldr	r2, [r0]
- 295              		.loc 1 105 5 view .LVU90
- 296 0002 0B4B     		ldr	r3, .L22
- 297 0004 9A42     		cmp	r2, r3
- 298 0006 00D0     		beq	.L21
- 299 0008 7047     		bx	lr
- 300              	.L21:
+ 291              		.loc 1 105 3 view .LVU88
+ 292              		.loc 1 105 16 is_stmt 0 view .LVU89
+ 293 0000 0268     		ldr	r2, [r0]
+ 294              		.loc 1 105 5 view .LVU90
+ 295 0002 0B4B     		ldr	r3, .L22
+ 296 0004 9A42     		cmp	r2, r3
+ 297 0006 00D0     		beq	.L21
+ 298 0008 7047     		bx	lr
+ 299              	.L21:
  103:Core/Src/usart.c **** 
- 301              		.loc 1 103 1 view .LVU91
- 302 000a 10B5     		push	{r4, lr}
- 303              	.LCFI5:
- 304              		.cfi_def_cfa_offset 8
-ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccCnk9jZ.s 			page 9
+ 300              		.loc 1 103 1 view .LVU91
+ 301 000a 10B5     		push	{r4, lr}
+ 302              	.LCFI5:
+ 303              		.cfi_def_cfa_offset 8
+ 304              		.cfi_offset 4, -8
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccI174el.s 			page 9
 
 
- 305              		.cfi_offset 4, -8
- 306              		.cfi_offset 14, -4
- 307 000c 0446     		mov	r4, r0
+ 305              		.cfi_offset 14, -4
+ 306 000c 0446     		mov	r4, r0
  106:Core/Src/usart.c ****   {
  107:Core/Src/usart.c ****   /* USER CODE BEGIN USART2_MspDeInit 0 */
  108:Core/Src/usart.c **** 
  109:Core/Src/usart.c ****   /* USER CODE END USART2_MspDeInit 0 */
  110:Core/Src/usart.c ****     /* Peripheral clock disable */
  111:Core/Src/usart.c ****     __HAL_RCC_USART2_CLK_DISABLE();
- 308              		.loc 1 111 5 is_stmt 1 view .LVU92
- 309 000e 094A     		ldr	r2, .L22+4
- 310 0010 D369     		ldr	r3, [r2, #28]
- 311 0012 23F40033 		bic	r3, r3, #131072
- 312 0016 D361     		str	r3, [r2, #28]
+ 307              		.loc 1 111 5 is_stmt 1 view .LVU92
+ 308 000e 094A     		ldr	r2, .L22+4
+ 309 0010 D369     		ldr	r3, [r2, #28]
+ 310 0012 23F40033 		bic	r3, r3, #131072
+ 311 0016 D361     		str	r3, [r2, #28]
  112:Core/Src/usart.c **** 
  113:Core/Src/usart.c ****     /**USART2 GPIO Configuration
  114:Core/Src/usart.c ****     PA2     ------> USART2_TX
  115:Core/Src/usart.c ****     PA3     ------> USART2_RX
  116:Core/Src/usart.c ****     */
  117:Core/Src/usart.c ****     HAL_GPIO_DeInit(GPIOA, GPIO_PIN_2|GPIO_PIN_3);
- 313              		.loc 1 117 5 view .LVU93
- 314 0018 0C21     		movs	r1, #12
- 315 001a 4FF09040 		mov	r0, #1207959552
- 316              	.LVL12:
- 317              		.loc 1 117 5 is_stmt 0 view .LVU94
- 318 001e FFF7FEFF 		bl	HAL_GPIO_DeInit
- 319              	.LVL13:
+ 312              		.loc 1 117 5 view .LVU93
+ 313 0018 0C21     		movs	r1, #12
+ 314 001a 4FF09040 		mov	r0, #1207959552
+ 315              	.LVL12:
+ 316              		.loc 1 117 5 is_stmt 0 view .LVU94
+ 317 001e FFF7FEFF 		bl	HAL_GPIO_DeInit
+ 318              	.LVL13:
  118:Core/Src/usart.c **** 
  119:Core/Src/usart.c ****     /* USART2 DMA DeInit */
  120:Core/Src/usart.c ****     HAL_DMA_DeInit(uartHandle->hdmarx);
- 320              		.loc 1 120 5 is_stmt 1 view .LVU95
- 321 0022 206F     		ldr	r0, [r4, #112]
- 322 0024 FFF7FEFF 		bl	HAL_DMA_DeInit
- 323              	.LVL14:
+ 319              		.loc 1 120 5 is_stmt 1 view .LVU95
+ 320 0022 206F     		ldr	r0, [r4, #112]
+ 321 0024 FFF7FEFF 		bl	HAL_DMA_DeInit
+ 322              	.LVL14:
  121:Core/Src/usart.c **** 
  122:Core/Src/usart.c ****     /* USART2 interrupt Deinit */
  123:Core/Src/usart.c ****     HAL_NVIC_DisableIRQ(USART2_IRQn);
- 324              		.loc 1 123 5 view .LVU96
- 325 0028 2620     		movs	r0, #38
- 326 002a FFF7FEFF 		bl	HAL_NVIC_DisableIRQ
- 327              	.LVL15:
+ 323              		.loc 1 123 5 view .LVU96
+ 324 0028 2620     		movs	r0, #38
+ 325 002a FFF7FEFF 		bl	HAL_NVIC_DisableIRQ
+ 326              	.LVL15:
  124:Core/Src/usart.c ****   /* USER CODE BEGIN USART2_MspDeInit 1 */
  125:Core/Src/usart.c **** 
  126:Core/Src/usart.c ****   /* USER CODE END USART2_MspDeInit 1 */
  127:Core/Src/usart.c ****   }
  128:Core/Src/usart.c **** }
- 328              		.loc 1 128 1 is_stmt 0 view .LVU97
- 329 002e 10BD     		pop	{r4, pc}
- 330              	.LVL16:
- 331              	.L23:
- 332              		.loc 1 128 1 view .LVU98
- 333              		.align	2
- 334              	.L22:
- 335 0030 00440040 		.word	1073759232
- 336 0034 00100240 		.word	1073876992
- 337              		.cfi_endproc
- 338              	.LFE128:
-ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccCnk9jZ.s 			page 10
+ 327              		.loc 1 128 1 is_stmt 0 view .LVU97
+ 328 002e 10BD     		pop	{r4, pc}
+ 329              	.LVL16:
+ 330              	.L23:
+ 331              		.loc 1 128 1 view .LVU98
+ 332              		.align	2
+ 333              	.L22:
+ 334 0030 00440040 		.word	1073759232
+ 335 0034 00100240 		.word	1073876992
+ 336              		.cfi_endproc
+ 337              	.LFE128:
+ 339              		.comm	hdma_usart2_rx,68,4
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccI174el.s 			page 10
 
 
- 340              		.comm	hdma_usart2_rx,68,4
- 341              		.comm	huart2,132,4
- 342              		.text
- 343              	.Letext0:
- 344              		.file 2 "c:\\users\\pierre-anthony\\.vscode\\extensions\\buzzyelectronics.stm-helper-1.2.9\\armgcc
- 345              		.file 3 "c:\\users\\pierre-anthony\\.vscode\\extensions\\buzzyelectronics.stm-helper-1.2.9\\armgcc
- 346              		.file 4 "Drivers/CMSIS/Include/core_cm4.h"
- 347              		.file 5 "Drivers/CMSIS/Device/ST/STM32F3xx/Include/system_stm32f3xx.h"
- 348              		.file 6 "Drivers/CMSIS/Device/ST/STM32F3xx/Include/stm32f302x8.h"
- 349              		.file 7 "Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_def.h"
- 350              		.file 8 "Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_gpio.h"
- 351              		.file 9 "Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_dma.h"
- 352              		.file 10 "Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_uart.h"
- 353              		.file 11 "Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal.h"
- 354              		.file 12 "c:\\users\\pierre-anthony\\.vscode\\extensions\\buzzyelectronics.stm-helper-1.2.9\\armgc
- 355              		.file 13 "c:\\users\\pierre-anthony\\.vscode\\extensions\\buzzyelectronics.stm-helper-1.2.9\\armgc
- 356              		.file 14 "c:\\users\\pierre-anthony\\.vscode\\extensions\\buzzyelectronics.stm-helper-1.2.9\\armgc
- 357              		.file 15 "c:\\users\\pierre-anthony\\.vscode\\extensions\\buzzyelectronics.stm-helper-1.2.9\\armgc
- 358              		.file 16 "Core/Inc/usart.h"
- 359              		.file 17 "Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_cortex.h"
- 360              		.file 18 "Core/Inc/main.h"
-ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccCnk9jZ.s 			page 11
+ 340              		.comm	huart2,132,4
+ 341              		.text
+ 342              	.Letext0:
+ 343              		.file 2 "c:\\users\\pierre-anthony\\.vscode\\extensions\\buzzyelectronics.stm-helper-1.2.9\\armgcc
+ 344              		.file 3 "c:\\users\\pierre-anthony\\.vscode\\extensions\\buzzyelectronics.stm-helper-1.2.9\\armgcc
+ 345              		.file 4 "Drivers/CMSIS/Include/core_cm4.h"
+ 346              		.file 5 "Drivers/CMSIS/Device/ST/STM32F3xx/Include/system_stm32f3xx.h"
+ 347              		.file 6 "Drivers/CMSIS/Device/ST/STM32F3xx/Include/stm32f302x8.h"
+ 348              		.file 7 "Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_def.h"
+ 349              		.file 8 "Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_gpio.h"
+ 350              		.file 9 "Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_dma.h"
+ 351              		.file 10 "Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_uart.h"
+ 352              		.file 11 "Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal.h"
+ 353              		.file 12 "c:\\users\\pierre-anthony\\.vscode\\extensions\\buzzyelectronics.stm-helper-1.2.9\\armgc
+ 354              		.file 13 "c:\\users\\pierre-anthony\\.vscode\\extensions\\buzzyelectronics.stm-helper-1.2.9\\armgc
+ 355              		.file 14 "c:\\users\\pierre-anthony\\.vscode\\extensions\\buzzyelectronics.stm-helper-1.2.9\\armgc
+ 356              		.file 15 "c:\\users\\pierre-anthony\\.vscode\\extensions\\buzzyelectronics.stm-helper-1.2.9\\armgc
+ 357              		.file 16 "Core/Inc/usart.h"
+ 358              		.file 17 "Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_cortex.h"
+ 359              		.file 18 "Core/Inc/main.h"
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccI174el.s 			page 11
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 usart.c
-C:\Users\PIERRE~1\AppData\Local\Temp\ccCnk9jZ.s:18     .text.MX_USART2_UART_Init:0000000000000000 $t
-C:\Users\PIERRE~1\AppData\Local\Temp\ccCnk9jZ.s:26     .text.MX_USART2_UART_Init:0000000000000000 MX_USART2_UART_Init
-C:\Users\PIERRE~1\AppData\Local\Temp\ccCnk9jZ.s:91     .text.MX_USART2_UART_Init:0000000000000030 $d
+C:\Users\PIERRE~1\AppData\Local\Temp\ccI174el.s:18     .text.MX_USART2_UART_Init:0000000000000000 $t
+C:\Users\PIERRE~1\AppData\Local\Temp\ccI174el.s:26     .text.MX_USART2_UART_Init:0000000000000000 MX_USART2_UART_Init
+C:\Users\PIERRE~1\AppData\Local\Temp\ccI174el.s:91     .text.MX_USART2_UART_Init:0000000000000030 $d
                             *COM*:0000000000000084 huart2
-C:\Users\PIERRE~1\AppData\Local\Temp\ccCnk9jZ.s:97     .text.HAL_UART_MspInit:0000000000000000 $t
-C:\Users\PIERRE~1\AppData\Local\Temp\ccCnk9jZ.s:104    .text.HAL_UART_MspInit:0000000000000000 HAL_UART_MspInit
-C:\Users\PIERRE~1\AppData\Local\Temp\ccCnk9jZ.s:271    .text.HAL_UART_MspInit:00000000000000a0 $d
+C:\Users\PIERRE~1\AppData\Local\Temp\ccI174el.s:97     .text.HAL_UART_MspInit:0000000000000000 $t
+C:\Users\PIERRE~1\AppData\Local\Temp\ccI174el.s:104    .text.HAL_UART_MspInit:0000000000000000 HAL_UART_MspInit
+C:\Users\PIERRE~1\AppData\Local\Temp\ccI174el.s:270    .text.HAL_UART_MspInit:00000000000000a0 $d
                             *COM*:0000000000000044 hdma_usart2_rx
-C:\Users\PIERRE~1\AppData\Local\Temp\ccCnk9jZ.s:278    .text.HAL_UART_MspDeInit:0000000000000000 $t
-C:\Users\PIERRE~1\AppData\Local\Temp\ccCnk9jZ.s:285    .text.HAL_UART_MspDeInit:0000000000000000 HAL_UART_MspDeInit
-C:\Users\PIERRE~1\AppData\Local\Temp\ccCnk9jZ.s:335    .text.HAL_UART_MspDeInit:0000000000000030 $d
+C:\Users\PIERRE~1\AppData\Local\Temp\ccI174el.s:277    .text.HAL_UART_MspDeInit:0000000000000000 $t
+C:\Users\PIERRE~1\AppData\Local\Temp\ccI174el.s:284    .text.HAL_UART_MspDeInit:0000000000000000 HAL_UART_MspDeInit
+C:\Users\PIERRE~1\AppData\Local\Temp\ccI174el.s:334    .text.HAL_UART_MspDeInit:0000000000000030 $d
 
 UNDEFINED SYMBOLS
 HAL_UART_Init

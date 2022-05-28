@@ -32,7 +32,7 @@ extern "C" {
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-#include "ld06.h"
+
 #include "stdio.h"
 /* USER CODE END Includes */
 
