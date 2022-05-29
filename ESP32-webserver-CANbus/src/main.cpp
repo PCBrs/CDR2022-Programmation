@@ -9,7 +9,7 @@ const char *password = "123456789";
 AsyncWebServer server(80);
 
 void setup() {
- Serial.begin(115200);
+ Serial.begin(9600);
  Serial.println("\n");
 
 if(!SPIFFS.begin())
