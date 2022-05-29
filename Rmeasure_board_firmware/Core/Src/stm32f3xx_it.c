@@ -58,6 +58,7 @@
 /* External variables --------------------------------------------------------*/
 extern PCD_HandleTypeDef hpcd_USB_FS;
 extern DMA_HandleTypeDef hdma_adc1;
+extern CAN_HandleTypeDef hcan;
 /* USER CODE BEGIN EV */
 
 /* USER CODE END EV */
@@ -212,6 +213,20 @@ void DMA1_Channel1_IRQHandler(void)
   /* USER CODE BEGIN DMA1_Channel1_IRQn 1 */
 
   /* USER CODE END DMA1_Channel1_IRQn 1 */
+}
+
+/**
+  * @brief This function handles CAN TX and USB high priority interrupts.
+  */
+void USB_HP_CAN_TX_IRQHandler(void)
+{
+  /* USER CODE BEGIN USB_HP_CAN_TX_IRQn 0 */
+
+  /* USER CODE END USB_HP_CAN_TX_IRQn 0 */
+  HAL_CAN_IRQHandler(&hcan);
+  /* USER CODE BEGIN USB_HP_CAN_TX_IRQn 1 */
+
+  /* USER CODE END USB_HP_CAN_TX_IRQn 1 */
 }
 
 /**

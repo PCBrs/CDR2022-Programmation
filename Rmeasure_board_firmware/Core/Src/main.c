@@ -25,7 +25,6 @@
 #include "tim.h"
 #include "usart.h"
 #include "usb_device.h"
-#include "usbd_cdc_if.h"
 #include "gpio.h"
 
 /* Private includes ----------------------------------------------------------*/
@@ -55,7 +54,6 @@
 
 /* Private function prototypes -----------------------------------------------*/
 void SystemClock_Config(void);
-
 /* USER CODE BEGIN PFP */
 void set_rgb(u_int8_t rouge,u_int8_t vert,u_int8_t bleu);
 
