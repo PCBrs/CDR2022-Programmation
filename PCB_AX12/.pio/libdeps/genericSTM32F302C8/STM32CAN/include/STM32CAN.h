@@ -69,8 +69,8 @@ Can1.setFilter( 0x400, 0x7f0, 0, IDStd );
 #define __stm32Can_H__
 
 #include <Arduino.h>
-#include <stm32f3xx_hal.h>
-#include <stm32f3xx_hal_can.h>
+#include "stm32f3xx_hal.h"
+#include "stm32f3xx_hal_can.h"
 #if !defined(SIZE_RX_BUFFER)
 #define SIZE_RX_BUFFER  16 // receive incoming ring buffer default size
 #endif

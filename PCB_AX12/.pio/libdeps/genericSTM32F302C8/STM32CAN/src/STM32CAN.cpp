@@ -19,6 +19,7 @@
 
 #include "STM32CAN.h"
 
+
 static CAN_HandleTypeDef     hcan1;
 static CAN_HandleTypeDef     hcan2;
 
@@ -74,7 +75,8 @@ int stm32Can::init( CAN_HandleTypeDef* CanHandle, int baudrate, bool loopBack, b
 
         if(UseAltPins) {
             /* Enable AFIO clock and remap CAN PINs to PB_8 and PB_9*/
-           
+       
+
             /* CAN1 RX GPIO pin configuration */
             GPIO_InitStruct.Pin = GPIO_PIN_8;
             GPIO_InitStruct.Mode = GPIO_MODE_INPUT;
@@ -86,7 +88,7 @@ int stm32Can::init( CAN_HandleTypeDef* CanHandle, int baudrate, bool loopBack, b
             HAL_GPIO_Init(GPIOB, &GPIO_InitStruct);
         }
         else {
-            
+         
             /* CAN1 RX GPIO pin configuration */
             GPIO_InitStruct.Pin = GPIO_PIN_11;
             GPIO_InitStruct.Mode = GPIO_MODE_INPUT;
@@ -100,9 +102,8 @@ int stm32Can::init( CAN_HandleTypeDef* CanHandle, int baudrate, bool loopBack, b
 
         /*##-3- Configure the NVIC #################################################*/
         /* NVIC configuration for CAN1 Reception complete interrupt */
-       HAL_NVIC_SetPriority(USB_HP_CAN_TX_IRQn, 0, 0);
-       HAL_NVIC_EnableIRQ(USB_HP_CAN_TX_IRQn);
-
+         HAL_NVIC_SetPriority(USB_HP_CAN_TX_IRQn, 0, 0);
+    HAL_NVIC_EnableIRQ(USB_HP_CAN_TX_IRQn);
         CanHandle->Instance = CAN1;
     }
 #ifdef CAN2
