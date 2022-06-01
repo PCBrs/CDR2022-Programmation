@@ -34,7 +34,8 @@
 
 /* Private typedef -----------------------------------------------------------*/
 /* USER CODE BEGIN PTD */
-
+CAN_TxHeaderTypeDef txhead;
+uint32_t Txmailbox;
 /* USER CODE END PTD */
 
 /* Private define ------------------------------------------------------------*/
@@ -123,6 +124,7 @@ int main(void)
     set_rgb(0,0,255);
     HAL_Delay(500);
     printf("bjr\n\r");
+    HAL_CAN_AddTxMessage(&hcan,&txhead,0x8,&Txmailbox);
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */

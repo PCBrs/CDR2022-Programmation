@@ -1,5 +1,6 @@
 #include <Arduino.h>
 #include "AX12A.h"
+#include "can.h"
 
 #define DirectionPin (PA7)
 #define BaudRate (1000000ul)
@@ -18,17 +19,26 @@
 #define POS_PRISE_ARR_DROIT 690
 #define POS_DEFAUT_ARR_GAUCHE 746
 #define POS_PRISE_ARR_GAUCHE 1020
-//#define SERIAL_UART_INSTANCE  1
+
 
 void setup() {
 
 Serial1.setHalfDuplex();
 	ax12a.begin(BaudRate, DirectionPin, &Serial1);
    
+
+
+msg[3]=0x14;
+MX_CAN_Init();
+HAL_CAN_MspInit(&hcan);
+delay(10);
+
+
 }
 
 void loop() {
-  ax12a.move(SERVO_2, POS_DEFAUT_AV_DROIT);
+	 HAL_CAN_AddTxMessage(&hcan, &Txheader, msg, &TxMailbox);
+  	/*ax12a.move(SERVO_2, POS_DEFAUT_AV_DROIT);
 	delay(1000);
 	ax12a.move(SERVO_2, POS_PRISE_AV_DROIT);
 	delay(1000);
@@ -42,6 +52,6 @@ void loop() {
 	delay(1000);
 	ax12a.move(SERVO_ARR_DROIT, POS_DEFAUT_ARR_DROIT);
 	delay(1000);
-	ax12a.move(SERVO_ARR_DROIT, POS_PRISE_ARR_DROIT);
+	ax12a.move(SERVO_ARR_DROIT, POS_PRISE_ARR_DROIT);*/
 	delay(1000);
 }

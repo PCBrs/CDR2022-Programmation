@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccJ8NYVO.s 			page 1
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccHSQi3C.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -36,7 +36,7 @@ ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccJ8NYVO.s 			page 1
    6:Core/Src/usart.c ****   ******************************************************************************
    7:Core/Src/usart.c ****   * @attention
    8:Core/Src/usart.c ****   *
-   9:Core/Src/usart.c ****   * <h2><center>&copy; Copyright (c) 2021 STMicroelectronics.
+   9:Core/Src/usart.c ****   * <h2><center>&copy; Copyright (c) 2022 STMicroelectronics.
   10:Core/Src/usart.c ****   * All rights reserved.</center></h2>
   11:Core/Src/usart.c ****   *
   12:Core/Src/usart.c ****   * This software component is licensed by ST under Ultimate Liberty license
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccJ8NYVO.s 			page 1
   28:Core/Src/usart.c **** 
   29:Core/Src/usart.c **** /* USART1 init function */
   30:Core/Src/usart.c **** 
-ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccJ8NYVO.s 			page 2
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccHSQi3C.s 			page 2
 
 
   31:Core/Src/usart.c **** void MX_USART1_UART_Init(void)
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccJ8NYVO.s 			page 1
   70              		.loc 1 43 3 is_stmt 1 view .LVU19
   71              		.loc 1 43 38 is_stmt 0 view .LVU20
   72 0020 4362     		str	r3, [r0, #36]
-ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccJ8NYVO.s 			page 3
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccHSQi3C.s 			page 3
 
 
   44:Core/Src/usart.c ****   if (HAL_UART_Init(&huart1) != HAL_OK)
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccJ8NYVO.s 			page 1
   53:Core/Src/usart.c **** 
   54:Core/Src/usart.c ****   GPIO_InitTypeDef GPIO_InitStruct = {0};
  119              		.loc 1 54 3 is_stmt 1 view .LVU29
-ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccJ8NYVO.s 			page 4
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccHSQi3C.s 			page 4
 
 
  120              		.loc 1 54 20 is_stmt 0 view .LVU30
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccJ8NYVO.s 			page 1
  148              	.LBB2:
   61:Core/Src/usart.c **** 
  149              		.loc 1 61 5 view .LVU36
-ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccJ8NYVO.s 			page 5
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccHSQi3C.s 			page 5
 
 
   61:Core/Src/usart.c **** 
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccJ8NYVO.s 			page 1
  188 0050 0023     		movs	r3, #0
  189 0052 0593     		str	r3, [sp, #20]
   71:Core/Src/usart.c ****     GPIO_InitStruct.Alternate = GPIO_AF7_USART1;
-ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccJ8NYVO.s 			page 6
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccHSQi3C.s 			page 6
 
 
  190              		.loc 1 71 5 is_stmt 1 view .LVU53
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccJ8NYVO.s 			page 1
  236              		.loc 1 84 16 is_stmt 0 view .LVU63
  237 0002 0268     		ldr	r2, [r0]
  238              		.loc 1 84 5 view .LVU64
-ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccJ8NYVO.s 			page 7
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccHSQi3C.s 			page 7
 
 
  239 0004 074B     		ldr	r3, .L17
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccJ8NYVO.s 			page 1
  273              		.file 2 "c:\\users\\pierre-anthony\\.vscode\\extensions\\buzzyelectronics.stm-helper-1.2.9\\armgcc
  274              		.file 3 "c:\\users\\pierre-anthony\\.vscode\\extensions\\buzzyelectronics.stm-helper-1.2.9\\armgcc
  275              		.file 4 "Drivers/CMSIS/Include/core_cm4.h"
-ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccJ8NYVO.s 			page 8
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccHSQi3C.s 			page 8
 
 
  276              		.file 5 "Drivers/CMSIS/Device/ST/STM32F3xx/Include/system_stm32f3xx.h"
@@ -430,21 +430,21 @@ ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccJ8NYVO.s 			page 1
  282              		.file 11 "Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal.h"
  283              		.file 12 "Core/Inc/usart.h"
  284              		.file 13 "Core/Inc/main.h"
-ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccJ8NYVO.s 			page 9
+ARM GAS  C:\Users\PIERRE~1\AppData\Local\Temp\ccHSQi3C.s 			page 9
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 usart.c
-C:\Users\PIERRE~1\AppData\Local\Temp\ccJ8NYVO.s:18     .text.MX_USART1_UART_Init:0000000000000000 $t
-C:\Users\PIERRE~1\AppData\Local\Temp\ccJ8NYVO.s:26     .text.MX_USART1_UART_Init:0000000000000000 MX_USART1_UART_Init
-C:\Users\PIERRE~1\AppData\Local\Temp\ccJ8NYVO.s:91     .text.MX_USART1_UART_Init:0000000000000030 $d
+C:\Users\PIERRE~1\AppData\Local\Temp\ccHSQi3C.s:18     .text.MX_USART1_UART_Init:0000000000000000 $t
+C:\Users\PIERRE~1\AppData\Local\Temp\ccHSQi3C.s:26     .text.MX_USART1_UART_Init:0000000000000000 MX_USART1_UART_Init
+C:\Users\PIERRE~1\AppData\Local\Temp\ccHSQi3C.s:91     .text.MX_USART1_UART_Init:0000000000000030 $d
                             *COM*:0000000000000084 huart1
-C:\Users\PIERRE~1\AppData\Local\Temp\ccJ8NYVO.s:97     .text.HAL_UART_MspInit:0000000000000000 $t
-C:\Users\PIERRE~1\AppData\Local\Temp\ccJ8NYVO.s:104    .text.HAL_UART_MspInit:0000000000000000 HAL_UART_MspInit
-C:\Users\PIERRE~1\AppData\Local\Temp\ccJ8NYVO.s:210    .text.HAL_UART_MspInit:0000000000000068 $d
-C:\Users\PIERRE~1\AppData\Local\Temp\ccJ8NYVO.s:215    .text.HAL_UART_MspDeInit:0000000000000000 $t
-C:\Users\PIERRE~1\AppData\Local\Temp\ccJ8NYVO.s:222    .text.HAL_UART_MspDeInit:0000000000000000 HAL_UART_MspDeInit
-C:\Users\PIERRE~1\AppData\Local\Temp\ccJ8NYVO.s:265    .text.HAL_UART_MspDeInit:0000000000000024 $d
+C:\Users\PIERRE~1\AppData\Local\Temp\ccHSQi3C.s:97     .text.HAL_UART_MspInit:0000000000000000 $t
+C:\Users\PIERRE~1\AppData\Local\Temp\ccHSQi3C.s:104    .text.HAL_UART_MspInit:0000000000000000 HAL_UART_MspInit
+C:\Users\PIERRE~1\AppData\Local\Temp\ccHSQi3C.s:210    .text.HAL_UART_MspInit:0000000000000068 $d
+C:\Users\PIERRE~1\AppData\Local\Temp\ccHSQi3C.s:215    .text.HAL_UART_MspDeInit:0000000000000000 $t
+C:\Users\PIERRE~1\AppData\Local\Temp\ccHSQi3C.s:222    .text.HAL_UART_MspDeInit:0000000000000000 HAL_UART_MspDeInit
+C:\Users\PIERRE~1\AppData\Local\Temp\ccHSQi3C.s:265    .text.HAL_UART_MspDeInit:0000000000000024 $d
 
 UNDEFINED SYMBOLS
 HAL_UART_Init
