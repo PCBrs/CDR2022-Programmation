@@ -12,7 +12,7 @@ void setup() {
  Serial.begin(9600);
  Serial.println("\n");
 
-if(!SPIFFS.begin())
+ if(!SPIFFS.begin())
   {
     Serial.println("Erreur SPIFFS...");
     return;
