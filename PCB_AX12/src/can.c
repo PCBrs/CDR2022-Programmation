@@ -31,7 +31,7 @@ void MX_CAN_Init(void)
 {
 
   hcan.Instance = CAN;
-  hcan.Init.Prescaler = 2;
+  hcan.Init.Prescaler = 4;
   hcan.Init.Mode = CAN_MODE_NORMAL;
   hcan.Init.SyncJumpWidth = CAN_SJW_1TQ;
   hcan.Init.TimeSeg1 = CAN_BS1_15TQ;
@@ -39,9 +39,9 @@ void MX_CAN_Init(void)
   hcan.Init.TimeTriggeredMode = DISABLE;
   hcan.Init.AutoBusOff = DISABLE;
   hcan.Init.AutoWakeUp = DISABLE;
-  hcan.Init.AutoRetransmission = DISABLE;
-  hcan.Init.ReceiveFifoLocked = DISABLE;
-  hcan.Init.TransmitFifoPriority = DISABLE;
+  hcan.Init.AutoRetransmission = ENABLE;
+  hcan.Init.ReceiveFifoLocked = ENABLE;
+  hcan.Init.TransmitFifoPriority = ENABLE;
 
   Txheader.StdId = 0x300;      // Détermine l'adresse du périphérique au quel la trame est destiné.
   	                                 // Si plusieurs périphériques sur le bus comprennent cette adresse dans leur filtre, ils recevront tous la trame.

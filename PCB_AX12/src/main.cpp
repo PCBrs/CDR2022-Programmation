@@ -53,5 +53,5 @@ void loop() {
 	ax12a.move(SERVO_ARR_DROIT, POS_DEFAUT_ARR_DROIT);
 	delay(1000);
 	ax12a.move(SERVO_ARR_DROIT, POS_PRISE_ARR_DROIT);*/
-	delay(1000);
+	delay(100);
 }
