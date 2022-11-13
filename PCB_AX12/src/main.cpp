@@ -1,10 +1,10 @@
-#include <Arduino.h>
+#include <hal_conf_extra.h>
+#include <STM32CAN.h>
 #include "AX12A.h"
-#include "can.h"
 
 #define DirectionPin (PA7)
 #define BaudRate (1000000ul)
-
+#define LED PA7
 #define SERVO_1 2
 #define SERVO_2 3
 #define SERVO_3 11
@@ -20,25 +20,40 @@
 #define POS_DEFAUT_ARR_GAUCHE 746
 #define POS_PRISE_ARR_GAUCHE 1020
 
+CAN_message_t Transmit_msg;
+CAN_message_t Received_msg;
+void setup()
+{
 
-void setup() {
-
-Serial1.setHalfDuplex();
+	Serial1.setHalfDuplex();
 	ax12a.begin(BaudRate, DirectionPin, &Serial1);
-   
 
+	Can1.begin(CAN_BPS_1000K);
+	delay(100);
 
-msg[3]=0x14;
-MX_CAN_Init();
-HAL_CAN_MspInit(&hcan);
-delay(10);
-
-
+	pinMode(LED, OUTPUT);
+	digitalToggle(LED);
+	delay(50);
+	digitalToggle(LED);
+	delay(50);
+	digitalToggle(LED);
+	delay(50);
+	digitalToggle(LED);
+	delay(50);
+	digitalWrite(LED, HIGH);
 }
 
-void loop() {
-	 HAL_CAN_AddTxMessage(&hcan, &Txheader, msg, &TxMailbox);
-  	/*ax12a.move(SERVO_2, POS_DEFAUT_AV_DROIT);
+void loop()
+{
+
+	while (Can1.read(Received_msg))
+	{
+		if (Received_msg.id == 0x202)
+		{
+			digitalToggle(LED);
+		}
+	}
+	/*ax12a.move(SERVO_2, POS_DEFAUT_AV_DROIT);
 	delay(1000);
 	ax12a.move(SERVO_2, POS_PRISE_AV_DROIT);
 	delay(1000);
