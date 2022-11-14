@@ -1,4 +1,4 @@
-# AREA.old-boards-firmware
+# PCBrs - firmware
 
 
 Repository containing all the repository for the different board in the AREA.old robot. All boards runs on STM32F302 (64Ko flash) MCU using HAL library, all documentation can be found easily on internet or in the header of each c file. Datasheet can be found here : https://www.st.com/resource/en/datasheet/stm32f302c8.pdf
@@ -9,6 +9,7 @@ To devellop on this board you need :
 * **VSCode** with C/C++, **stm-helper** extensions
 * Open the folder where youre project is, then click on "UpdateWorspace" on the bottom left hand corner.
 * You can flash either with stlink or via USB 
+* You can also use Platformio and arduino environnement for the stm32f302, the corresponding files are in the repo
 
 ## Create a project
 * Open **STM32CubeMX**, initialize the clock for 8MHz HSE and 48MHz clock speed. Initialise other IO and com (CANBus 1Mbps :look on other .mx file for time quantum)
@@ -25,3 +26,4 @@ You need to install a driver that will recognized the STM32 in BOOT mode.
 * add dfu-util to the environnment variable
 * connect the board to the PC by pressing boot button during connection
 * flash via command on a windows terminal in VScode 
+
