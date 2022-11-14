@@ -80,5 +80,7 @@ void CheckAdress()
 void CheckDriver()
 { 
   TMC2209.beginSerial(115200);
-    TMC2209.toff(5);
+  TMC2209.begin();
+  TMC2209.toff(5);
+
 }
