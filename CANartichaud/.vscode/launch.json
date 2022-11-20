@@ -1,0 +1,47 @@
+// AUTOMATICALLY GENERATED FILE. PLEASE DO NOT MODIFY IT MANUALLY
+//
+// PIO Unified Debugger
+//
+// Documentation: https://docs.platformio.org/page/plus/debugging.html
+// Configuration: https://docs.platformio.org/page/projectconf/section_env_debug.html
+
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "platformio-debug",
+            "request": "launch",
+            "name": "PIO Debug",
+            "executable": "c:/Users/Pierre-Anthony/Documents/GitHub/CDR2022-Programmation/CANartichaud/.pio/build/genericSTM32F302C8/firmware.elf",
+            "projectEnvName": "genericSTM32F302C8",
+            "toolchainBinDir": "C:/Users/Pierre-Anthony/.platformio/packages/toolchain-gccarmnoneeabi/bin",
+            "internalConsoleOptions": "openOnSessionStart",
+            "svdPath": "C:/Users/Pierre-Anthony/.platformio/platforms/ststm32/misc/svd/STM32F30x.svd",
+            "preLaunchTask": {
+                "type": "PlatformIO",
+                "task": "Pre-Debug"
+            }
+        },
+        {
+            "type": "platformio-debug",
+            "request": "launch",
+            "name": "PIO Debug (skip Pre-Debug)",
+            "executable": "c:/Users/Pierre-Anthony/Documents/GitHub/CDR2022-Programmation/CANartichaud/.pio/build/genericSTM32F302C8/firmware.elf",
+            "projectEnvName": "genericSTM32F302C8",
+            "toolchainBinDir": "C:/Users/Pierre-Anthony/.platformio/packages/toolchain-gccarmnoneeabi/bin",
+            "internalConsoleOptions": "openOnSessionStart",
+            "svdPath": "C:/Users/Pierre-Anthony/.platformio/platforms/ststm32/misc/svd/STM32F30x.svd"
+        },
+        {
+            "type": "platformio-debug",
+            "request": "launch",
+            "name": "PIO Debug (without uploading)",
+            "executable": "c:/Users/Pierre-Anthony/Documents/GitHub/CDR2022-Programmation/CANartichaud/.pio/build/genericSTM32F302C8/firmware.elf",
+            "projectEnvName": "genericSTM32F302C8",
+            "toolchainBinDir": "C:/Users/Pierre-Anthony/.platformio/packages/toolchain-gccarmnoneeabi/bin",
+            "internalConsoleOptions": "openOnSessionStart",
+            "svdPath": "C:/Users/Pierre-Anthony/.platformio/platforms/ststm32/misc/svd/STM32F30x.svd",
+            "loadMode": "manual"
+        }
+    ]
+}
