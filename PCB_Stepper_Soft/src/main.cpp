@@ -22,7 +22,7 @@ AccelStepper DRV8825(1, STEP, DIR);
 CAN_message_t Transmit_msg;
 CAN_message_t Received_msg;
 uint8_t value_DIP;
-uint16_t AddressCAN = 0x70; // Adresse de base de la carte stepper
+uint16_t AddressCAN = 0x700; // Adresse de base de la carte stepper
 
 void CheckAdress();
 void InitStepper();
@@ -45,7 +45,7 @@ void setup()
   digitalWrite(LED, HIGH);
   Serial.println("value_Address=");
   CheckAdress();
-  AddressCAN += value_DIP & 0x0F; // changement de l'adresse CAN correspondant a la valeur du DIP switch
+  AddressCAN += value_DIP & 0x0F0; // changement de l'adresse CAN correspondant a la valeur du DIP switch
   CheckDriver();
   InitStepper();
 }
