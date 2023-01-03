@@ -101,10 +101,8 @@ int stm32Can::init( CAN_HandleTypeDef* CanHandle, int baudrate, bool loopBack, b
 
         /*##-3- Configure the NVIC #################################################*/
         /* NVIC configuration for CAN1 Reception complete interrupt */
-        HAL_NVIC_SetPriorityGrouping(NVIC_PRIORITYGROUP_1);
-          HAL_NVIC_SetPriority(USB_HP_CAN_TX_IRQn, 0, 0);
+       HAL_NVIC_SetPriority(USB_HP_CAN_TX_IRQn, 0, 0);
     HAL_NVIC_EnableIRQ(USB_HP_CAN_TX_IRQn);
-
 
         CanHandle->Instance = CAN1;
     }

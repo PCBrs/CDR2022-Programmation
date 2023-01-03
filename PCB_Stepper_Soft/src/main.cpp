@@ -3,7 +3,6 @@
 #include <AccelStepper.h>
 #include <TMCStepper.h>
 
-
 #define STEP PA3
 #define DIR PA2
 #define SLP PA4
@@ -29,7 +28,7 @@ void InitStepper();
 void setup()
 {
 
-  // Can1.begin(CAN_BPS_1000K);
+  Can1.begin(CAN_BPS_1000K);
   Serial.println("Init");
   delay(10);
   // Indication du démarrage du lidar et du can par un clignotement de la LED
@@ -46,7 +45,7 @@ void setup()
   Serial.println("value_Address=");
   CheckAdress();
   AddressCAN += value_DIP & 0x0F0; // changement de l'adresse CAN correspondant a la valeur du DIP switch
-  CheckDriver();
+
   InitStepper();
 }
 
@@ -66,12 +65,32 @@ void CheckAdress()
 }
 void InitStepper()
 {
-   pinMode(RST, OUTPUT); // le reset se fait a l'état bas
-   digitalWrite(RST, HIGH);
+  pinMode(RST, OUTPUT); // le reset se fait a l'état bas
+  digitalWrite(RST, HIGH);
 
-   pinMode(SLP, OUTPUT);
-   digitalWrite(SLP, HIGH);
+  pinMode(SLP, OUTPUT);
+  digitalWrite(SLP, HIGH);
 
-   pinMode(EN, OUTPUT);
-   digitalWrite(EN, LOW);
+  pinMode(EN, OUTPUT);
+  digitalWrite(EN, LOW);
+}
+
+void TraitementMessage(CAN_message_t Message)
+{
+  uint16_t ID = Message.id;
+  if (ID & 0x00F == value_DIP)
+  {
+    switch (ID & 0xFF0)
+    {
+    case 0x110:
+
+      uint32_t distance = Message.data.bytes[3] + (Message.data.bytes[2] << 8) + (Message.data.bytes[1] << 16) + (Message.data.bytes[0] & 0x7F << 24);
+      bool sens = Message.data.bytes[0] & 0x80;
+      DRV8825.
+      break;
+
+
+      break;
+    }
+  }
 }

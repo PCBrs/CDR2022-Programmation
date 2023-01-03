@@ -24,9 +24,10 @@
 #define P10 PB6
 #define V10 PB7
 
+
 CAN_message_t Transmit_msg;
 CAN_message_t Received_msg;
-
+uint8_t DataReceived[8];
 void InitPump();
 void CtrPump(uint8_t Pump, uint8_t State);
 void CtrValve(uint8_t Valve, uint8_t State);
@@ -48,6 +49,12 @@ void setup()
   delay(50);
   digitalWrite(LED, HIGH);
   InitPump();
+
+
+
+  Transmit_msg.id = 0x701;
+  Transmit_msg.data.bytes[0] = 0x70;
+  Transmit_msg.dlc=1;
 }
 
 void loop()
@@ -55,32 +62,38 @@ void loop()
   if (Can1.available())
   {
     Can1.read(Received_msg);
+    for (uint8_t i = 0; i <= 7; i++)
+    {
+     DataReceived[i]=Received_msg.data.bytes[i];
+    }
+    
     switch (Received_msg.id)
     {
     case 0x101:
       Transmit_msg.id = 0x701;
-      Transmit_msg.data.bytes[0] = 0x700;
+      Transmit_msg.data.bytes[0] = 0x70;
       Can1.write(Transmit_msg);
       break;
     case 0x102:
       Off();
       break;
     case 0x105:
-      if (Received_msg.data.bytes[0] == 'P')
+
+      if (DataReceived[0] == 'P')
       {
-        CtrPump(Received_msg.data.bytes[1], Received_msg.data.bytes[2]);
+        CtrPump(DataReceived[1], DataReceived[2]);
       }
-      if (Received_msg.data.bytes[0] == 'V')
+      if (DataReceived[0] == 'V')
       {
-        CtrValve(Received_msg.data.bytes[1], Received_msg.data.bytes[2]);
+        CtrValve(DataReceived[1], DataReceived[2]);
       }
       break;
     }
   }
-  Transmit_msg.id = 0x701;
-  Transmit_msg.data.bytes[0] = 0x70;
+
   Can1.write(Transmit_msg);
-  delay(500);
+  digitalToggle(LED);
+  delay(50);
 }
 
 void InitPump()
